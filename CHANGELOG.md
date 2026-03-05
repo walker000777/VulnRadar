@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- **KEV + watchlist = always critical** — CVEs in CISA KEV that also match
+  your watchlist are now automatically flagged `is_critical` with the priority
+  label `CRITICAL (CISA KEV + Watchlist)`.  Previously these could slip through
+  as non-critical if they didn't meet the CVSS/EPSS/PatchThis thresholds.
+- **Individual KEV alerts on first run** — KEV + watchlist items are carved out
+  of the first-run baseline summary and sent as individual alerts so you never
+  miss an actively-exploited vulnerability in your stack.
+- **Vendor-split output** (`--vendor-split`) — the ETL can now write per-vendor
+  JSON files under `data/vendors/` alongside the monolithic `radar_data.json`.
+  A `data/radar_index.json` manifest tracks all vendor files.  This keeps every
+  file well under GitHub's 100 MB limit for large watchlists.
+- **`load_vendor_split()`** / **`write_vendor_split()`** public API in
+  `vulnradar.enrichment` for programmatic split I/O.
+- **`_load_items()` directory support** — `notify.py --in data/` or
+  `--in data/radar_index.json` loads from the vendor-split directory.
+
 ### Fixed
 
 - **CVE List V5 download resilience** — `get_latest_cvelist_zip_url` now falls

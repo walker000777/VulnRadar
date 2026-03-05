@@ -227,7 +227,7 @@ VulnRadar automatically classifies findings:
 
 | Priority | Condition | Action |
 |----------|-----------|--------|
-| 🔴 **CRITICAL** | Exploit Intel + watchlist, OR CVSS ≥ `severity_threshold`, OR EPSS ≥ `epss_threshold` | Immediate attention |
+| 🔴 **CRITICAL** | Exploit Intel + watchlist, OR CISA KEV + watchlist, OR CVSS ≥ `severity_threshold`, OR EPSS ≥ `epss_threshold` | Immediate attention |
 | 🟠 **WARNING** | Has Exploit Intel (PoC) but NOT in watchlist | Shadow IT risk |
 | 🟡 **KEV** | In CISA KEV catalog | Active exploitation |
 | ⚪ **Other** | Watchlist match only | Monitor |
@@ -360,6 +360,9 @@ python etl.py --nvd-cache .nvd_cache
 
 # Download all data sources in parallel (requires aiohttp)
 python etl.py --parallel
+
+# Write per-vendor JSON files under data/vendors/
+python etl.py --vendor-split
 ```
 
 ### Notification Options (notify.py)
@@ -432,11 +435,13 @@ VulnRadar/
 │   │   └── github_issues.py # Issues + Projects v2
 │   └── templates/
 │       └── report.md.j2   # Customizable report template
-├── tests/                 # 321 tests (pytest)
+├── tests/                 # 331 tests (pytest)
 ├── data/
 │   ├── radar_report.md    # GitHub-viewable report (auto-generated)
 │   ├── radar_data.json    # Machine-readable output (auto-generated)
-│   └── state.json         # Alert tracking state (auto-generated)
+│   ├── radar_index.json   # Vendor-split manifest (with --vendor-split)
+│   ├── state.json         # Alert tracking state (auto-generated)
+│   └── vendors/           # Per-vendor JSON files (with --vendor-split)
 ├── scripts/
 │   ├── reset_demo.sh      # Reset demo repo for presentations
 │   ├── update_readme_metrics.py  # Auto-update README stats
