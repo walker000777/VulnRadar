@@ -25,8 +25,9 @@ vendors:
   - linux           # Linux kernel
   - cisco           # IOS, ASA, WebEx
   - vmware          # ESXi, vCenter, Horizon
-  # - fortinet      # FortiGate, FortiOS
-  # - paloaltonetworks  # Firewalls, GlobalProtect
+  - fortinet      # FortiGate, FortiOS
+  - paloaltonetworks  # Firewalls, GlobalProtect
+  - mikrotik
 
 # ============================================================================
 # PRODUCTS - Specific software/libraries (more precise than vendors)
@@ -34,9 +35,10 @@ vendors:
 products:
   - log4j           # Log4Shell - CVE-2021-44228 and related
   - chrome          # Google Chrome browser
-  # - firefox       # Mozilla Firefox
-  # - openssl       # Heartbleed and many others
-  # - exchange      # Microsoft Exchange (ProxyLogon, etc.)
+  - firefox       # Mozilla Firefox
+  - openssl       # Heartbleed and many others
+  - exchange      # Microsoft Exchange (ProxyLogon, etc.)
+  - routeros
   # - jenkins       # CI/CD server
   # - kubernetes    # K8s
   # - docker        # Docker Engine
