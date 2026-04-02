@@ -1,6 +1,66 @@
 {
   "generated_at": "2026-04-02T03:53:56+00:00",
-  "count": 0,
+  "count": 1,
   "note": "Data split into per-vendor files. See radar_index.json.",
-  "items": []
+  "items": [
+    {
+      "cve_id": "CVE-2022-36804",
+      "vendor": "Atlassian",
+      "product": "Bitbucket Server and Data Center",
+      "cvss_score": 8.8,
+      "epss_score": 94.4,
+      "cisa_kev": true,
+      "exploit_intel": true,
+      "watchlist_match": true,
+      "kev_remediation_due": "2022-10-21",
+      "description": "Atlassian Bitbucket Server and Data Center Command Injection Vulnerability",
+      "affected_versions": [
+        {
+          "vendor": "Atlassian",
+          "product": "Bitbucket Server",
+          "versions": [
+            {"version": "7.0.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.6.17", "status": "affected", "versionType": "custom"},
+            {"version": "7.7.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.17.10", "status": "affected", "versionType": "custom"},
+            {"version": "7.18.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.21.4", "status": "affected", "versionType": "custom"},
+            {"version": "8.0.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.0.3", "status": "affected", "versionType": "custom"},
+            {"version": "8.1.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.1.3", "status": "affected", "versionType": "custom"},
+            {"version": "8.2.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.2.2", "status": "affected", "versionType": "custom"},
+            {"version": "8.3.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.3.1", "status": "affected", "versionType": "custom"}
+          ]
+        },
+        {
+          "vendor": "Atlassian",
+          "product": "Bitbucket Data Center",
+          "versions": [
+            {"version": "7.0.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.6.17", "status": "affected", "versionType": "custom"},
+            {"version": "7.7.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.17.10", "status": "affected", "versionType": "custom"},
+            {"version": "7.18.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "7.21.4", "status": "affected", "versionType": "custom"},
+            {"version": "8.0.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.0.3", "status": "affected", "versionType": "custom"},
+            {"version": "8.1.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.1.3", "status": "affected", "versionType": "custom"},
+            {"version": "8.2.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.2.2", "status": "affected", "versionType": "custom"},
+            {"version": "8.3.0", "status": "affected", "lessThan": "unspecified", "versionType": "custom"},
+            {"version": "unspecified", "lessThan": "8.3.1", "status": "affected", "versionType": "custom"}
+          ]
+        }
+      ],
+      "references": [
+        {"url": "https://www.cve.org/CVERecord?id=CVE-2022-36804", "title": "CVE.org Record"},
+        {"url": "https://nvd.nist.gov/vuln/detail/CVE-2022-36804", "title": "NVD Entry"},
+        {"url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog", "title": "CISA KEV Catalog"}
+      ]
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-04-02T03:53:52+00:00",
-  "total_count": 33675,
+  "total_count": 33676,
   "vendor_count": 42,
   "vendors": {
     "_other": {
@@ -21,7 +21,7 @@
     },
     "atlassian": {
       "file": "vendors/atlassian.json",
-      "count": 65
+      "count": 67
     },
     "cisco": {
       "file": "vendors/cisco.json",
