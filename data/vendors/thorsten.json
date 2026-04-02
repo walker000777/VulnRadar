@@ -1,0 +1,3881 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "thorsten",
+  "count": 91,
+  "items": [
+    {
+      "cve_id": "CVE-2022-3608",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-alpha.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.0-alpha",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00483,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-3754",
+      "description": "Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.8.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.8",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00873,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-521"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-3765",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.8.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.8",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0041,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-3766",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.8.",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.8",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.03718,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2022-4407",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.9.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.9",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.06105,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2022-4408",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.9.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.9",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-4409",
+      "description": "Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository thorsten/phpmyfaq prior to 3.1.9.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.9",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00154,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-614",
+          "CWE-311"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0306",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0041,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0307",
+      "description": "Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 5.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00796,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-521"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0308",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00244,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0309",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00244,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0310",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00317,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0311",
+      "description": "Improper Authentication in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01393,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0312",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00674,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0313",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00397,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0314",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.10.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.10",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00309,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0786",
+      "description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0042,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0787",
+      "description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00286,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0788",
+      "description": "Code Injection in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00397,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0789",
+      "description": "Command Injection in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.07757,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0790",
+      "description": "Uncaught Exception in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00417,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-248"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0791",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00328,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0792",
+      "description": "Code Injection in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00385,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0793",
+      "description": "Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00246,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-521"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0794",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00359,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0880",
+      "description": "Misinterpretation of Input in GitHub repository thorsten/phpmyfaq prior to 3.1.11.\n\n",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.11",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00378,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-115"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1753",
+      "description": "Weak Password Requirements in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00085,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-521"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1754",
+      "description": "Improper Neutralization of Input During Web Page Generation in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00396,
+      "nvd": {
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1755",
+      "description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00427,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1756",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1757",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1758",
+      "description": "Failure to Sanitize Special Elements into a Different Plane (Special Element Injection) in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.9,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00086,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-75"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1759",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0035,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1760",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00367,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1761",
+      "description": "Cross-site Scripting in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00307,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1762",
+      "description": "Improper Privilege Management in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00194,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1875",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1878",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00086,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1879",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00078,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1880",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.3857,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1882",
+      "description": "Cross-site Scripting (XSS) - DOM in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1883",
+      "description": "Improper Access Control in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00353,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1884",
+      "description": "Cross-site Scripting (XSS) - Generic in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00142,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1885",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00082,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1886",
+      "description": "Authentication Bypass by Capture-replay in GitHub repository thorsten/phpmyfaq prior to 3.1.12.\n\n",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "version": "unspecified",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00258,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-294"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1887",
+      "description": "Business Logic Errors in GitHub repository thorsten/phpmyfaq prior to 3.1.12.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.12",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-840"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2427",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.1.13.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.13",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00095,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2428",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.13.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.13",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2429",
+      "description": "Improper Access Control in GitHub repository thorsten/phpmyfaq prior to 3.1.13.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.13",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00254,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2550",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.13.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.13",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0005,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2752",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.0-beta",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00293,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2753",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.0-beta",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00212,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2998",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.14.",
+      "cvss_score": 6.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.14",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00207,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2999",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.14.",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.14",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00094,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3469",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.2.0-beta.2.",
+      "cvss_score": 5.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.0-beta.2",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00182,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-4006",
+      "description": "Improper Neutralization of Formula Elements in a CSV File in GitHub repository thorsten/phpmyfaq prior to 3.1.16.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.16",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00113,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1236"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-4007",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.16.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.16",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00099,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5227",
+      "description": "Unrestricted Upload of File with Dangerous Type in GitHub repository thorsten/phpmyfaq prior to 3.1.8.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.8",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00405,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5316",
+      "description": "Cross-site Scripting (XSS) - DOM in GitHub repository thorsten/phpmyfaq prior to 3.1.18.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.18",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00287,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5317",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.18.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.18",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00065,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5319",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.18.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.18",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00099,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5320",
+      "description": "Cross-site Scripting (XSS) - DOM in GitHub repository thorsten/phpmyfaq prior to 3.1.18.",
+      "cvss_score": 9.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.18",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00544,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5863",
+      "description": "Cross-site Scripting (XSS) - Reflected in GitHub repository thorsten/phpmyfaq prior to 3.2.2.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.2",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.06224,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5864",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.1.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.1",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00082,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5865",
+      "description": "Insufficient Session Expiration in GitHub repository thorsten/phpmyfaq prior to 3.2.2.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.2",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0032,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-613"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5866",
+      "description": "Sensitive Cookie in HTTPS Session Without 'Secure' Attribute in GitHub repository thorsten/phpmyfaq prior to 3.2.1.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.1",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00027,
+      "nvd": {
+        "cvss_v3_score": 5.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-614"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5867",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.2.2.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.2.2",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-6889",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.17.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.17",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-6890",
+      "description": "Cross-site Scripting (XSS) - Stored in GitHub repository thorsten/phpmyfaq prior to 3.1.17.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "thorsten/phpmyfaq",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "3.1.17",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:thorsten/phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00115,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22202",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. phpMyFAQ's user removal page allows an attacker to spoof another user's detail, and in turn make a compelling phishing case for removing another user's account. The front-end of this page doesn't allow changing the form details, an attacker can utilize a proxy to intercept this request and submit other data. Upon submitting this form, an email is sent to the administrator informing them that this user wants to delete their account. An administrator has no way of telling the difference between the actual user wishing to delete their account or the attacker issuing this for an account they do not control. This issue has been patched in version 3.2.5.",
+      "cvss_score": 5.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00285,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22208",
+      "description": "phpMyFAQ is an Open Source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. The 'sharing FAQ' functionality allows any unauthenticated actor to misuse the phpMyFAQ application to send arbitrary emails to a large range of targets. The phpMyFAQ application has a functionality where anyone can share a FAQ item to others. The front-end of this functionality allows any phpMyFAQ articles to be shared with 5 email addresses. Any unauthenticated actor can perform this action. There is a CAPTCHA in place, however the amount of people you email with a single request is not limited to 5 by the backend. An attacker can thus solve a single CAPTCHA and send thousands of emails at once. An attacker can utilize the target application's email server to send phishing messages. This can get the server on a blacklist, causing all emails to end up in spam. It can also lead to reputation damages. This issue has been patched in version 3.2.5.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01184,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-24574",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Unsafe echo of filename in phpMyFAQ\\phpmyfaq\\admin\\attachments.php leads to allowed execution of JavaScript code in client side (XSS). This vulnerability has been patched in version 3.2.5.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.03118,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-80"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27299",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. A SQL injection vulnerability has been discovered in the the \"Add News\" functionality due to improper escaping of the email address. This allows any authenticated user with the rights to add/edit FAQ news to exploit this vulnerability to exfiltrate data, take over accounts and in some cases, even achieve RCE. The vulnerable field lies in the  `authorEmail` field which uses PHP's `FILTER_VALIDATE_EMAIL` filter. This filter is insufficient in protecting against SQL injection attacks and should still be properly escaped. However, in this version of phpMyFAQ (3.2.5), this field is not escaped properly can be used together with other fields to fully exploit the SQL injection vulnerability. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01646,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27300",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. The `email` field in phpMyFAQ's user control panel page is vulnerable to stored XSS attacks due to the inadequacy of PHP's `FILTER_VALIDATE_EMAIL` function, which only validates the email format, not its content. This vulnerability enables an attacker to execute arbitrary client-side JavaScript within the context of another user's phpMyFAQ session. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00602,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-28105",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. The category image upload function in phpmyfaq is vulnerable to manipulation of the `Content-type` and `lang` parameters, allowing attackers to upload malicious files with a .php extension, potentially leading to remote code execution (RCE) on the system. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.03088,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-28106",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. By manipulating the news parameter in a POST request, an attacker can inject malicious JavaScript code. Upon browsing to the compromised news page, the XSS payload triggers. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-28107",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases.  A SQL injection vulnerability has been discovered in the `insertentry` & `saveentry` when modifying records due to improper escaping of the email address. This allows any authenticated user with the rights to add/edit FAQ news to exploit this vulnerability to exfiltrate data, take over accounts and in some cases, even achieve RCE. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00537,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-28108",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Due to insufficient validation on the `contentLink` parameter, it is possible for unauthenticated users to inject HTML code to the page which might affect other users. _Also, requires that adding new FAQs is allowed for guests and that the admin doesn't check the content of a newly added FAQ._ This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00481,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-80"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-29179",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. An attacker with admin privileges can upload an attachment containing JS code without extension and the application will render it as HTML which allows for XSS attacks.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00292,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-29196",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. There is a Path Traversal vulnerability in Attachments that allows attackers with admin rights to upload malicious files to other locations of the web root. This vulnerability is fixed in 3.2.6.",
+      "cvss_score": 3.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "= 3.2.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00482,
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-54141",
+      "description": "phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Prior to 4.0.0, phpMyFAQ exposes the database (ie postgreSQL) server's credential when connection to DB fails. This vulnerability is fixed in 4.0.0.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00283,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-209"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-55889",
+      "description": "phpMyFAQ is an open source FAQ web application. Prior to version 3.2.10, a vulnerability exists in the FAQ Record component where a privileged attacker can trigger a file download on a victim's machine upon page visit by embedding it in an <iframe> element without user interaction or explicit consent. Version 3.2.10 fixes the issue.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 3.2.10",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.06984,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-451"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2024-56199",
+      "description": "phpMyFAQ is an open source FAQ web application. Starting no later than version 3.2.10 and prior to version 4.0.2, an attacker can inject malicious HTML content into the FAQ editor at `http[:]//localhost/admin/index[.]php?action=editentry`, resulting in a complete disruption of the FAQ page's user interface. By injecting malformed HTML elements styled to cover the entire screen, an attacker can render the page unusable. This injection manipulates the page structure by introducing overlapping buttons, images, and iframes, breaking the intended layout and functionality. Exploiting this issue can lead to Denial of Service for legitimate users, damage to the user experience, and potential abuse in phishing or defacement attacks. Version 4.0.2 contains a patch for the vulnerability.",
+      "cvss_score": 5.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": ">= 3.2.10, < 4.0.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 7.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-80"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-59943",
+      "description": "phpMyFAQ is an open source FAQ web application. Versions 4.0-nightly-2025-10-03 and below do not enforce uniqueness of email addresses during user registration. This allows multiple distinct accounts to be created with the same email. Because email is often used as an identifier for password resets, notifications, and administrative actions, this flaw can cause account ambiguity and, in certain configurations, may lead to privilege escalation or account takeover. This issue is fixed in version 4.0.13.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": ">= 4.0.7, < 4.0.13",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00052,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284",
+          "CWE-286"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62519",
+      "description": "phpMyFAQ is an open source FAQ web application. Prior to version 4.0.14, an authenticated SQL injection vulnerability in the main configuration update functionality of phpMyFAQ allows a privileged user with 'Configuration Edit' permissions to execute arbitrary SQL commands. Successful exploitation can lead to a full compromise of the database, including reading, modifying, or deleting all data, as well as potential remote code execution depending on the database configuration. This issue has been patched in version 4.0.14.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.14",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0011,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-68951",
+      "description": "phpMyFAQ is an open source FAQ web application. Versions 4.0.14 and 4.0.15 have a stored cross-site scripting (XSS) vulnerability that allows an attacker to execute arbitrary JavaScript in an administrator\u2019s browser by registering a user whose display name contains HTML entities. When an administrator views the admin user list, the payload is decoded server-side and rendered without escaping, resulting in script execution in the admin context. Version 4.0.16 contains a patch for the issue.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": ">= 4.0.14, < 4.0.16",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00047,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-69200",
+      "description": "phpMyFAQ is an open source FAQ web application. In versions prior to 4.0.16, an unauthenticated remote attacker can trigger generation of a configuration backup ZIP via `POST /api/setup/backup` and then download the generated ZIP from a web-accessible location. The ZIP contains sensitive configuration files (e.g., `database.php` with database credentials), leading to high-impact information disclosure and potential follow-on compromise. Version 4.0.16 fixes the issue.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.16",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.04162,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-202"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24420",
+      "description": "phpMyFAQ is an open source FAQ web application. Versions 4.0.16 and below allow an authenticated user without the dlattachment permission to download FAQ attachments due to a incomprehensive permissions check. The presence of a right key is improperly validated as proof of authorization in attachment.php. Additionally, the group and user permission logic contains a flawed conditional expression that may allow unauthorized access. This issue has been fixed in version",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.17",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24421",
+      "description": "phpMyFAQ is an open source FAQ web application. Versions 4.0.16 and below have flawed authorization logic which exposes the /api/setup/backup endpoint to any authenticated user despite their permissions. SetupController.php uses userIsAuthenticated() but does not verify that the requester has configuration/admin permissions. Non-admin users can trigger a configuration backup and retrieve its path. The endpoint only checks authentication, not authorization, and returns a link to the generated ZIP. This issue is fixed in version 4.0.17.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.17",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24422",
+      "description": "phpMyFAQ is an open source FAQ web application. In versions 4.0.16 and below, multiple public API endpoints improperly expose sensitive user information due to insufficient access controls. The OpenQuestionController::list() endpoint calls Question::getAll() with showAll=true by default, returning records marked as non-public (isVisible=false) along with user email addresses, with similar exposures present in comment, news, and FAQ APIs. This information disclosure vulnerability could enable attackers to harvest email addresses for phishing campaigns or access content that was explicitly marked as private. This issue has been fixed in version 4.0.17.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.17",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00018,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-27836",
+      "description": "phpMyFAQ is an open source FAQ web application. Prior to version 4.0.18, the WebAuthn prepare endpoint (`/api/webauthn/prepare`) creates new active user accounts without any authentication, CSRF protection, captcha, or configuration checks. This allows unauthenticated attackers to create unlimited user accounts even when registration is disabled. Version 4.0.18 fixes the issue.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "thorsten",
+          "product": "phpmyfaq",
+          "versions": [
+            {
+              "version": "< 4.0.18",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:phpmyfaq",
+        "vendor:thorsten"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    }
+  ]
+}

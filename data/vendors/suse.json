@@ -1,0 +1,5647 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "suse",
+  "count": 92,
+  "items": [
+    {
+      "cve_id": "CVE-2022-21947",
+      "description": "A Exposure of Resource to Wrong Sphere vulnerability in Rancher Desktop of SUSE allows attackers in the local network to connect to the Dashboard API (steve) to carry out arbitrary actions. This issue affects: SUSE Rancher Desktop versions prior to V.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Desktop",
+              "status": "affected",
+              "lessThan": "V",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00096,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 5.8,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-668"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-21949",
+      "description": "A Improper Restriction of XML External Entity Reference vulnerability in SUSE Open Build Service allows remote attackers to reference external entities in certain operations. This can be used to gain information from the server that can be abused to escalate to Admin privileges on OBS. This issue affects: SUSE Open Build Service Open Build Service versions prior to 2.10.13.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "open build service",
+          "versions": [
+            {
+              "lessThan": "2.10.13",
+              "status": "affected",
+              "version": "Open Build Service",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:open build service",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01579,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 9.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-611"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-21951",
+      "description": "A Cleartext Transmission of Sensitive Information vulnerability in SUSE Rancher, Rancher allows attackers on the network to read and change network data due to missing encryption of data transmitted via the network when a cluster is created from an RKE template with the CNI value overridden This issue affects: SUSE Rancher Rancher versions prior to 2.5.14; Rancher versions prior to 2.6.5.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.5.14",
+              "status": "affected",
+              "version": "Rancher",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.6.5",
+              "status": "affected",
+              "version": "Rancher",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00082,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 3.6,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-319"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-21952",
+      "description": "A Missing Authentication for Critical Function vulnerability in spacewalk-java of SUSE Manager Server 4.1, SUSE Manager Server 4.2 allows remote attackers to easily exhaust available disk resources leading to DoS. This issue affects: SUSE Manager Server 4.1 spacewalk-java versions prior to 4.1.46. SUSE Manager Server 4.2 spacewalk-java versions prior to 4.2.37.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.1",
+          "versions": [
+            {
+              "lessThan": "4.1.46",
+              "status": "affected",
+              "version": "spacewalk-java",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.2",
+          "versions": [
+            {
+              "lessThan": "4.2.37",
+              "status": "affected",
+              "version": "spacewalk-java",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse manager server 4.1",
+        "product:suse manager server 4.2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00362,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-306",
+          "CWE-770"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-21953",
+      "description": "A Missing Authorization vulnerability in of SUSE Rancher allows authenticated user to create an unauthorized shell pod and kubectl access in the local cluster This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.5.17",
+              "versionType": "custom",
+              "changes": [
+                {
+                  "at": "2.6.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "2.7.1",
+                  "status": "unaffected"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00351,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31247",
+      "description": "An Improper Authorization vulnerability in SUSE Rancher, allows any user who has permissions to create/edit cluster role template bindings or project role template bindings (such as cluster-owner, manage cluster members, project-owner and manage project members) to gain owner permission in another project in the same cluster or in another project on a different downstream cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.6.7; Rancher versions prior to 2.5.16.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.6.7",
+              "status": "affected",
+              "version": "Rancher",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.5.16",
+              "status": "affected",
+              "version": "Rancher",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00345,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31248",
+      "description": "A Observable Response Discrepancy vulnerability in spacewalk-java of SUSE Manager Server 4.1, SUSE Manager Server 4.2 allows remote attackers to discover valid usernames. This issue affects: SUSE Manager Server 4.1 spacewalk-java versions prior to 4.1.46-1. SUSE Manager Server 4.2 spacewalk-java versions prior to 4.2.37-1.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.1",
+          "versions": [
+            {
+              "lessThan": "4.1.46-1",
+              "status": "affected",
+              "version": "spacewalk-java",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.2",
+          "versions": [
+            {
+              "lessThan": "4.2.37-1",
+              "status": "affected",
+              "version": "spacewalk-java",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse manager server 4.1",
+        "product:suse manager server 4.2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00188,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-204"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31249",
+      "description": "A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in wrangler of SUSE Rancher allows remote attackers to inject commands in the underlying host via crafted commands passed to Wrangler. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "wrangler",
+              "status": "affected",
+              "lessThanOrEqual": "0.7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01216,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31251",
+      "description": "A Incorrect Default Permissions vulnerability in the packaging of the slurm testsuite of openSUSE Factory allows local attackers with control over the slurm user to escalate to root. This issue affects: openSUSE Factory slurm versions prior to 22.05.2-3.3.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse factory",
+          "versions": [
+            {
+              "version": "slurm",
+              "status": "affected",
+              "lessThan": "22.05.2-3.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse factory",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00032,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31255",
+      "description": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to read files available to the user running the process, typically tomcat. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.2",
+          "versions": [
+            {
+              "version": "hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls",
+              "status": "affected",
+              "lessThan": "4.2.28",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.3",
+          "versions": [
+            {
+              "version": "spacewalk-java",
+              "status": "affected",
+              "lessThan": "4.3.39",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.2",
+          "versions": [
+            {
+              "version": "release-notes-susemanager",
+              "status": "affected",
+              "lessThan": "4.2.10",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise module for suse manager server 4.2",
+        "product:suse linux enterprise module for suse manager server 4.3",
+        "product:suse manager server 4.2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00248,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31256",
+      "description": "A Improper Link Resolution Before File Access ('Link Following') vulnerability in a script called by the sendmail systemd service of openSUSE Factory allows local attackers to escalate from user mail to root. This issue affects: SUSE openSUSE Factory sendmail versions prior to 8.17.1-1.1.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse factory",
+          "versions": [
+            {
+              "version": "sendmail",
+              "status": "affected",
+              "lessThan": "8.17.1-1.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse factory",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00128,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43753",
+      "description": "A Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to read files available to the user running the process, typically tomcat. This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.2",
+          "versions": [
+            {
+              "version": "hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls",
+              "status": "affected",
+              "lessThan": "4.2.28",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.3",
+          "versions": [
+            {
+              "version": "spacewalk-java",
+              "status": "affected",
+              "lessThan": "4.3.39",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.2",
+          "versions": [
+            {
+              "version": "release-notes-susemanager",
+              "status": "affected",
+              "lessThan": "4.2.10",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise module for suse manager server 4.2",
+        "product:suse linux enterprise module for suse manager server 4.3",
+        "product:suse manager server 4.2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00285,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43754",
+      "description": "An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in spacewalk/Uyuni of SUSE Linux Enterprise Module for SUSE Manager Server 4.2, SUSE Linux Enterprise Module for SUSE Manager Server 4.3, SUSE Manager Server 4.2 allows remote attackers to embed Javascript code via /rhn/audit/scap/Search.do This issue affects: SUSE Linux Enterprise Module for SUSE Manager Server 4.2 hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls versions prior to 4.2.28. SUSE Linux Enterprise Module for SUSE Manager Server 4.3 spacewalk-java versions prior to 4.3.39. SUSE Manager Server 4.2 release-notes-susemanager versions prior to 4.2.10.",
+      "cvss_score": 2.6,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.2",
+          "versions": [
+            {
+              "version": "hub-xmlrpc-api-0.7-150300.3.9.2, inter-server-sync-0.2.4-150300.8.25.2, locale-formula-0.3-150300.3.3.2, py27-compat-salt-3000.3-150300.7.7.26.2, python-urlgrabber-3.10.2.1py2_3-150300.3.3.2, spacecmd-4.2.20-150300.4.30.2, spacewalk-backend-4.2.25-150300.4.32.4, spacewalk-client-tools-4.2.21-150300.4.27.3, spacewalk-java-4.2.43-150300.3.48.2, spacewalk-utils-4.2.18-150300.3.21.2, spacewalk-web-4.2.30-150300.3.30.3, susemanager-4.2.38-150300.3.44.3, susemanager-doc-indexes-4.2-150300.12.36.3, susemanager-docs_en-4.2-150300.12.36.2, susemanager-schema-4.2.25-150300.3.30.3, susemanager-sls",
+              "status": "affected",
+              "lessThan": "4.2.28",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for suse manager server 4.3",
+          "versions": [
+            {
+              "version": "spacewalk-java",
+              "status": "affected",
+              "lessThan": "4.3.39",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.2",
+          "versions": [
+            {
+              "version": "release-notes-susemanager",
+              "status": "affected",
+              "lessThan": "4.2.10",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise module for suse manager server 4.2",
+        "product:suse linux enterprise module for suse manager server 4.3",
+        "product:suse manager server 4.2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00246,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43755",
+      "description": "A Insufficient Entropy vulnerability in SUSE Rancher allows attackers that gained knowledge of the cattle-token to continue abusing this even after the token was renewed. This issue affects: SUSE Rancher Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.6.10",
+              "versionType": "custom",
+              "changes": [
+                {
+                  "at": "2.7.1",
+                  "status": "unaffected"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00335,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-331"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43756",
+      "description": "A Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection') vulnerability in SUSE Rancher allows remote attackers to cause denial of service by supplying specially crafted git credentials. This issue affects: SUSE Rancher wrangler version 0.7.3 and prior versions; wrangler version 0.8.4 and prior versions; wrangler version 1.0.0 and prior versions.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "wrangler",
+              "status": "affected",
+              "lessThanOrEqual": "0.7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01063,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-74"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43757",
+      "description": "A Cleartext Storage of Sensitive Information vulnerability in SUSE Rancher allows users on managed clusters to gain access to credentials. The impact depends on the credentials exposed This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.5.17",
+              "versionType": "custom",
+              "changes": [
+                {
+                  "at": "2.6.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "2.7.1",
+                  "status": "unaffected"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00225,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43758",
+      "description": "A Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability in SUSE Rancher allows code execution for user with the ability to add an untrusted Helm catalog or modifying the URL configuration used to download KDM (only admin users by default) This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10; Rancher versions prior to 2.7.1.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.5.17",
+              "versionType": "custom",
+              "changes": [
+                {
+                  "at": "2.6.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "2.7.1",
+                  "status": "unaffected"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00755,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43759",
+      "description": "A Improper Privilege Management vulnerability in SUSE Rancher, allows users with access to the escalate verb on PRTBs to escalate permissions for any -promoted resource in any cluster. This issue affects: SUSE Rancher Rancher versions prior to 2.5.17; Rancher versions prior to 2.6.10.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.5.17",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "version": "Rancher",
+              "status": "affected",
+              "lessThan": "2.6.10",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00314,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43760",
+      "description": "An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SUSE Rancher allows users in some higher-privileged groups to to inject code that is \nexecuted within another user's browser, allowing the attacker to steal \nsensitive information, manipulate web content, or perform other \nmalicious activities on behalf of the victims. This could result in a \nuser with write access to the affected areas being able to act on behalf\n of an administrator, once an administrator opens the affected web page.\n\n\nThis issue affects Rancher: from >= 2.6.0 before < 2.6.13, from >= 2.7.0 before < 2.7.4.\n\n",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "< 2.6.13",
+              "status": "affected",
+              "version": ">= 2.6.0",
+              "versionType": "2.6.13"
+            },
+            {
+              "lessThan": "< 2.7.4",
+              "status": "affected",
+              "version": ">= 2.7.0",
+              "versionType": "2.7.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01418,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-45154",
+      "description": "A Cleartext Storage of Sensitive Information vulnerability in suppportutils of SUSE Linux Enterprise Server 12, SUSE Linux Enterprise Server 15, SUSE Linux Enterprise Server 15 SP3 allows attackers that get access to the support logs to gain knowledge of the stored credentials This issue affects: SUSE Linux Enterprise Server 12 supportutils version 3.0.10-95.51.1CWE-312: Cleartext Storage of Sensitive Information and prior versions. SUSE Linux Enterprise Server 15 supportutils version 3.1.21-150000.5.44.1 and prior versions. SUSE Linux Enterprise Server 15 SP3 supportutils version 3.1.21-150300.7.35.15.1 and prior versions.",
+      "cvss_score": 4.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 12",
+          "versions": [
+            {
+              "version": "supportutils",
+              "status": "affected",
+              "lessThanOrEqual": "3.0.10-95.51.1CWE-312: Cleartext Storage of Sensitive Information",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15",
+          "versions": [
+            {
+              "version": "supportutils",
+              "status": "affected",
+              "lessThanOrEqual": "3.1.21-150000.5.44.1",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp3",
+          "versions": [
+            {
+              "version": "supportutils",
+              "status": "affected",
+              "lessThanOrEqual": "3.1.21-150300.7.35.15.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise server 12",
+        "product:suse linux enterprise server 15",
+        "product:suse linux enterprise server 15 sp3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00015,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-45155",
+      "description": "An Improper Handling of Exceptional Conditions vulnerability in obs-service-go_modules of openSUSE Factory allows attackers that can influence the call to the service to delete files and directories on the system of the victim. This issue affects: SUSE openSUSE Factory obs-service-go_modules versions prior to 0.6.1.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse factory",
+          "versions": [
+            {
+              "version": "unspecified",
+              "lessThan": "0.6.1",
+              "status": "affected",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse factory",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-755"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-45157",
+      "description": "A vulnerability has been identified in the way that Rancher stores vSphere's CPI (Cloud Provider Interface) and CSI (Container Storage Interface) credentials used to deploy clusters through the vSphere cloud provider. This issue leads to the vSphere CPI and CSI passwords being stored in a plaintext object inside Rancher. This vulnerability is only applicable to users that deploy clusters in vSphere environments.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.9.3",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.9",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00071,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-522"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22644",
+      "description": "A user can reverse engineer the JWT token (JSON Web Token) used in authentication for Manager and API access, forging a valid NeuVector Token to perform malicious activity in NeuVector. This can lead to an RCE.",
+      "cvss_score": 9.4,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20231003121714-be746957ee7c",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00053,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1270"
+        ],
+        "cpe_count": 2,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22645",
+      "description": "An Improper Privilege Management vulnerability in SUSE kubewarden allows attackers to read arbitrary secrets if they get access to the ServiceAccount kubewarden-controller This issue affects: SUSE kubewarden kubewarden-controller versions prior to 1.6.0.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "kubewarden",
+          "versions": [
+            {
+              "version": "kubewarden-controller",
+              "status": "affected",
+              "lessThan": "1.6.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:kubewarden",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00153,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22647",
+      "description": "An Improper Privilege Management vulnerability in SUSE Rancher allowed standard users to leverage their existing permissions to manipulate Kubernetes secrets in the local\n cluster, resulting in the secret being deleted, but their read-level \npermissions to the secret being preserved. When this operation was \nfollowed-up by other specially crafted commands, it could result in the \nuser gaining access to tokens belonging to service accounts in the local cluster.\n\n\nThis issue affects Rancher: from >= 2.6.0 before < 2.6.13, from >= 2.7.0 before < 2.7.4.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "< 2.6.13",
+              "status": "affected",
+              "version": ">= 2.6.0",
+              "versionType": "2.6.13"
+            },
+            {
+              "lessThan": "< 2.7.4",
+              "status": "affected",
+              "version": ">= 2.7.0",
+              "versionType": "2.7.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0078,
+      "nvd": {
+        "cvss_v3_score": 8.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-267"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22648",
+      "description": "A Improper Privilege Management vulnerability in SUSE Rancher causes permission changes in Azure AD not to be reflected to users \nwhile they are logged in the Rancher UI. This would cause the users to \nretain their previous permissions in Rancher, even if they change groups\n on Azure AD, for example, to a lower privileged group, or are removed \nfrom a group, thus retaining their access to Rancher instead of losing \nit.\nThis issue affects Rancher: from >= 2.6.7 before < 2.6.13, from >= 2.7.0 before < 2.7.4.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "< 2.6.13",
+              "status": "affected",
+              "version": ">= 2.6.7",
+              "versionType": "2.6.13"
+            },
+            {
+              "lessThan": "< 2.7.4",
+              "status": "affected",
+              "version": ">= 2.7.0",
+              "versionType": "2.7.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-271"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22649",
+      "description": "A vulnerability has been identified which may lead to sensitive data being leaked into Rancher's audit logs. [Rancher Audit Logging](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log) is an opt-in feature, only deployments that have it enabled and have [AUDIT_LEVEL](https://ranchermanager.docs.rancher.com/how-to-guides/advanced-user-guides/enable-api-audit-log#audit-log-levels) set to `1 or above` are impacted by this issue.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.6.14",
+              "status": "affected",
+              "version": "2.6.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.7.10",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.2",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.4519,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22650",
+      "description": "A vulnerability has been identified in which Rancher does not automatically clean up a user which has been deleted from the configured authentication provider (AP). This characteristic also applies to disabled or revoked users, Rancher will not reflect these modifications which may leave the user\u2019s tokens still usable.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.14",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.5",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287",
+          "CWE-306"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22651",
+      "description": "Improper Privilege Management vulnerability in SUSE Rancher allows Privilege Escalation. A failure in the update logic of Rancher's admission Webhook may lead to\n the misconfiguration of the Webhook. This component enforces validation\n rules and security checks before resources are admitted into the \nKubernetes cluster.\nThe issue only affects users that upgrade from 2.6.x or 2.7.x to 2.7.2. Users that did a fresh install of 2.7.2 (and did not follow an upgrade path) are not affected.\n\n",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.7.2",
+              "status": "affected",
+              "version": "2.6.0",
+              "versionType": "2.7.2"
+            },
+            {
+              "status": "unaffected",
+              "version": "2.7.3"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0039,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269",
+          "CWE-276"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32182",
+      "description": "A Improper Link Resolution Before File Access ('Link Following') vulnerability in SUSE SUSE Linux Enterprise Desktop 15 SP5 postfix, SUSE SUSE Linux Enterprise High Performance Computing 15 SP5 postfix, SUSE openSUSE Leap 15.5 postfix.This issue affects SUSE Linux Enterprise Desktop 15 SP5: before 3.7.3-150500.3.5.1; SUSE Linux Enterprise High Performance Computing 15 SP5: before 3.7.3-150500.3.5.1; openSUSE Leap 15.5 : before 3.7.3-150500.3.5.1.\n\n",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise desktop 15 sp5",
+          "versions": [
+            {
+              "lessThan": "3.7.3-150500.3.5.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp5",
+          "versions": [
+            {
+              "lessThan": "3.7.3-150500.3.5.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.5",
+          "versions": [
+            {
+              "lessThan": "3.7.3-150500.3.5.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse leap 15.5",
+        "product:suse linux enterprise desktop 15 sp5",
+        "product:suse linux enterprise high performance computing 15 sp5",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32186",
+      "description": "A Allocation of Resources Without Limits or Throttling vulnerability in SUSE RKE2  allows attackers with access to K3s servers apiserver/supervisor port (TCP 6443) cause denial of service.\nThis issue affects RKE2: from 1.24.0 before 1.24.17+rke2r1, from v1.25.0 before v1.25.13+rke2r1, from v1.26.0 before v1.26.8+rke2r1, from v1.27.0 before v1.27.5+rke2r1, from v1.28.0 before v1.28.1+rke2r1.\n\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rke2",
+          "versions": [
+            {
+              "lessThan": "1.24.17+rke2r1",
+              "status": "affected",
+              "version": "1.24.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.25.13+rke2r1",
+              "status": "affected",
+              "version": "v1.25.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.26.8+rke2r1",
+              "status": "affected",
+              "version": "v1.26.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.27.5+rke2r1",
+              "status": "affected",
+              "version": "v1.27.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.28.1+rke2r1",
+              "status": "affected",
+              "version": "v1.28.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rke2",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00281,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32187",
+      "description": "An Allocation of Resources Without Limits or Throttling vulnerability in SUSE k3s allows attackers with access to K3s servers' apiserver/supervisor port (TCP 6443) cause denial of service.\nThis issue affects k3s: from v1.24.0 before v1.24.17+k3s1, from v1.25.0 before v1.25.13+k3s1, from v1.26.0 before v1.26.8+k3s1, from sev1.27.0 before v1.27.5+k3s1, from v1.28.0 before v1.28.1+k3s1.\n\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "k3s",
+          "versions": [
+            {
+              "lessThan": "v1.24.17+k3s1",
+              "status": "affected",
+              "version": "v1.24.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.25.13+k3s1",
+              "status": "affected",
+              "version": "v1.25.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.26.8+k3s1",
+              "status": "affected",
+              "version": "v1.26.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.27.5+k3s1",
+              "status": "affected",
+              "version": "sev1.27.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "v1.28.1+k3s1",
+              "status": "affected",
+              "version": "v1.28.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:k3s",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0023,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 5,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32188",
+      "description": "A user can reverse engineer the JWT token (JSON Web Token) used in authentication for Manager and API access, forging a valid NeuVector Token to perform malicious activity in NeuVector. This can lead to an RCE.",
+      "cvss_score": 9.4,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20231003121714-be746957ee7c",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00294,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1270"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32189",
+      "description": "Insecure handling of ssh keys used to bootstrap clients allows local attackers to potentially gain access to the keys",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.27-150400.3.38.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.27-150400.3.38.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00055,
+      "nvd": {
+        "cvss_v3_score": 5.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32190",
+      "description": "mlocate's %post script allows RUN_UPDATEDB_AS user to make arbitrary files world readable by abusing insecure file operations that run with root privileges.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "0.26-37.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00138,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32191",
+      "description": "When RKE provisions a cluster, it stores the cluster state in a configmap called `full-cluster-state` inside the `kube-system` namespace of the cluster itself. The information available in there allows non-admin users to escalate to admin.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rke",
+          "versions": [
+            {
+              "lessThan": "1.4.19",
+              "status": "affected",
+              "version": "1.4.18",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.5.10",
+              "status": "affected",
+              "version": "1.5.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rke",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-922"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32192",
+      "description": "A vulnerability has been identified in which unauthenticated cross-site \nscripting (XSS) in the API Server's public API endpoint can be \nexploited, allowing an attacker to execute arbitrary JavaScript code in the victim browser",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "apiserver",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20240207153957-4fd7d821d952",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:apiserver",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00347,
+      "nvd": {
+        "cvss_v3_score": 8.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-80"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32193",
+      "description": "A vulnerability has been identified in which unauthenticated cross-site \nscripting (XSS) in Norman's public API endpoint can be exploited. This \ncan lead to an attacker exploiting the vulnerability to trigger \nJavaScript code and execute commands remotely.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "norman",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20240207153100-3bb70b772b52",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:norman",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00227,
+      "nvd": {
+        "cvss_v3_score": 8.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-80"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32194",
+      "description": "A vulnerability has been identified when granting a create or * global role for a resource type of \"namespaces\"; no matter the API group, the subject will receive *\n permissions for core namespaces. This can lead to someone being capable\n of accessing, creating, updating, or deleting a namespace in the \nproject.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.6.14",
+              "status": "affected",
+              "version": "2.6.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.7.10",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.2",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00122,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32196",
+      "description": "A vulnerability has been identified whereby privilege escalation checks are not properly enforced for RoleTemplateobjects when external=true, which in specific scenarios can lead to privilege escalation.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.14",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.5",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00051,
+      "nvd": {
+        "cvss_v3_score": 6.6,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32197",
+      "description": "A Improper Privilege Management vulnerability in SUSE rancher in RoleTemplateobjects when external=true is set can lead to privilege escalation in specific scenarios.This issue affects rancher: from 2.7.0 before 2.7.14, from 2.8.0 before 2.8.5.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.14",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.5",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0002,
+      "nvd": {
+        "cvss_v3_score": 6.6,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-32199",
+      "description": "A vulnerability has been identified within Rancher \nManager, where after removing a custom GlobalRole that gives \nadministrative access or the corresponding binding, the user still \nretains access to clusters.\u00a0This only affects custom Global Roles that\u00a0have a * on * in * rule for resources or have a * on * rule for non-resource URLs",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20251014212116-7faa74a968c2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 8e-05,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-281"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22029",
+      "description": "Insecure permissions in the packaging of tomcat allow local users that win a race during package installation to escalate to root",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.0-beta1.2.122",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse enterprise storage 7.1",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp2-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp3-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp4-espos",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp4-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp5",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for web and scripting 15 sp5",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp5",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp5",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp6",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for web and scripting 15 sp6",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp6",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp6",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp2-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp3-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp4-ltss",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp2",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp3",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp4",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 4.3",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.5",
+          "versions": [
+            {
+              "lessThan": "9.0.85-150200.57.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "9.0.85-3.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.0-beta1.2.122",
+        "product:opensuse leap 15.5",
+        "product:opensuse tumbleweed",
+        "product:suse enterprise storage 7.1",
+        "product:suse linux enterprise high performance computing 15 sp2-ltss",
+        "product:suse linux enterprise high performance computing 15 sp3-ltss",
+        "product:suse linux enterprise high performance computing 15 sp4-espos",
+        "product:suse linux enterprise high performance computing 15 sp4-ltss",
+        "product:suse linux enterprise high performance computing 15 sp5",
+        "product:suse linux enterprise high performance computing 15 sp6",
+        "product:suse linux enterprise module for web and scripting 15 sp5",
+        "product:suse linux enterprise module for web and scripting 15 sp6",
+        "product:suse linux enterprise server 15 sp2-ltss",
+        "product:suse linux enterprise server 15 sp3-ltss",
+        "product:suse linux enterprise server 15 sp4-ltss",
+        "product:suse linux enterprise server 15 sp5",
+        "product:suse linux enterprise server 15 sp6",
+        "product:suse linux enterprise server for sap applications 15 sp2",
+        "product:suse linux enterprise server for sap applications 15 sp3",
+        "product:suse linux enterprise server for sap applications 15 sp4",
+        "product:suse linux enterprise server for sap applications 15 sp5",
+        "product:suse linux enterprise server for sap applications 15 sp6",
+        "product:suse manager server 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00019,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22030",
+      "description": "A vulnerability has been identified within Rancher that can be exploited\n in narrow circumstances through a man-in-the-middle (MITM) attack. An \nattacker would need to have control of an expired domain or execute a \nDNS spoofing/hijacking attack against the domain to exploit this \nvulnerability. The targeted domain is the one used as the Rancher URL.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.15",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.8",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.2",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00093,
+      "nvd": {
+        "cvss_v3_score": 8.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22032",
+      "description": "A vulnerability has been identified in which an RKE1 cluster keeps \nconstantly reconciling when secrets encryption configuration is enabled.\n When reconciling, the Kube API secret values are written in plaintext \non the AppliedSpec. Cluster owners, Cluster members, and Project members\n (for projects within the cluster), all have RBAC permissions to view \nthe cluster object from the apiserver.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.14",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.5",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00064,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22033",
+      "description": "The OBS service obs-service-download_url was vulnerable to a command injection vulnerability. The attacker could provide a configuration to the service that allowed to execute command in later steps",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse package hub 15 sp5",
+          "versions": [
+            {
+              "lessThan": "0.2.1-bp155.3.3.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse package hub 15 sp6",
+          "versions": [
+            {
+              "lessThan": "0.2.1-bp156.2.3.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.5",
+          "versions": [
+            {
+              "lessThan": "0.2.1-bp155.3.3.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.6",
+          "versions": [
+            {
+              "lessThan": "0.2.1-bp156.2.3.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "0.2.1-1.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse leap 15.5",
+        "product:opensuse leap 15.6",
+        "product:opensuse tumbleweed",
+        "product:suse package hub 15 sp5",
+        "product:suse package hub 15 sp6",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00214,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22034",
+      "description": "Attackers could put the special files in .osc into the actual package sources (e.g. _apiurl). This allows the attacker to change the configuration of osc for the victim",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise desktop 15 sp5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for development tools 15 sp5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise desktop 15 sp6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for development tools 15 sp6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 12 sp5",
+          "versions": [
+            {
+              "lessThan": "0.183.0-15.18.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 12 sp5",
+          "versions": [
+            {
+              "lessThan": "0.183.0-15.18.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise software development kit 12 sp5",
+          "versions": [
+            {
+              "lessThan": "0.183.0-15.18.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.5",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse leap 15.6",
+          "versions": [
+            {
+              "lessThan": "1.9.0-150400.10.6.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "1.9.0-1.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse leap 15.5",
+        "product:opensuse leap 15.6",
+        "product:opensuse tumbleweed",
+        "product:suse linux enterprise desktop 15 sp5",
+        "product:suse linux enterprise desktop 15 sp6",
+        "product:suse linux enterprise high performance computing 15 sp5",
+        "product:suse linux enterprise high performance computing 15 sp6",
+        "product:suse linux enterprise module for development tools 15 sp5",
+        "product:suse linux enterprise module for development tools 15 sp6",
+        "product:suse linux enterprise server 12 sp5",
+        "product:suse linux enterprise server 15 sp5",
+        "product:suse linux enterprise server 15 sp6",
+        "product:suse linux enterprise server for sap applications 12 sp5",
+        "product:suse linux enterprise server for sap applications 15 sp5",
+        "product:suse linux enterprise server for sap applications 15 sp6",
+        "product:suse linux enterprise software development kit 12 sp5",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00021,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22036",
+      "description": "A vulnerability has been identified within Rancher where a cluster or node driver can be used to escape the chroot\n jail and gain root access to the Rancher container itself. In \nproduction environments, further privilege escalation is possible based \non living off the land within the Rancher container itself. For the test\n and development environments, based on a \u2013privileged Docker container, \nit is possible to escape the Docker container and gain execution access \non the host system.\n\n\nThis issue affects rancher: from 2.7.0 before 2.7.16, from 2.8.0 before 2.8.9, from 2.9.0 before 2.9.3.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.7.16",
+              "status": "affected",
+              "version": "2.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.8.9",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.3",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00172,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22037",
+      "description": "The uyuni-server-attestation systemd service needs a database_password environment variable. This file has 640 permission, and cannot be shown users, but the environment is still exposed by systemd to non-privileged users.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse manager server 5.0",
+          "versions": [
+            {
+              "lessThan": "0.1.26-150500.3.12.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 5.0",
+          "versions": [
+            {
+              "lessThan": "0.1.26-150500.3.12.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 5.0",
+          "versions": [
+            {
+              "lessThan": "0.1.26-150500.3.12.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server 5.0",
+          "versions": [
+            {
+              "lessThan": "0.1.26-150500.3.12.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse manager server 5.0",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00021,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-497"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22038",
+      "description": "Various problems in obs-scm-bridge allows attackers that create specially crafted git repositories to leak information of cause denial of service.",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse factory",
+          "versions": [
+            {
+              "lessThan": "0.5.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse factory",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-49502",
+      "description": "A Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in the Setup Wizard, HTTP Proxy credentials pane in spacewalk-web allows attackers to attack users by providing specially crafted URLs to click.\nThis issue affects Container suse/manager/5.0/x86_64/server:5.0.2.7.8.1: before 5.0.15-150600.3.10.2; SUSE Manager Server Module 4.3: before 4.3.42-150400.3.52.1.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.2.7.8.1",
+          "versions": [
+            {
+              "lessThan": "5.0.15-150600.3.10.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.42-150400.3.52.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.2.7.8.1",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 3.5,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-49503",
+      "description": "A Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in SUSE manager allows attackers to execute Javascript code in the organization credentials sub page.\nThis issue affects Container suse/manager/5.0/x86_64/server:5.0.2.7.8.1: before 5.0.15-150600.3.10.2; SUSE Manager Server Module 4.3: before 4.3.42-150400.3.52.1.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.2.7.8.1",
+          "versions": [
+            {
+              "lessThan": "5.0.15-150600.3.10.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.42-150400.3.52.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.2.7.8.1",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 3.5,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-49504",
+      "description": "grub2 allowed attackers with access to the grub shell to access files on the encrypted disks.",
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:P/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "2.12-28.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00067,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52280",
+      "description": "A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE rancher  which allows users to watch resources they are not allowed to access, when they have at least some generic permissions on the type. \nThis issue affects rancher: before 2175e09, before 6e30359, before c744f0b.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2175e09",
+              "status": "affected",
+              "version": "0",
+              "versionType": "git"
+            },
+            {
+              "lessThan": "6e30359",
+              "status": "affected",
+              "version": "0",
+              "versionType": "git"
+            },
+            {
+              "lessThan": "c744f0b",
+              "status": "affected",
+              "version": "0",
+              "versionType": "git"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00203,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52281",
+      "description": "A: Improper Neutralization of Input During Web Page Generation vulnerability in SUSE rancher allows a malicious actor to perform a Stored XSS attack through the cluster description field.\nThis issue affects rancher: from 2.9.0 before 2.9.4.",
+      "cvss_score": 8.9,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.9.4",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00012,
+      "nvd": {
+        "cvss_v3_score": 8.9,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52282",
+      "description": "A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE rancher allowing any users with GET\n access to the Rancher Manager Apps Catalog to read any sensitive information that are \ncontained within the Apps\u2019 values. Additionally, the same information \nleaks into auditing logs when the audit level is set to equal or above \n2.\n\nThis issue affects rancher: from 2.8.0 before 2.8.10, from 2.9.0 before 2.9.4.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.8.10",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.4",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0008,
+      "nvd": {
+        "cvss_v3_score": 6.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52283",
+      "description": "Missing sanitation of inputs allowed arbitrary users to conduct a stored XSS attack that triggers for users that view a certain project",
+      "cvss_score": 5.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "hackweek",
+          "versions": [
+            {
+              "lessThan": "8d2b6bda67bd0f1914cb0851b8ae71b73e26b156",
+              "status": "affected",
+              "version": "0",
+              "versionType": "git"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hackweek",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 5.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52284",
+      "description": "Unauthorized disclosure of sensitive data: Any user with `GET` or `LIST` permissions on `BundleDeployment` resources could retrieve Helm values containing credentials or other secrets.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "0.13.1-0.20250806151509-088bcbea7edb",
+              "status": "affected",
+              "version": "0.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.12.6",
+              "status": "affected",
+              "version": "0.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.11.10",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-58259",
+      "description": "A vulnerability has been identified within Rancher Manager in which it \ndid not enforce request body size limits on certain public \n(unauthenticated) and authenticated API endpoints. This allows a \nmalicious user to exploit this by sending excessively large payloads, \nwhich are fully loaded into memory during processing, leading to\u00a0Denial of Service (DoS).",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.12.1",
+              "status": "affected",
+              "version": "2.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.11.5",
+              "status": "affected",
+              "version": "2.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.9",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.11",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.0.0-20250813072957-aee95d4e2a41",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-58260",
+      "description": "A vulnerability has been identified within Rancher Manager where a missing server-side validation on the `.username` field in Rancher can allow users with update permissions on other User resources to cause denial of access for targeted accounts.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.12.2",
+              "status": "affected",
+              "version": "2.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.11.6",
+              "status": "affected",
+              "version": "2.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.10",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.12",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00016,
+      "nvd": {
+        "cvss_v3_score": 7.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-58267",
+      "description": "A vulnerability has been identified within Rancher Manager whereby the SAML authentication from the Rancher CLI  tool is vulnerable to phishing attacks. The custom authentication protocol for SAML-based providers can be abused to steal Rancher\u2019s authentication tokens.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.12.2",
+              "status": "affected",
+              "version": "2.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.11.6",
+              "status": "affected",
+              "version": "2.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.10",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.12",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 7e-05,
+      "nvd": {
+        "cvss_v3_score": 8.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-345"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-58269",
+      "description": "A vulnerability has been identified in Rancher Manager, where sensitive \ninformation, including secret data, cluster import URLs, and \nregistration tokens, is exposed to any entity with access to Rancher \naudit logs.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20251013203444-50dc516a19ea",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0001,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23386",
+      "description": "A Incorrect Default Permissions vulnerability in the openSUSE Tumbleweed package gerbera allows the service user gerbera to escalate to root.,This issue affects gerbera on openSUSE Tumbleweed before 2.5.0-1.1.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "2.5.0-1.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00061,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23387",
+      "description": "A Exposure of Sensitive Information to an Unauthorized Actor vulnerability in SUSE rancher allowed unauthenticated users to list all CLI authentication tokens and delete them before the CLI is able to get the token value.This issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.8.13",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.7",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.3",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00238,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23388",
+      "description": "A Stack-based Buffer Overflow vulnerability in SUSE rancher allows for denial of service.This issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.8.13",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.7",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.3",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00421,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-121"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23389",
+      "description": "A Improper Access Control vulnerability in SUSE rancher allows a local user to impersonate other identities through SAML Authentication on first login.\nThis issue affects rancher: from 2.8.0 before 2.8.13, from 2.9.0 before 2.9.7, from 2.10.0 before 2.10.3.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.8.13",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.7",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.3",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0013,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23391",
+      "description": "A Incorrect Privilege Assignment vulnerability in SUSE rancher allows a Restricted Administrator to change the password of Administrators and take over their accounts.\nThis issue affects rancher: from 2.8.0 before 2.8.14, from 2.9.0 before 2.9.8, from 2.10.0 before 2.10.4.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.8.14",
+              "status": "affected",
+              "version": "2.8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.8",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.4",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00344,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23392",
+      "description": "A Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in spacewalk-java allows execution of arbitrary Javascript code on target systems.This issue affects Container suse/manager/5.0/x86_64/server:5.0.4.7.19.1: from ? before 5.0.24-150600.3.25.1; Container suse/manager/5.0/x86_64/server:5.0.4.7.19.1: from ? before 5.0.24-150600.3.25.1; Container suse/manager/5.0/x86_64/server:5.0.4.7.19.1: from ? before 5.0.24-150600.3.25.1; Container suse/manager/5.0/x86_64/server:5.0.4.7.19.1: from ? before 5.0.24-150600.3.25.1; SUSE Manager Server Module 4.3: from ? before 4.3.85-150400.3.105.3; SUSE Manager Server Module 4.3: from ? before 4.3.85-150400.3.105.3; SUSE Manager Server Module 4.3: from ? before 4.3.85-150400.3.105.3; SUSE Manager Server Module 4.3: from ? before 4.3.85-150400.3.105.3.",
+      "cvss_score": 5.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+          "versions": [
+            {
+              "lessThan": "5.0.24-150600.3.25.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+          "versions": [
+            {
+              "lessThan": "5.0.24-150600.3.25.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+          "versions": [
+            {
+              "lessThan": "5.0.24-150600.3.25.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+          "versions": [
+            {
+              "lessThan": "5.0.24-150600.3.25.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.85-150400.3.105.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.85-150400.3.105.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.85-150400.3.105.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.85-150400.3.105.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00251,
+      "nvd": {
+        "cvss_v3_score": 5.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-80"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23393",
+      "description": "A Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in\u00a0 spacewalk-java allows execution of arbitrary Javascript code on users machines.This issue affects Container suse/manager/5.0/x86_64/server:5.0.4.7.19.1: from ? before 5.0.24-150600.3.25.1; SUSE Manager Server Module 4.3: from ? before 4.3.85-150400.3.105.3.",
+      "cvss_score": 5.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+          "versions": [
+            {
+              "lessThan": "5.0.24-150600.3.25.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.85-150400.3.105.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.4.7.19.1",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00251,
+      "nvd": {
+        "cvss_v3_score": 5.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-80"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23394",
+      "description": "A UNIX Symbolic Link (Symlink) Following vulnerability in openSUSE Tumbleweed cyrus-imapd allows escalation from cyrus to root.This issue affects openSUSE Tumbleweed  cyrus-imapd before 3.8.4-2.1.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "3.8.4-2.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00708,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-61"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46802",
+      "description": "For a short time they PTY is set to mode 666, allowing any user on the system to connect to the screen session.",
+      "cvss_score": 6.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise micro 5.3",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise micro 5.4",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise micro 5.5",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise module for basesystem 15 sp6",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server 15 sp6",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise desktop 15 sp6",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server for sap applications 15 sp6",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise high performance computing 15 sp6",
+          "versions": [
+            {
+              "lessThan": "4.6.2-150000.5.8.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise desktop 15 sp6",
+        "product:suse linux enterprise high performance computing 15 sp6",
+        "product:suse linux enterprise micro 5.3",
+        "product:suse linux enterprise micro 5.4",
+        "product:suse linux enterprise micro 5.5",
+        "product:suse linux enterprise module for basesystem 15 sp6",
+        "product:suse linux enterprise server 15 sp6",
+        "product:suse linux enterprise server for sap applications 15 sp6",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00052,
+      "nvd": {
+        "cvss_v3_score": 6.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46809",
+      "description": "A Plaintext Storage of a Password vulnerability in SUSE exposes the credentials for the HTTP proxy in the log files.\u00a0This issue affects Container suse/manager/4.3/proxy-httpd:4.3.16.9.67.1: from ? before 4.3.33-150400.3.55.2; Container suse/manager/5.0/x86_64/proxy-httpd:5.0.5.7.23.1: from ? before 5.0.14-150600.4.17.1; Container suse/manager/5.0/x86_64/server:5.0.5.7.30.1: from ? before 5.0.14-150600.4.17.1; Image SLES15-SP4-Manager-Proxy-4-3-BYOS: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Proxy-4-3-BYOS-Azure: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Proxy-4-3-BYOS-EC2: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Proxy-4-3-BYOS-GCE: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Server-4-3-BYOS: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2: from ? before 4.3.33-150400.3.55.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE: from ? before 4.3.33-150400.3.55.2; SUSE Manager Proxy Module 4.3: from ? before 4.3.33-150400.3.55.2; SUSE Manager Server Module 4.3: from ? before 4.3.33-150400.3.55.2.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:P/VC:H/VI:N/VA:N/SC:H/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/4.3/proxy-httpd:4.3.16.9.67.1",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/proxy-httpd:5.0.5.7.23.1",
+          "versions": [
+            {
+              "lessThan": "5.0.14-150600.4.17.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.5.7.30.1",
+          "versions": [
+            {
+              "lessThan": "5.0.14-150600.4.17.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-proxy-4-3-byos",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-proxy-4-3-byos-azure",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-proxy-4-3-byos-ec2",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-proxy-4-3-byos-gce",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-azure",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-ec2",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-gce",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager proxy module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.33-150400.3.55.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/4.3/proxy-httpd:4.3.16.9.67.1",
+        "product:container suse/manager/5.0/x86_64/proxy-httpd:5.0.5.7.23.1",
+        "product:container suse/manager/5.0/x86_64/server:5.0.5.7.30.1",
+        "product:image sles15-sp4-manager-proxy-4-3-byos",
+        "product:image sles15-sp4-manager-proxy-4-3-byos-azure",
+        "product:image sles15-sp4-manager-proxy-4-3-byos-ec2",
+        "product:image sles15-sp4-manager-proxy-4-3-byos-gce",
+        "product:image sles15-sp4-manager-server-4-3-byos",
+        "product:image sles15-sp4-manager-server-4-3-byos-azure",
+        "product:image sles15-sp4-manager-server-4-3-byos-ec2",
+        "product:image sles15-sp4-manager-server-4-3-byos-gce",
+        "product:suse manager proxy module 4.3",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00031,
+      "nvd": {
+        "cvss_v3_score": 5.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-256"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46811",
+      "description": "A Missing Authorization vulnerability in SUSE Linux Manager allows anyone with the ability to connect to port 443 of SUSE Manager is able to run any command as root on any client.\u00a0This issue affects Container suse/manager/5.0/x86_64/server:5.0.5.7.30.1: from ? before 5.0.27-150600.3.33.1; Image SLES15-SP4-Manager-Server-4-3-BYOS: from ? before 4.3.87-150400.3.110.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-Azure: from ? before 4.3.87-150400.3.110.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-EC2: from ? before 4.3.87-150400.3.110.2; Image SLES15-SP4-Manager-Server-4-3-BYOS-GCE: from ? before 4.3.87-150400.3.110.2; SUSE Manager Server Module 4.3: from ? before 4.3.87-150400.3.110.2.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/server:5.0.5.7.30.1",
+          "versions": [
+            {
+              "lessThan": "5.0.27-150600.3.33.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos",
+          "versions": [
+            {
+              "lessThan": "4.3.87-150400.3.110.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-azure",
+          "versions": [
+            {
+              "lessThan": "4.3.87-150400.3.110.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-ec2",
+          "versions": [
+            {
+              "lessThan": "4.3.87-150400.3.110.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "image sles15-sp4-manager-server-4-3-byos-gce",
+          "versions": [
+            {
+              "lessThan": "4.3.87-150400.3.110.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server module 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.87-150400.3.110.2",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:container suse/manager/5.0/x86_64/server:5.0.5.7.30.1",
+        "product:image sles15-sp4-manager-server-4-3-byos",
+        "product:image sles15-sp4-manager-server-4-3-byos-azure",
+        "product:image sles15-sp4-manager-server-4-3-byos-ec2",
+        "product:image sles15-sp4-manager-server-4-3-byos-gce",
+        "product:suse manager server module 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00077,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-53880",
+      "description": "A Path Traversal vulnerability in the tftpsync/add and tftpsync/delete scripts allows a remote attacker on an adjacent network to write or delete files on the filesystem with the privileges of the unprivileged wwwrun user. Although the endpoint is unauthenticated, access is restricted to a list of allowed IP addresses.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:A/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/4.3/proxy-httpd:latest",
+          "versions": [
+            {
+              "lessThan": "4.3.11-150400.3.15.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/manager/5.0/x86_64/proxy-httpd:latest",
+          "versions": [
+            {
+              "lessThan": "5.0.3-150600.3.6.4",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "container suse/multi-linux-manager/5.1/x86_64/proxy-httpd:latest",
+          "versions": [
+            {
+              "lessThan": "5.1.3-150700.3.3.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager proxy lts 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.11-150400.3.15.3",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:container suse/manager/4.3/proxy-httpd:latest",
+        "product:container suse/manager/5.0/x86_64/proxy-httpd:latest",
+        "product:container suse/multi-linux-manager/5.1/x86_64/proxy-httpd:latest",
+        "product:suse manager proxy lts 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00389,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-35"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-53882",
+      "description": "A Reliance on Untrusted Inputs in a Security Decision vulnerability in the logrotate configuration for openSUSE mailman3 package allows the mailman user to sent SIGHUP to arbitrary processes.\u00a0This issue affects openSUSE Tumbleweed: from ? before 3.3.10-2.1.",
+      "cvss_score": 4.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "3.3.10-2.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 4.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-807"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-53883",
+      "description": "A Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability allows attackers to run arbitrary javascript via a reflected XSS issue in the search fields.This issue affects Container suse/manager/5.0/x86_64/server:latest: from ? before 5.0.28-150600.3.36.8; SUSE Manager Server LTS 4.3: from ? before 4.3.88-150400.3.113.5.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:N/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "container suse manager 5.0",
+          "versions": [
+            {
+              "lessThan": "5.0.28-150600.3.36.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "suse",
+          "product": "suse manager server lts 4.3",
+          "versions": [
+            {
+              "lessThan": "4.3.88-150400.3.113.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:container suse manager 5.0",
+        "product:suse manager server lts 4.3",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00046,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-80"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-53884",
+      "description": "NeuVector stores user passwords and API keys using a simple, unsalted hash. This method is vulnerable to rainbow table attack (offline attack where hashes of known passwords are precomputed).",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.4.6",
+              "status": "affected",
+              "version": "5.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-759"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-54467",
+      "description": "When a Java command with password parameters is executed and terminated by NeuVector for Process rule violation the password will\u00a0appear in the NeuVector security event log.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.4.6",
+              "status": "affected",
+              "version": "5.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-522"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-54468",
+      "description": "A vulnerability has been identified within Rancher Manager whereby `Impersonate-Extra-*` headers are being sent to an external entity, for example `amazonaws.com`, via the `/meta/proxy` Rancher endpoint. These headers may contain identifiable and/or sensitive information e.g. email addresses.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "2.12.2",
+              "status": "affected",
+              "version": "2.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.11.6",
+              "status": "affected",
+              "version": "2.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.10",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.9.12",
+              "status": "affected",
+              "version": "2.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 9e-05,
+      "nvd": {
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-54469",
+      "description": "A vulnerability was identified in NeuVector, where the enforcer used environment variables CLUSTER_RPC_PORT and CLUSTER_LAN_PORT to generate a command to be executed via popen, without first sanitising their values.\n\n\nThe entry process of the enforcer container is the monitor\n process. When the enforcer container stops, the monitor process checks \nwhether the consul subprocess has exited. To perform this check, the \nmonitor process uses the popen function to execute a shell command that determines whether the ports used by the consul subprocess are still active.\n\n\nThe values of environment variables CLUSTER_RPC_PORT and CLUSTER_LAN_PORT\n are used directly to compose shell commands via popen without \nvalidation or sanitization.  This behavior could allow a malicious user \nto inject malicious commands through these variables within the enforcer\n container.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.3.5",
+              "status": "affected",
+              "version": "5.3.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "5.4.7",
+              "status": "affected",
+              "version": "5.4.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.0.0-20251020133207-084a437033b4",
+              "status": "affected",
+              "version": "0.0.0-20230727023453-1c4957d53911",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00046,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-54470",
+      "description": "This vulnerability affects NeuVector deployments only when the Report anonymous cluster data option is enabled. When this option is enabled, NeuVector sends anonymous telemetry data to the telemetry server.\n\n\nIn affected versions, NeuVector does not enforce TLS \ncertificate verification when transmitting anonymous cluster data to the\n telemetry server. As a result, the communication channel is susceptible\n to man-in-the-middle (MITM) attacks, where an attacker could intercept \nor modify the transmitted data. Additionally, NeuVector loads the \nresponse of the telemetry server is loaded into memory without size \nlimitation, which makes  it vulnerable to a Denial of Service(DoS) \nattack",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.3.5",
+              "status": "affected",
+              "version": "5.3.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "5.4.7",
+              "status": "affected",
+              "version": "5.4.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.0.0-20251020133207-084a437033b4",
+              "status": "affected",
+              "version": "0.0.0-20230727023453-1c4957d53911",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 8.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-54471",
+      "description": "NeuVector used a hard-coded cryptographic key embedded in the source \ncode. At compilation time, the key value was replaced with the secret \nkey value and used to encrypt sensitive configurations  when NeuVector \nstores the data.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.4.7",
+              "status": "affected",
+              "version": "5.3.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "0.0.0-20251020133207-084a437033b4",
+              "status": "affected",
+              "version": "0.0.0-20230727023453-1c4957d53911",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-321"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62875",
+      "description": "An Improper Check for Unusual or Exceptional Conditions vulnerability in OpenSMTPD\u00a0allows local users to crash\u00a0OpenSMTPD.\n\n\n\n\nThis issue affects openSUSE Tumbleweed: from ? before 7.8.0p0-1.1.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse tumbleweed",
+          "versions": [
+            {
+              "lessThan": "7.8.0p0-1.1",
+              "status": "affected",
+              "version": "?",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse tumbleweed",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00028,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-754"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62876",
+      "description": "A Execution with Unnecessary Privileges vulnerability in lightdm-kde-greeter allows escalation from the service user to root.This issue affects  lightdm-kde-greeter.\u00a0before 6.0.4.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:L/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "opensuse",
+          "versions": [
+            {
+              "lessThan": "6.0.4",
+              "status": "affected",
+              "version": "?",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:opensuse",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62877",
+      "description": "Projects using the SUSE Virtualization (Harvester) environment may\u00a0expose the OS default ssh login password\u00a0\u00a0if they are using the 1.5.x or 1.6.x interactive installer to either create a new cluster or add new hosts to an existing cluster.  The environment is not affected if the PXE boot mechanism is utilized along with the Harvester configuration\u00a0setup.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "harvester",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.6.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.5.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:harvester",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00023,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1188"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62878",
+      "description": "A malicious user can manipulate the parameters.pathPattern\u00a0to create PersistentVolumes in arbitrary locations on the host node, potentially overwriting sensitive files or gaining access to unintended directories.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "0.0.34",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-23"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62879",
+      "description": "A vulnerability has been identified within the Rancher Backup Operator, resulting in the leakage of S3 tokens (both accessKey and secretKey) into the rancher-backup-operator pod's logs.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "9.0.1",
+              "status": "affected",
+              "version": "9.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.1.2",
+              "status": "affected",
+              "version": "8.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.5",
+              "status": "affected",
+              "version": "7.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "6.0.3",
+              "status": "affected",
+              "version": "6.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-66001",
+      "description": "NeuVector supports login authentication through OpenID Connect. However, the TLS verification (which verifies the remote server's authenticity and integrity) for OpenID Connect is not enforced by default. As a result this may expose the system to man-in-the-middle (MITM) attacks.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.4.8",
+              "status": "affected",
+              "version": "5.3.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00031,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-67601",
+      "description": "A vulnerability has been identified within Rancher Manager, where using self-signed CA certificates and passing the -skip-verify\u00a0flag to the Rancher CLI login command without also passing the \u2013cacert\u00a0flag results in the CLI attempting to fetch CA certificates stored in Rancher\u2019s setting cacerts.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "rancher",
+          "versions": [
+            {
+              "lessThan": "0.0.0-20260129092249-bb0625fd1896",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.13.2",
+              "status": "affected",
+              "version": "2.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.12.6",
+              "status": "affected",
+              "version": "2.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.11.10",
+              "status": "affected",
+              "version": "2.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.10.11",
+              "status": "affected",
+              "version": "2.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:rancher",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 9e-05,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-67860",
+      "description": "A vulnerability has been identified in the NeuVector scanner where the scanner process accepts registry and controller credentials as command-line arguments, potentially exposing sensitive credentials to local users.",
+      "cvss_score": 3.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "harvester",
+          "versions": [
+            {
+              "lessThan": "4.072",
+              "status": "affected",
+              "version": "4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:harvester",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00014,
+      "nvd": {
+        "cvss_v3_score": 3.8,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-522"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-8077",
+      "description": "A vulnerability exists in NeuVector versions up to and including 5.4.5, where a fixed string is used as the default password for the built-in `admin` account. If this password is not changed immediately after deployment, any workload with network access within the cluster could use the default credentials to obtain an authentication token. This token can then be used to perform any operation via NeuVector APIs.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "neuvector",
+          "versions": [
+            {
+              "lessThan": "5.4.6",
+              "status": "affected",
+              "version": "5.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:neuvector",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1393"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25702",
+      "description": "A Improper Access Control vulnerability in the kernel of SUSE SUSE Linux Enterprise Server 12 SP5 breaks nftables, causing firewall rules applied via nftables to not be effective.This issue affects SUSE Linux Enterprise Server: from 9e6d9d4601768c75fdb0bad3fbbe636e748939c2 before 9c294edb7085fb91650bc12233495a8974c5ff2d.",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "suse",
+          "product": "suse linux enterprise server",
+          "versions": [
+            {
+              "lessThan": "9c294edb7085fb91650bc12233495a8974c5ff2d",
+              "status": "affected",
+              "version": "9e6d9d4601768c75fdb0bad3fbbe636e748939c2",
+              "versionType": "git"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:suse linux enterprise server",
+        "vendor:suse"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00052,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    }
+  ]
+}

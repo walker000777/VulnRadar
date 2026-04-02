@@ -1,0 +1,3776 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "mongodb_inc",
+  "count": 71,
+  "items": [
+    {
+      "cve_id": "CVE-2022-24272",
+      "description": "An authenticated user may trigger an invariant assertion during command dispatch due to incorrect validation on the $external database. This may result in mongod denial of service or server crash. This issue affects: MongoDB Inc. MongoDB Server v5.0 versions, prior to and including v5.0.6.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThanOrEqual": "5.0.6",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00458,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-617"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-48282",
+      "description": "Under very specific circumstances (see Required configuration section below), a privileged user is able to cause arbitrary code to be executed which may cause further disruption to services. This is specific to applications written in C#. This affects all MongoDB .NET/C# Driver versions prior to and including v2.18.0\n\nFollowing configuration must be true for the vulnerability to be applicable:  *  Application must written in C# taking arbitrary data from users and serializing data using _t without any validation AND\n  *  Application must be running on a Windows host using the full .NET Framework, not .NET Core AND\n  *  Application must have domain model class with a property/field explicitly of type System.Object or a collection of type System.Object (against MongoDB best practice) AND\n  *  Malicious attacker must have unrestricted insert access to target database to add a _t discriminator.\"Following configuration must be true for the vulnerability to be applicable\n\n\n\n",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb .net/c# driver",
+          "versions": [
+            {
+              "lessThanOrEqual": "v2.18.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb .net/c# driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01228,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0342",
+      "description": "MongoDB Ops Manager Diagnostics Archive may not redact sensitive PEM key file password app settings. Archives do not include the PEM files themselves. This issue affects MongoDB Ops Manager v5.0 prior to 5.0.21 and MongoDB Ops Manager v6.0 prior to 6.0.12",
+      "cvss_score": 3.1,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb ops manager",
+          "versions": [
+            {
+              "lessThan": "5.0.21",
+              "status": "affected",
+              "version": "v5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.12",
+              "status": "affected",
+              "version": "v6.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:mongodb ops manager",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.23025,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-497"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0436",
+      "description": "The affected versions of MongoDB Atlas Kubernetes Operator may print sensitive information like GCP service account keys and API integration secrets while DEBUG mode logging is enabled. This issue affects MongoDB Atlas Kubernetes Operator versions: 1.5.0, 1.6.0, 1.6.1, 1.7.0.\n\nPlease note that this is reported on an EOL version of the product, and users are advised to upgrade to the latest supported version.\nRequired Configuration:\u00a0\n\nDEBUG logging is not enabled by default, and must be configured by the end-user. To check the log-level of the Operator, review the flags passed in your deployment configuration (eg.  https://github.com/mongodb/mongodb-atlas-kubernetes/blob/main/config/manager/manager.yaml#L27 https://github.com/mongodb/mongodb-atlas-kubernetes/blob/main/config/manager/manager.yaml#L27 )\n\n",
+      "cvss_score": 4.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb atlas kubernetes operator",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.7.0",
+              "status": "affected",
+              "version": "1.5.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb atlas kubernetes operator",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00268,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0437",
+      "description": "When calling bson_utf8_validate\u00a0on some inputs a loop with an exit condition that cannot be reached may occur, i.e. an infinite loop. This issue affects All MongoDB C Driver versions prior to versions 1.25.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb c driver",
+          "versions": [
+            {
+              "lessThan": "1.25.0",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb c driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00052,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-835"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1409",
+      "description": "If the MongoDB Server running on Windows or macOS is configured to use TLS with a specific set of configuration options that are already known to work securely in other platforms (e.g. Linux), it is possible that client certificate validation may not be in effect, potentially allowing client to establish a TLS connection with the server that supplies any certificate.\n\nThis issue affect all MongoDB Server v6.3 versions, MongoDB Server v5.0 versions v5.0.0 to v5.0.14 and all MongoDB Server v4.4 versions.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThanOrEqual": "6.3.2",
+              "status": "affected",
+              "version": "6.3",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "5.0.14",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "4.4.23",
+              "status": "affected",
+              "version": "4.4",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00469,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 6,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-4009",
+      "description": "In MongoDB Ops Manager v5.0 prior to 5.0.22 and v6.0 prior to 6.0.17 it is possible for an authenticated user with project owner or project user admin access to generate an API key with the privileges of org owner resulting in privilege escalation.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb ops manager",
+          "versions": [
+            {
+              "lessThan": "6.0.17",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "5.0.22",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb ops manager",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00148,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-648",
+          "CWE-269"
+        ],
+        "cpe_count": 2,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10921",
+      "description": "An authorized user may trigger crashes or receive the contents of buffer over-reads of Server memory by issuing specially crafted requests that construct malformed BSON in the MongoDB Server. This issue affects MongoDB Server v5.0 versions prior to 5.0.30 , MongoDB Server v6.0 versions prior to 6.0.19, MongoDB Server v7.0 versions prior to 7.0.15 and MongoDB Server v8.0 versions prior to and including 8.0.2.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.30",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.19",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.15",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.3",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00398,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-158"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1351",
+      "description": "Under certain configurations of --tlsCAFile and tls.CAFile, MongoDB Server may skip peer certificate validation which may result in untrusted connections to succeed. This may effectively reduce the security guarantees provided by TLS and open connections  that should have been closed due to failing certificate validation. This issue affects MongoDB Server v7.0 versions prior to and including 7.0.5, MongoDB Server v6.0 versions prior to and including 6.0.13, MongoDB Server v5.0 versions prior to and including 5.0.24 and MongoDB Server v4.4 versions prior to and including 4.4.28.\n\nRequired Configuration : A server process will allow incoming connections to skip peer certificate validation if the server process was started with TLS enabled (net.tls.mode set to allowTLS, preferTLS, or requireTLS) and without a net.tls.CAFile configured.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThanOrEqual": "7.0.5",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "6.0.13",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "5.0.24",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "4.4.28",
+              "status": "affected",
+              "version": "4.4",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00249,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 6,
+        "reference_count": 12
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3371",
+      "description": "MongoDB Compass may accept and use insufficiently validated input from an untrusted external source. This may cause unintended application behavior, including data disclosure and enabling attackers to impersonate users. This issue affects MongoDB Compass versions 1.35.0 to 1.42.0.\n",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb compass",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.42.0",
+              "status": "affected",
+              "version": "1.35.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb compass",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00096,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-360"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3372",
+      "description": "Improper validation of certain metadata input may result in the server not correctly serialising BSON. This can be performed pre-authentication and may cause unexpected application behavior including unavailability of serverStatus responses. This issue affects MongoDB Server v7.0 versions prior to 7.0.6, MongoDB Server v6.0 versions prior to 6.0.14 and MongoDB Server v.5.0 versions prior to 5.0.25.\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.25",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.14",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.6",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00378,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3374",
+      "description": "An unauthenticated user can trigger a fatal assertion in the server while generating ftdc diagnostic metrics due to attempting to build a BSON object that exceeds certain memory sizes. This issue affects MongoDB Server v5.0 versions prior to and including 5.0.16 and MongoDB Server v6.0 versions prior to and including 6.0.5.\n",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThanOrEqual": "5.0.16",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "6.0.5",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00614,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-617"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-5629",
+      "description": "An out-of-bounds read in the 'bson' module of PyMongo 4.6.2 or earlier allows deserialization of malformed BSON provided by a Server to raise an exception which may contain arbitrary application memory.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "pymongo",
+          "versions": [
+            {
+              "lessThanOrEqual": "4.6.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:pymongo",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00094,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 2,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6375",
+      "description": "A command for refining a collection shard key is missing an authorization check. This may cause the command to run directly on a shard, leading to either degradation of query performance, or to revealing chunk boundaries through timing side channels. This affects MongoDB Server v5.0 versions, prior to 5.0.22, MongoDB Server v6.0 versions, prior to 6.0.11 and MongoDB Server v7.0 versions prior to 7.0.3.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.22",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.11",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.3",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00297,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285",
+          "CWE-862"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6376",
+      "description": "MongoDB Compass may be susceptible to code injection due to insufficient sandbox protection settings with the usage of ejson shell parser in Compass' connection handling. This issue affects MongoDB Compass versions prior to version 1.42.2",
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb compass",
+          "versions": [
+            {
+              "lessThan": "1.42.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb compass",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00517,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-94"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6381",
+      "description": "The bson_strfreev function in the MongoDB C driver library may be susceptible to an integer overflow where the function will try to free memory at a negative offset. This may result in memory corruption. This issue affected libbson versions prior to 1.26.2",
+      "cvss_score": 4.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "libbson",
+          "versions": [
+            {
+              "lessThan": "1.26.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:libbson",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.004,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-680"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6382",
+      "description": "Incorrect handling of certain string inputs may result in MongoDB Rust driver constructing unintended server commands. This may cause unexpected application behavior including data modification. This issue affects MongoDB Rust Driver 2.0 versions prior to 2.8.2",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb rust driver",
+          "versions": [
+            {
+              "lessThan": "2.8.2",
+              "status": "affected",
+              "version": "2.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb rust driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-228"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6383",
+      "description": "The bson_string_append function in MongoDB C Driver may be vulnerable to a buffer overflow where the function might attempt to allocate too small of buffer and may lead to memory corruption of neighbouring heap memory. This issue affects libbson versions prior to 1.27.1",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "libbson",
+          "versions": [
+            {
+              "lessThan": "1.27.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:libbson",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00226,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6384",
+      "description": "\"Hot\" backup files may be downloaded by underprivileged users, if they are capable of acquiring a unique backup identifier. This issue affects MongoDB Enterprise Server v6.0 versions prior to 6.0.16, MongoDB Enterprise Server v7.0 versions prior to 7.0.11 and MongoDB Enterprise Server v7.3 versions prior to 7.3.3",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.16",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.11",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.3",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-7553",
+      "description": "Incorrect validation of files loaded from a local untrusted directory may allow local privilege escalation if the underlying operating systems is Windows. This may result in the application executing arbitrary behaviour determined by the contents of untrusted files. This issue affects MongoDB Server v5.0 versions prior to 5.0.27, MongoDB Server v6.0 versions prior to 6.0.16, MongoDB Server v7.0 versions prior to 7.0.12, MongoDB Server v7.3 versions prior 7.3.3, MongoDB C Driver versions prior to 1.26.2 and MongoDB PHP Driver versions prior to 1.18.1.\n\nRequired Configuration:\n\nOnly environments with Windows as the underlying operating system is affected by this issue",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.27",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.16",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.12",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.3",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb c driver",
+          "versions": [
+            {
+              "lessThan": "1.26.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb php driver",
+          "versions": [
+            {
+              "lessThan": "1.18.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb c driver",
+        "product:mongodb php driver",
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00223,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 86,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8013",
+      "description": "A bug in query analysis of certain complex self-referential $lookup subpipelines may result in literal values in expressions for encrypted fields to be sent to the server as plaintext instead of ciphertext. Should this occur, no documents would be returned or written. This issue affects mongocryptd binary (v5.0 versions prior to 5.0.29, v6.0 versions prior to 6.0.17, v7.0 versions prior to 7.0.12 and v7.3 versions prior to 7.3.4) and mongo_crypt_v1.so shared libraries (v6.0 versions prior to 6.0.17, v7.0 versions prior to 7.0.12 and v7.3 versions prior to 7.3.4) released alongside MongoDB Enterprise Server versions.",
+      "cvss_score": 2.2,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongocryptd",
+          "versions": [
+            {
+              "lessThan": "5.0.29",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.17",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.012",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.4",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "mongodb inc",
+          "product": "mongo_crypt_v1.so",
+          "versions": [
+            {
+              "lessThan": "6.0.17",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.12",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.4",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongo_crypt_v1.so",
+        "product:mongocryptd",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 3.3,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-319"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8207",
+      "description": "In certain highly specific configurations of the host system and MongoDB server binary installation on Linux Operating Systems, it may be possible for a unintended actor with host-level access to cause the MongoDB Server binary to load unintended actor-controlled shared libraries when the server binary is started, potentially resulting in the unintended actor gaining full control over the MongoDB server process. This issue affects MongoDB Server v5.0 versions prior to 5.0.14 and MongoDB Server v6.0 versions prior to 6.0.3.\n\nRequired Configuration: Only environments with Linux as the underlying operating system is affected by this issue",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.3",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "5.0.14",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00086,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-114",
+          "CWE-610"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8305",
+      "description": "prepareUnique index may cause secondaries to crash due to incorrect enforcement of index constraints on secondaries, where in extreme cases may cause multiple secondaries crashing leading to no primaries. This issue affects MongoDB Server v6.0 versions prior to 6.0.17, MongoDB Server v7.0 versions prior to 7.0.13 and MongoDB Server v7.3 versions prior to 7.3.4",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.17",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.13",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.4",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00287,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1288"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8654",
+      "description": "MongoDB Server may access non-initialized region of memory leading to unexpected behaviour when zero arguments are called in internal aggregation stage. This issue affected MongoDB Server v6.0 version 6.0.3.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "6.0.3"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00453,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-908"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0755",
+      "description": "The various bson_append\u00a0functions in the MongoDB C driver library may be susceptible to buffer overflow when performing operations that could result in a final BSON document which exceeds the maximum allowable size (INT32_MAX), resulting in a segmentation fault and possible application crash. This issue affected libbson versions prior to 1.27.5, MongoDB Server v8.0 versions prior to 8.0.1 and MongoDB Server v7.0 versions prior to 7.0.16",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "libbson",
+          "versions": [
+            {
+              "lessThan": "1.27.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.1",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.16",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:libbson",
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00239,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-10059",
+      "description": "An improper setting of the lsid field on any sharded query can cause a crash in MongoDB routers. This issue occurs when a generic argument (lsid) is provided in a case when it is not applicable. This affects MongoDB Server v6.0 versions prior to 6.0.x, MongoDB Server v7.0 versions prior to 7.0.18 and MongoDB Server v8.0 versions prior to 8.0.6.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.24",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.18",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.6",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00068,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-10060",
+      "description": "MongoDB Server may allow upsert operations retried within a transaction to violate unique index constraints, potentially causing an invariant failure and server crash during commit. This issue may be triggered by improper WriteUnitOfWork state management.  This issue affects MongoDB Server v6.0 versions prior to 6.0.25, MongoDB Server v7.0 versions prior to 7.0.22 and MongoDB Server v8.0 versions prior to 8.0.12",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.25",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.22",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.12",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00295,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-672"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-10061",
+      "description": "An authorized user can cause a crash in the MongoDB Server through a specially crafted $group query. This vulnerability is related to the incorrect handling of certain accumulator functions when additional parameters are specified within the $group operation. This vulnerability could lead to denial of service if triggered repeatedly. This issue affects MongoDB Server v6.0 versions prior to 6.0.25, MongoDB Server v7.0 versions prior to 7.0.22, MongoDB Server v8.0 versions prior to 8.0.12 and MongoDB Server v8.1 versions prior to 8.1.2",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.25",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.22",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.12",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.1.2",
+              "status": "affected",
+              "version": "8.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00145,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-10491",
+      "description": "The MongoDB Windows installation MSI may leave ACLs unset on custom installation directories allowing a local attacker to introduce executable code to MongoDB's process via DLL hijacking. This issue affects MongoDB Server v6.0 version prior to 6.0.25, MongoDB Server v7.0 version prior to 7.0.21 and MongoDB Server v8.0 version prior to 8.0.5",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.25",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.21",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.5",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00015,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11535",
+      "description": "MongoDB Connector for BI installation via\u00a0MSI\u00a0on Windows leaves ACLs unset on custom install directories allows Privilege Escalation.This issue affects MongoDB Connector for BI: from 2.0.0 through 2.14.24.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb connector for bi",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.14.24",
+              "status": "affected",
+              "version": "2.0.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb connector for bi",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00019,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11979",
+      "description": "An authorized user may crash the MongoDB server by causing buffer over-read. This can be done by issuing a DDL operation while queries are being issued, under some conditions. This issue affects MongoDB Server v7.0 versions prior to 7.0.25, MongoDB Server v8.0 versions prior to 8.0.15, and MongoDB Server version 8.2.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2.0",
+              "versionType": "Custom"
+            },
+            {
+              "lessThan": "8.0.14",
+              "status": "affected",
+              "version": "8.0.0",
+              "versionType": "Custom"
+            },
+            {
+              "lessThan": "7.0.25",
+              "status": "affected",
+              "version": "7.0.0",
+              "versionType": "Custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00056,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12657",
+      "description": "The KMIP response parser built into mongo binaries is overly tolerant of certain malformed packets, and may parse them into invalid objects. Later reads of this object can result in read access violations.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.22",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.10",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-754"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12893",
+      "description": "Clients may successfully perform a TLS handshake with a MongoDB server despite presenting a client certificate not aligning with the documented Extended Key Usage (EKU) requirements. A certificate that specifies extendedKeyUsage but is missing extendedKeyUsage = clientAuth may still be successfully authenticated via the TLS handshake as a client. This issue is specific to MongoDB servers running on Windows or Apple as the expected validation behavior functions correctly on Linux systems.\n\nAdditionally, MongoDB servers may successfully establish egress TLS connections with servers that present server certificates not aligning with the documented Extended Key Usage (EKU) requirements. A certificate that specifies extendedKeyUsage but is missing extendedKeyUsage = serverAuth may still be successfully authenticated via the TLS handshake as a server. This issue is specific to MongoDB servers running on Apple as the expected validation behavior functions correctly on both Linux and Windows systems. \n\nThis vulnerability affects MongoDB Server v7.0 versions prior to 7.0.26, MongoDB Server v8.0 versions prior to 8.0.16 and MongoDB Server v8.2 versions prior to 8.2.2",
+      "cvss_score": 4.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.26",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.16",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.2.2",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00036,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13507",
+      "description": "Inconsistent object size validation in time series processing logic may result in later processing of oversized BSON documents leading to an assert failing and process termination. \nThis issue impacts MongoDB Server v7.0 versions prior to 7.0.26, v8.0 versions prior to 8.0.16 and MongoDB server v8.2 versions prior to 8.2.1.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.26",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.16",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.2.1",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00152,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1284"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13643",
+      "description": "A user with access to the cluster with a limited set of privilege actions may be able to terminate queries that are being executed by other users. This may cause a denial of service by preventing a fraction of queries from successfully completing. This issue affects MongoDB Server v7.0 versions prior to 7.0.26 and MongoDB Server v8.0 versions prior to 8.0.14",
+      "cvss_score": 3.1,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.14",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.26",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00087,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13644",
+      "description": "MongoDB Server may experience an invariant failure during batched delete operations when handling documents. The issue arises when the server mistakenly assumes the presence of multiple documents in a batch based solely on document size exceeding BSONObjMaxSize. This issue affects MongoDB Server v7.0 versions prior to 7.0.26, MongoDB Server v8.0 versions prior to 8.0.13, and MongoDB Server v8.1 versions prior to 8.1.2",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.13",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.26",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.1.2",
+              "status": "affected",
+              "version": "8.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.001,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-617"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14345",
+      "description": "A post-authentication\u00a0flaw in the network two-phase commit protocol used for cross-shard transactions in MongoDB Server may lead to logical data inconsistencies under specific conditions which are not predictable and exist for a very short period of time. This error can cause the transaction coordination logic to misinterpret the transaction as committed, resulting in inconsistent state on those shards. This may lead to low integrity and availability impact.\n\nThis issue impacts MongoDB Server v8.0 versions prior to 8.0.16, MongoDB Server v7.0 versions prior to 7.0.26 and MongoDB server v8.2 versions prior to 8.2.2.",
+      "cvss_score": 4.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.26",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.16",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.2.2",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00051,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-667"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14847",
+      "description": "Mismatched length fields in Zlib compressed protocol headers may allow a read of uninitialized heap memory by an unauthenticated client. This issue affects all MongoDB Server v7.0 prior to 7.0.28 versions, MongoDB Server v8.0 versions prior to 8.0.17, MongoDB Server v8.2 versions prior to 8.2.3, MongoDB Server v6.0 versions prior to 6.0.27, MongoDB Server v5.0 versions prior to 5.0.32, MongoDB Server v4.4 versions prior to 4.4.30, MongoDB Server v4.2 versions greater than or equal to 4.2.0, MongoDB Server v4.0 versions greater than or equal to 4.0.0, and MongoDB Server v3.6 versions greater than or equal to 3.6.0.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc.",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.2.3",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.17",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.28",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.27",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "5.0.32",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "4.4.30",
+              "status": "affected",
+              "version": "4.4",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.2",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.0",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "3.6",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc."
+      ],
+      "active_threat": true,
+      "probability_score": 0.74627,
+      "kev": {
+        "cveID": "CVE-2025-14847",
+        "vendorProject": "MongoDB",
+        "product": "MongoDB and MongoDB Server",
+        "vulnerabilityName": "MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability",
+        "dateAdded": "2025-12-29",
+        "shortDescription": "MongoDB Server contains an improper handling of length parameter inconsistency vulnerability in Zlib compressed protocol headers. This vulnerability may allow a read of uninitialized heap memory by an unauthenticated client.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-01-19",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-130"
+        ],
+        "cpe_count": 6,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1691",
+      "description": "The MongoDB Shell may be susceptible to control character injection where an attacker with control of the mongosh autocomplete feature, can use the autocompletion feature to input and run obfuscated malicious text. This requires user interaction in the form of the user using \u2018tab\u2019 to autocomplete text that is a prefix of the attacker\u2019s prepared autocompletion. This issue affects mongosh versions prior to\u00a02.3.9.\u00a0\n\n\nThe vulnerability is exploitable only when mongosh is connected to a cluster that is partially or fully controlled by an attacker.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongosh",
+          "versions": [
+            {
+              "lessThan": "2.3.9",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongosh",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00234,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-74"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1692",
+      "description": "The MongoDB Shell may be susceptible to control character injection where an attacker with control of the user\u2019s clipboard could manipulate them to paste text into mongosh that evaluates arbitrary code. Control characters in the pasted text can be used to obfuscate malicious code. This issue affects mongosh versions prior to 2.3.9",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongosh",
+          "versions": [
+            {
+              "lessThan": "2.3.9",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongosh",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00087,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-150"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1693",
+      "description": "The MongoDB Shell may be susceptible to control character injection where an attacker with control over the database cluster contents can inject control characters into the shell output. This may result in the display of falsified messages that appear to originate from mongosh or the underlying operating system, potentially misleading users into executing unsafe actions.\n\n\nThe vulnerability is exploitable only when mongosh is connected to a cluster that is partially or fully controlled by an attacker.\n\n\nThis issue affects mongosh versions prior to 2.3.9",
+      "cvss_score": 3.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongosh",
+          "versions": [
+            {
+              "lessThan": "2.3.9",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongosh",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00111,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-150"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1755",
+      "description": "MongoDB Compass may be susceptible to local privilege escalation under certain conditions potentially enabling unauthorized actions on a user's system with elevated privileges, when a crafted file is stored in C:\\node_modules\\. This issue affects MongoDB Compass prior to 1.42.1",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb compass",
+          "versions": [
+            {
+              "lessThan": "1.42.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb compass",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1756",
+      "description": "mongosh may be susceptible to local privilege escalation under certain conditions potentially enabling unauthorized actions on a user's system with elevated privilege, when a crafted file is stored in C:\\node_modules\\. This issue affects mongosh prior to 2.3.0",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongosh",
+          "versions": [
+            {
+              "lessThan": "2.3.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongosh",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00027,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426"
+        ],
+        "cpe_count": 13,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3082",
+      "description": "A user authorized to access a view may be able to alter the intended collation, allowing them to access to a different or unintended view of underlying data. This issue affects MongoDB Server v5.0 version prior to 5.0.31, MongoDB Server v6.0 version prior to 6.0.20, MongoDB Server v7.0 version prior to 7.0.14 and MongoDB Server v7.3 versions prior to 7.3.4.",
+      "cvss_score": 3.1,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.31",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.20",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.14",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.3.4",
+              "status": "affected",
+              "version": "7.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0018,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3083",
+      "description": "Specifically crafted MongoDB wire protocol messages can cause mongos to crash during command validation. This can occur without using an authenticated connection. This issue affects MongoDB v5.0 versions prior to 5.0.31, \u00a0MongoDB v6.0 versions prior to\u00a06.0.20 and MongoDB v7.0 versions prior to 7.0.16",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.31",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.20",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.16",
+              "status": "affected",
+              "version": "7.0.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00256,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-248"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3084",
+      "description": "When run on commands with certain arguments set, explain may fail to validate these arguments before using them. This can lead to crashes in router servers. This affects MongoDB Server v5.0 prior to 5.0.31, MongoDB Server v6.0 prior to 6.0.20, MongoDB Server v7.0 prior to 7.0.16 and MongoDB Server v8.0 prior to 8.0.4",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.31",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.20",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.16",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.4",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00478,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-703"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3085",
+      "description": "A MongoDB server under specific conditions running on Linux with TLS and CRL revocation status checking enabled, fails to check the revocation status of the intermediate certificates in the peer's certificate chain. In cases of MONGODB-X509, which is not enabled by default, this may lead to improper authentication. This issue may also affect intra-cluster authentication. This issue affects MongoDB Server v5.0 versions prior to 5.0.31, MongoDB Server v6.0 versions prior to 6.0.20, MongoDB Server v7.0 versions prior to 7.0.16 and MongoDB Server v8.0 versions prior to 8.0.4.\nRequired Configuration :\u00a0MongoDB Server must be running on Linux Operating Systems and CRL revocation status checking must be enabled",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.31",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.20",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.16",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.4",
+              "status": "affected",
+              "version": "8.0.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00161,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-299"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6706",
+      "description": "An authenticated user may trigger a use after free that may result in MongoDB Server crash and other unexpected behavior, even if the user does not have authorization to shut down a server.\nThe crash is triggered on affected versions by issuing an aggregation framework operation using a specific combination of rarely-used aggregation pipeline expressions. This issue affects MongoDB Server v6.0 version prior to 6.0.21, MongoDB Server v7.0 version prior to 7.0.17 and MongoDB Server v8.0 version prior to 8.0.4 when the SBE engine is enabled.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.21",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.17",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.4",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6707",
+      "description": "Under certain conditions, an authenticated user request may execute with stale privileges following an intentional change by an authorized administrator. This issue affects MongoDB Server v5.0 version prior to 5.0.31, MongoDB Server v6.0 version prior to 6.0.24, MongoDB Server v7.0 version prior to 7.0.21 and MongoDB Server v8.0 version prior to 8.0.5.",
+      "cvss_score": 4.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "5.0.31",
+              "status": "affected",
+              "version": "5.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.24",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.21",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.5",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6709",
+      "description": "The MongoDB Server is susceptible to a denial of service vulnerability due to improper handling of specific date values in JSON input when using OIDC authentication. This can be reproduced using the mongo shell to send a malicious JSON payload leading to an invariant failure and server crash. This issue affects MongoDB Server v7.0 versions prior to 7.0.17 and MongoDB Server v8.0 versions prior to 8.0.5.\n\nThe same issue affects MongoDB Server v6.0 versions prior to 6.0.21, but an attacker can only induce denial of service after authenticating.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.17",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.5",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "6.0.21",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00159,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6710",
+      "description": "MongoDB Server may be susceptible to stack overflow due to JSON parsing mechanism, where specifically crafted JSON inputs may induce unwarranted levels of recursion, resulting in excessive stack space consumption. Such inputs can lead to a stack overflow that causes the server to crash which could occur pre-authorisation. This issue affects MongoDB Server v7.0 versions prior to 7.0.17 and MongoDB Server v8.0 versions prior to 8.0.5.\n\nThe same issue affects MongoDB Server v6.0 versions prior to 6.0.21, but an attacker can only induce denial of service after authenticating.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.21",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.17",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.5",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00053,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-674"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6711",
+      "description": "An issue has been identified in MongoDB Server where unredacted queries may inadvertently appear in server logs when certain error conditions are encountered. This issue affects MongoDB Server v8.0 versions prior to 8.0.5, MongoDB Server v7.0 versions prior to 7.0.18 and MongoDB Server v6.0 versions prior to 6.0.21.",
+      "cvss_score": 4.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.21",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.18",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.5",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00071,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6712",
+      "description": "MongoDB Server may be susceptible to disruption caused by high memory usage, potentially leading to server crash. This condition is linked to inefficiencies in memory management related to internal operations. In scenarios where certain internal processes persist longer than anticipated, memory consumption can increase, potentially impacting server stability and availability. This issue affects MongoDB Server v8.0 versions prior to 8.0.10",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.10",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0014,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6713",
+      "description": "An unauthorized user may leverage a specially crafted aggregation pipeline to access data without proper authorization due to improper handling of the $mergeCursors stage in MongoDB Server. This may lead to access to data without further authorisation. This issue affects MongoDB Server MongoDB Server v8.0 versions prior to 8.0.7, MongoDB Server v7.0 versions prior to 7.0.19 and MongoDB Server v6.0 versions prior to 6.0.22",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.22",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.19",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.7",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.001,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6714",
+      "description": "MongoDB Server's mongos component can become unresponsive to new connections due to incorrect handling of incomplete data. This affects MongoDB when configured with load balancer support. This issue affects MongoDB Server v6.0 prior to 6.0.23, MongoDB Server v7.0 prior to 7.0.20 and MongoDB Server v8.0 prior to 8.0.9\n\nRequired Configuration:\n\nThis affects MongoDB sharded clusters when configured with load balancer support for mongos using HAProxy on specified ports.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "6.0.23",
+              "status": "affected",
+              "version": "6.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "7.0.20",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "8.0.9",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400",
+          "CWE-834"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-7259",
+      "description": "An authorized user can issue queries with duplicate _id fields, that leads to unexpected behavior in MongoDB Server, which may result to crash. This issue can only be triggered by authorized users and cause Denial of Service. This issue affects MongoDB Server v8.1 version 8.1.0.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThanOrEqual": "8.1.0",
+              "status": "affected",
+              "version": "8.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00129,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-843"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1847",
+      "description": "Inserting certain large documents into a replica set could lead to replica set secondaries not being able to fetch the oplog from the primary. This could stall replication inside the replica set leading to server crash.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1848",
+      "description": "Connections received from the proxy port may not count towards total accepted connections, resulting in server crashes if the total number of connections exceeds available resources. This only applies to connections accepted from the proxy port, pending the proxy protocol header.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0006,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1849",
+      "description": "MongoDB Server may experience an out-of-memory failure while evaluating expressions that produce deeply nested documents. The issue arises in recursive functions because the server does not periodically check the depth of the expression.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.2.2",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-674"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1850",
+      "description": "Complex queries can cause excessive memory usage in MongoDB Query Planner resulting in an Out-Of-Memory Crash.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25609",
+      "description": "Incorrect validation of the profile command may result in the determination that a request altering the 'filter' is read-only.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:L/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00034,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25610",
+      "description": "An authorized user may trigger a server crash by running a $geoNear pipeline with certain invalid index hints.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.0.13",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-617"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25611",
+      "description": "A series of specifically crafted, unauthenticated messages can exhaust available memory and crash a MongoDB server.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-405"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25612",
+      "description": "The internal locking mechanism of the MongoDB server uses an internal encoding of the resources in order to choose what lock to take. Collections may inadvertently collide with one another in this representation causing unavailability between them due to conflicting locks.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00046,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-412"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25613",
+      "description": "An authorized user may disable the MongoDB server by issuing a query against a collection that contains an invalid compound wildcard index.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "lessThan": "7.0.29",
+              "status": "affected",
+              "version": "7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.0.18",
+              "status": "affected",
+              "version": "8.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "8.2.4",
+              "status": "affected",
+              "version": "8.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-704"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2302",
+      "description": "Under specific conditions when processing a maliciously crafted value of type Hash r, Mongoid::Criteria.from_hash may allow for executing arbitrary Ruby code.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb ruby driver",
+          "versions": [
+            {
+              "lessThanOrEqual": "7.6.1",
+              "status": "affected",
+              "version": "7.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "8.0.12",
+              "status": "affected",
+              "version": "8.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "8.1.12",
+              "status": "affected",
+              "version": "8.1.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.0.10",
+              "status": "affected",
+              "version": "9.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb ruby driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-183"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2303",
+      "description": "The mongo-go-driver repository\u00a0contains CGo bindings for GSSAPI (Kerberos) authentication on Linux and macOS. The C wrapper implementation contains a heap out-of-bounds read vulnerability due to incorrect assumptions about string termination in the GSSAPI standard. Since GSSAPI buffers are not guaranteed to be null-terminated or have extra padding, this results in reading one byte past the allocated heap buffer.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb go driver",
+          "versions": [
+            {
+              "lessThan": "1.17.7",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "2.4.2",
+              "status": "affected",
+              "version": "2.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb go driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-183"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4147",
+      "description": "An authenticated user with the read role may read limited amounts of uninitialized stack memory via specially-crafted issuances of the filemd5 command.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2",
+              "lessThan": "8.2.6",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "8.0",
+              "lessThan": "8.0.20",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "7.0",
+              "lessThan": "7.0.31",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00034,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-457"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4148",
+      "description": "A use-after-free vulnerability can be triggered in sharded clusters by an authenticated user with the read role who issues a specially crafted $lookup or $graphLookup aggregation pipeline.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2",
+              "lessThan": "8.2.6",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "8.0",
+              "lessThan": "8.0.20",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "7.0",
+              "lessThan": "7.0.31",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00047,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4358",
+      "description": "A specially crafted aggregation query with $lookup by an authenticated user with write privileges can cause a double-free or use-after-free memory issue in the slot-based execution (SBE) engine when an in-memory hash table is spilled to disk.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:L/VI:L/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2",
+              "lessThan": "8.2.6",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "8.0",
+              "lessThan": "8.0.20",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "7.0",
+              "lessThan": "7.0.31",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb server",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00064,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-415"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4359",
+      "description": "A compromised third party cloud server or man-in-the-middle attacker could send a malformed HTTP response and cause a crash in applications using the MongoDB C driver.",
+      "cvss_score": 2.0,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:H/UI:P/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "mongodb inc",
+          "product": "mongodb c driver",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "2.2.3",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:mongodb c driver",
+        "vendor:mongodb inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00033,
+      "nvd": {
+        "cvss_v3_score": 2.0,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-158"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    }
+  ]
+}

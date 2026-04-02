@@ -1,0 +1,5342 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "hashicorp",
+  "count": 83,
+  "items": [
+    {
+      "cve_id": "CVE-2022-3866",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 workload identity token can list non-sensitive metadata for paths under nomad/ that belong to other jobs in the same namespace. Fixed in 1.4.2.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.4.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.4.1"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.4.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.4.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0024,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-668"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-3867",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.4.1 event stream subscribers using a token with TTL receive updates until token garbage is collected. Fixed in 1.4.2.",
+      "cvss_score": 2.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.4.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.4.1"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.4.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.4.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-613"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-3920",
+      "description": "HashiCorp Consul and Consul Enterprise 1.13.0 up to 1.13.3 do not filter cluster filtering's imported nodes and services for HTTP or RPC endpoints used by the UI. Fixed in 1.14.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.2"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.3"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.2"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.3"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00426,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0475",
+      "description": "HashiCorp go-getter up to 1.6.2 and 2.1.1 is vulnerable to decompression bombs. Fixed in 1.7.0 and 2.2.0.",
+      "cvss_score": 4.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "go-getter",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.6.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "2.1.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:go-getter",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-409"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0620",
+      "description": "HashiCorp Vault and Vault Enterprise versions 0.8.0 through 1.13.1 are vulnerable to an SQL injection attack when configuring the Microsoft SQL (MSSQL) Database Storage Backend. When configuring the MSSQL plugin through the local, certain parameters are not sanitized when passed to the user-provided MSSQL database. An attacker may modify these parameters to execute a malicious SQL command.\n\nThis issue is fixed in versions 1.13.1, 1.12.5, and 1.11.9.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.13.1",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.5",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.11.9",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.13.1",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.5",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.11.9",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00086,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0665",
+      "description": "HashiCorp Vault's PKI mount issuer endpoints did not correctly authorize access to remove an issuer or modify issuer metadata, potentially resulting in denial of service of the PKI mount. This bug did not affect public or private key material, trust chains or certificate issuance. Fixed in Vault 1.13.1, 1.12.5, and 1.11.9.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.1",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.9",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.1",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00081,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0690",
+      "description": "HashiCorp Boundary from 0.10.0 through 0.11.2 contain an issue where when using a PKI-based worker with a Key Management Service (KMS) defined in the configuration file,\u00a0new credentials created after an automatic rotation may not have been encrypted via the intended KMS. This would result in the credentials being stored in plaintext on the Boundary PKI worker\u2019s disk.\n\nThis issue is fixed in version 0.12.0.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "boundary",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.10.0",
+              "lessThanOrEqual": "0.11.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:boundary",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00056,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312",
+          "CWE-311"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0821",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.2.15 up to 1.3.8, and 1.4.3 jobs using a maliciously compressed artifact stanza source can cause excessive disk usage. Fixed in 1.2.16, 1.3.9, and 1.4.4.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.2.15",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.3.8",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.4.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.2.15",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.3.8",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "1.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00451,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-409"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-0845",
+      "description": "Consul and Consul Enterprise allowed an authenticated user with service:write permissions to trigger a workflow that causes Consul server and client agents to crash under certain circumstances. This vulnerability was fixed in Consul 1.14.5.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.14.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.2"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.3"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.4"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.14.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.2"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.3"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0039,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 1,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1296",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.4.0 up to 1.5.0 did not correctly enforce deny policies applied to a workload\u2019s variables. Fixed in 1.4.6 and 1.5.1.",
+      "cvss_score": 2.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.5.0"
+            },
+            {
+              "lessThan": "1.4.6",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.5.0"
+            },
+            {
+              "lessThan": "1.4.6",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00169,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-682",
+          "CWE-862"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1297",
+      "description": "Consul and Consul Enterprise's cluster peering implementation contained a flaw whereby a peer cluster with service of the same name as a local service could corrupt Consul state, resulting in denial of service. This vulnerability was resolved in Consul 1.14.5, and 1.15.3",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.14.0",
+              "lessThanOrEqual": "1.14.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.0",
+              "lessThanOrEqual": "1.15.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.14.0",
+              "lessThanOrEqual": "1.14.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.0",
+              "lessThanOrEqual": "1.15.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00243,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-826"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1299",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.5.0 allow a job submitter to escalate to management-level privileges using workload identity and task API. Fixed in 1.5.1.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.5.0"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.5.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-1782",
+      "description": "HashiCorp Nomad and Nomad Enterprise versions 1.5.0 up to 1.5.2 allow unauthenticated users to bypass intended ACL authorizations for clusters where mTLS is not enabled. This issue is fixed in version 1.5.3.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.5.3",
+              "status": "affected",
+              "version": "1.5.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "lessThan": "1.5.3",
+              "status": "affected",
+              "version": "1.5.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00403,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-24999",
+      "description": "HashiCorp Vault and Vault Enterprise\u2019s approle auth method allowed any authenticated user with access to an approle destroy endpoint to destroy the secret ID of any other role by providing the secret ID accessor. This vulnerability is fixed in Vault 1.13.0, 1.12.4, 1.11.8, 1.10.11 and above.",
+      "cvss_score": 4.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.12.4",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.11.8",
+              "status": "affected",
+              "version": "1.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.10.11",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.12.4",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.11.8",
+              "status": "affected",
+              "version": "1.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.10.11",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00121,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-25000",
+      "description": "HashiCorp Vault's implementation of Shamir's secret sharing used precomputed table lookups, and was vulnerable to cache-timing attacks. An attacker with access to, and the ability to observe a large number of unseal operations on the host through a side channel may reduce the search space of a brute force effort to recover the Shamir shares. Fixed in Vault 1.13.1, 1.12.5, and 1.11.9.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.1",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.11.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.1",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "1.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00028,
+      "nvd": {
+        "cvss_v3_score": 4.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-208",
+          "CWE-203"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2121",
+      "description": "Vault and Vault Enterprise's (Vault) key-value v2 (kv-v2) diff viewer allowed HTML injection into the Vault web UI through key values. This vulnerability, CVE-2023-2121, is fixed in Vault 1.14.0, 1.13.3, 1.12.7, and 1.11.11.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.3",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.7",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.10.0",
+              "lessThan": "1.11.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThan": "1.13.3",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.12.7",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.11.0",
+              "lessThan": "1.11.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.10.0",
+              "lessThan": "1.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00743,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2197",
+      "description": "HashiCorp Vault Enterprise 1.13.0 up to 1.13.1 is vulnerable to a padding oracle attack when using an HSM in conjunction with the\u00a0CKM_AES_CBC_PAD or\u00a0CKM_AES_CBC encryption mechanisms.\u00a0An attacker with privileges to modify storage and restart Vault may be able to intercept or modify cipher text in order to derive Vault\u2019s root key. Fixed in 1.13.2",
+      "cvss_score": 2.5,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThanOrEqual": "1.13.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00024,
+      "nvd": {
+        "cvss_v3_score": 2.5,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-326"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2816",
+      "description": "Consul and Consul Enterprise allowed any user with service:write permissions to use Envoy extensions configured via service-defaults to patch remote proxy instances that target the configured service, regardless of whether the user has permission to modify the service(s) corresponding to those modified proxies.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.2"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.2"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00161,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3072",
+      "description": "HashiCorp Nomad and Nomad Enterprise 0.7.0 up to 1.5.6 and 1.4.10 ACL policies using a block without a label generates unexpected results. Fixed in 1.6.0, 1.5.7, and 1.4.11.",
+      "cvss_score": 4.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.4.10",
+              "status": "affected",
+              "version": "0.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.5.6",
+              "status": "affected",
+              "version": "0.7.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.4.10",
+              "status": "affected",
+              "version": "0.7.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.5.6",
+              "status": "affected",
+              "version": "0.7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 3.8,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266",
+          "CWE-862"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3114",
+      "description": "Terraform Enterprise since v202207-1 did not properly implement authorization rules for agent pools, allowing the workspace to be targeted by unauthorized agents. This authorization flaw could potentially allow a workspace to access resources from a separate, higher-privileged workspace in the same organization that targeted an agent pool. This vulnerability, CVE-2023-3114, is fixed in Terraform Enterprise v202306-1.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "terraform enterprise",
+          "versions": [
+            {
+              "lessThan": "v202306-1",
+              "status": "affected",
+              "version": "v202207-1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:terraform enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266",
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3299",
+      "description": "HashiCorp Nomad Enterprise 1.2.11 up to 1.5.6, and 1.4.10 ACL policies using a block without a label generates unexpected results. Fixed in 1.6.0, 1.5.7, and 1.4.11.",
+      "cvss_score": 3.4,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.4.10",
+              "status": "affected",
+              "version": "1.2.11",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.5.6",
+              "status": "affected",
+              "version": "1.2.11",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00248,
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-201",
+          "CWE-668"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3300",
+      "description": "HashiCorp Nomad and Nomad Enterprise 0.11.0 up to 1.5.6 and 1.4.1 HTTP search API can reveal names of available CSI plugins to unauthenticated users or users without the plugin:read policy. Fixed in 1.6.0, 1.5.7, and 1.4.1.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.4.1",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.5.6",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.4.1",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.5.6",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00546,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266",
+          "CWE-862"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3462",
+      "description": "HashiCorp's Vault and Vault Enterprise are vulnerable to user enumeration when using the LDAP auth method. An attacker may submit requests of existent and non-existent LDAP users and observe the response from Vault to check if the account is valid on the LDAP server. This vulnerability is fixed in Vault 1.14.1 and 1.13.5.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThanOrEqual": "1.13.4",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.0"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.13.0",
+              "lessThanOrEqual": "1.13.4",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01006,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-203"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3518",
+      "description": "HashiCorp Consul and Consul Enterprise 1.16.0 when using JWT Auth for service mesh incorrectly allows/denies access regardless of service identities. Fixed in 1.16.1.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.16.0"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.16.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3774",
+      "description": "An unhandled error in Vault Enterprise's namespace creation may cause the Vault process to crash, potentially resulting in denial of service. Fixed in 1.14.1, 1.13.5, and 1.12.9.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.14.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.4"
+            },
+            {
+              "status": "affected",
+              "version": "1.12.8"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00532,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-248",
+          "CWE-755"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3775",
+      "description": "A Vault Enterprise Sentinel Role Governing Policy created by an operator to restrict access to resources in one namespace can be applied to requests outside in another non-descendant namespace, potentially resulting in denial of service. Fixed in Vault Enterprise 1.15.0, 1.14.4, 1.13.8.",
+      "cvss_score": 4.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.14.4",
+              "status": "affected",
+              "version": "1.14.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.13.8",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.13.0",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00362,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-4680",
+      "description": "HashiCorp Vault and Vault Enterprise transit secrets engine allowed authorized users to specify arbitrary nonces, even with convergent encryption disabled. The encrypt endpoint, in combination with an offline attack, could be used to decrypt arbitrary ciphertext and potentially derive the authentication subkey when using transit secrets engine without convergent encryption. Introduced in 1.6.0 and fixed in 1.14.3, 1.13.7, and 1.12.11.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.14.3",
+              "status": "affected",
+              "version": "1.14.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.13.7",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.11",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.0",
+              "status": "affected",
+              "version": "1.6.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.14.3",
+              "status": "affected",
+              "version": "1.14.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.13.7",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.11",
+              "status": "affected",
+              "version": "1.12.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThan": "1.12.0",
+              "status": "affected",
+              "version": "1.6.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01521,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-323",
+          "CWE-20"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-4782",
+      "description": "Terraform version 1.0.8 through 1.5.6 allows arbitrary file write during the `init` operation if run on maliciously crafted Terraform configuration. This vulnerability is fixed in Terraform 1.5.7.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "terraform",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.0.8",
+              "lessThan": "1.5.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:terraform",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00051,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5077",
+      "description": "The Vault and Vault Enterprise (\"Vault\") Google Cloud secrets engine did not preserve existing Google Cloud IAM Conditions upon creating or updating rolesets. Fixed in Vault 1.13.0.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.13.0",
+              "status": "affected",
+              "version": "0.10.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.13.0",
+              "status": "affected",
+              "version": "0.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0021,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266",
+          "CWE-732"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5834",
+      "description": "HashiCorp Vagrant's Windows installer targeted a custom location with a non-protected path that could be junctioned, introducing potential for unauthorized file system writes. Fixed in Vagrant 2.4.0.",
+      "cvss_score": 3.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vagrant",
+          "versions": [
+            {
+              "lessThan": "2.4.0",
+              "status": "affected",
+              "version": "*",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vagrant",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00083,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1386",
+          "CWE-59"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5954",
+      "description": "HashiCorp Vault and Vault Enterprise inbound client requests triggering a policy check can lead to an unbounded consumption of memory. A large number of these requests may lead to denial-of-service. Fixed in Vault 1.15.2, 1.14.6, and 1.13.10.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.3"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.4"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.5"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.7"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.8"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.9"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0"
+            },
+            {
+              "status": "affected",
+              "version": "1.15.1"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.3"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.4"
+            },
+            {
+              "status": "affected",
+              "version": "1.14.5"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.7"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.8"
+            },
+            {
+              "status": "affected",
+              "version": "1.13.9"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00517,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-401"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-6337",
+      "description": "HashiCorp Vault and Vault Enterprise 1.12.0 and newer are vulnerable to a denial of service through memory exhaustion of the host when handling large unauthenticated and authenticated HTTP requests from a client. Vault will attempt to map the request to memory, resulting in the exhaustion of available memory on the host, which may cause Vault to crash.\n\nFixed in\u00a0Vault 1.15.4, 1.14.8, 1.13.12.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.15.4",
+              "changes": [
+                {
+                  "at": "1.14.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.13.2",
+                  "status": "unaffected"
+                }
+              ],
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.12.0",
+              "lessThan": "1.15.4",
+              "changes": [
+                {
+                  "at": "1.14.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.13.2",
+                  "status": "unaffected"
+                }
+              ],
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00999,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 8,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-0831",
+      "description": "Vault and Vault Enterprise (\u201cVault\u201d) may expose sensitive information when enabling an audit device which specifies the `log_raw` option, which may log sensitive information to other audit devices, regardless of whether they are configured to use `log_raw`.",
+      "cvss_score": 4.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0",
+              "lessThanOrEqual": "1.15.4",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.15.0",
+              "lessThanOrEqual": "1.15.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00205,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 2,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10005",
+      "description": "A vulnerability was identified in Consul and Consul Enterprise (\u201cConsul\u201d) such that using URL paths in L7 traffic intentions could bypass HTTP request path-based access rules.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.9.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.3",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.5",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.15",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 5.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10006",
+      "description": "A vulnerability was identified in Consul and Consul Enterprise (\u201cConsul\u201d) such that using Headers in L7 traffic intentions could bypass HTTP header based access rules.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.9.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.3",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.5",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.15",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.9.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 5.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-644",
+          "CWE-116"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10086",
+      "description": "A vulnerability was identified in Consul and Consul Enterprise such that the server response did not explicitly set a Content-Type HTTP header, allowing user-provided inputs to be misinterpreted and lead to reflected XSS.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "1.4.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.3",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.5",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.15",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "1.4.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01462,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10228",
+      "description": "The Vagrant VMWare Utility Windows installer targeted a custom location with a non-protected path that could be modified by an unprivileged user, introducing potential for unauthorized file system writes. This vulnerability, CVE-2024-10228, was fixed in Vagrant VMWare Utility 1.0.23",
+      "cvss_score": 3.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vagrant",
+          "versions": [
+            {
+              "lessThan": "1.0.23",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vagrant",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 3.3,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10975",
+      "description": "Nomad Community and Nomad Enterprise (\"Nomad\") volume specification is vulnerable to arbitrary cross-namespace volume creation through unauthorized Container Storage Interface (CSI) volume writes. This vulnerability, identified as CVE-2024-10975, is fixed in Nomad Community Edition 1.9.2 and Nomad Enterprise 1.9.2, 1.8.7, and 1.7.15.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.9.2",
+              "status": "affected",
+              "version": "1.3.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.8.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.15",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.9.2",
+              "status": "affected",
+              "version": "1.3.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00166,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12289",
+      "description": "Boundary Community Edition and Boundary Enterprise (\u201cBoundary\u201d) incorrectly handle HTTP requests during the initialization of the Boundary controller, which may cause the Boundary server to terminate prematurely. Boundary is only vulnerable to this flaw during the initialization of the Boundary controller, which on average is measured in milliseconds during the Boundary startup process.\n\nThis vulnerability, CVE-2024-12289, is fixed in Boundary Community Edition and Boundary Enterprise 0.16.4, 0.17.3, 0.18.2.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "boundary",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "0.16.4",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "0.17.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "0.18.2",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "boundary enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "0.16.4",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "0.17.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "0.18.2",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:boundary",
+        "product:boundary enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00392,
+      "nvd": {
+        "cvss_v3_score": 5.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-460",
+          "CWE-665"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12678",
+      "description": "Nomad Community and Nomad Enterprise (\"Nomad\") allocations are vulnerable to privilege escalation within a namespace through unredacted workload identity tokens. This vulnerability, identified as CVE-2024-12678, is fixed in Nomad Community Edition 1.9.4 and Nomad Enterprise 1.9.4, 1.8.8, and 1.7.16.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.9.4",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.8.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.16",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.9.4",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00301,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1052",
+      "description": "Boundary and Boundary Enterprise (\u201cBoundary\u201d) is vulnerable to session hijacking through TLS certificate tampering. An attacker with privileges to enumerate active or pending sessions, obtain a private key pertaining to a session, and obtain a valid trust on first use (TOFU) token may craft a TLS certificate to hijack an active session and gain access to the underlying service or application.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "boundary",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.8.0",
+              "lessThan": "0.15.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "boundary enterprise",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.8.0",
+              "lessThan": "0.15.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:boundary",
+        "product:boundary enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00303,
+      "nvd": {
+        "cvss_v3_score": 8.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1329",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.5.13 up to 1.6.6, and 1.7.3 template renderer is vulnerable to arbitrary file write on the host as the Nomad client user through symlink attacks. This vulnerability, CVE-2024-1329, is fixed in Nomad 1.7.4, 1.6.7, and 1.5.14.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.5.13",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.6.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.7.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.5.13",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.6.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "1.7.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00334,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59",
+          "CWE-610"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2048",
+      "description": "Vault and Vault Enterprise (\u201cVault\u201d) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as trusted certificate. In this configuration, an attacker may be able to craft a malicious certificate that could be used to bypass authentication. Fixed in Vault 1.15.5 and 1.14.10.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.14.10",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.0",
+              "status": "affected",
+              "version": "1.15.5",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.14.10",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.0",
+              "status": "affected",
+              "version": "1.15.5",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00253,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 5,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2660",
+      "description": "Vault and Vault Enterprise TLS certificates auth method did not correctly validate OCSP responses when one or more OCSP sources were configured. This vulnerability, CVE-2024-2660, affects Vault and Vault Enterprise 1.14.0 and above, and is fixed in Vault 1.16.0 and Vault Enterprise 1.16.1, 1.15.7, and 1.14.11.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.16.0",
+              "status": "affected",
+              "version": "1.14.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.14.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.7",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.0",
+              "status": "affected",
+              "version": "1.14.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00162,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-636"
+        ],
+        "cpe_count": 3,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2877",
+      "description": "Vault Enterprise, when configured with performance standby nodes and a configured audit device, will inadvertently log request headers on the standby node. These logs may have included sensitive HTTP request information in cleartext.\n\nThis vulnerability, CVE-2024-2877, was fixed in Vault Enterprise 1.15.8.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.15.8",
+              "status": "affected",
+              "version": "1.15.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00057,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3817",
+      "description": "HashiCorp\u2019s go-getter library is vulnerable to argument injection when executing Git to discover remote branches. \n\nThis vulnerability does not affect the go-getter/v2 branch and package.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "1.7.3",
+              "status": "affected",
+              "version": "1.5.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.02132,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-88"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-5798",
+      "description": "Vault and Vault Enterprise did not properly validate the JSON Web Token (JWT) role-bound audience claim when using the Vault JWT auth method. This may have resulted in Vault validating a JWT the audience and role-bound claims do not match, allowing an invalid login to succeed when it should have been rejected.\n\nThis vulnerability, CVE-2024-5798, was fixed in Vault and Vault Enterprise 1.17.0, 1.16.3, and 1.15.9",
+      "cvss_score": 2.6,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.15.9",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.14.13",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.2",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.15.9",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.14.13",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.2",
+              "status": "affected",
+              "version": "0.11.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0022,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6104",
+      "description": "go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.",
+      "cvss_score": 6.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "0.7.7",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6257",
+      "description": "HashiCorp\u2019s go-getter library can be coerced into executing Git update on an existing maliciously modified Git Configuration, potentially leading to arbitrary code execution.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "1.7.4",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00393,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6468",
+      "description": "Vault and Vault Enterprise did not properly handle requests originating from unauthorized IP addresses when the TCP listener option, proxy_protocol_behavior, was set to deny_unauthorized. When receiving a request from a source IP address that was not listed in proxy_protocol_authorized_addrs, the Vault API server would shut down and no longer respond to any HTTP requests, potentially resulting in denial of service.\n\nWhile this bug also affected versions of Vault up to 1.17.1 and 1.16.5, a separate regression in those release series did not allow Vault operators to configure the deny_unauthorized option, thus not allowing the conditions for the denial of service to occur.\n\nFixed in Vault and Vault Enterprise 1.17.2, 1.16.6, and 1.15.12.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.15.11",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "lessThan": "1.15.11",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00396,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-703"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6717",
+      "description": "HashiCorp Nomad and Nomad Enterprise 1.6.12 up to 1.7.9, and 1.8.1 archive unpacking during migration is vulnerable to path escaping of the allocation directory. This vulnerability, CVE-2024-6717, is fixed in Nomad 1.6.13, 1.7.10, and 1.8.2.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.8.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.6.13",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.10",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.8.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00289,
+      "nvd": {
+        "cvss_v3_score": 8.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-610"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-7594",
+      "description": "Vault\u2019s SSH secrets engine did not require the valid_principals list to contain a value by default. If the valid_principals and default_user fields of the SSH secrets engine configuration are not set, an SSH certificate requested by an authorized user to Vault\u2019s SSH secrets engine could be used to authenticate as any user on the host. Fixed in Vault Community Edition 1.17.6, and in Vault Enterprise 1.17.6, 1.16.10, and 1.15.15.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.17.6",
+              "status": "affected",
+              "version": "1.7.7",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.16.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.15",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.17.6",
+              "status": "affected",
+              "version": "1.7.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00603,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-7625",
+      "description": "In HashiCorp Nomad and Nomad Enterprise from 0.6.1 up to 1.6.13, 1.7.10, and 1.8.2, the archive unpacking process is vulnerable to writes outside the allocation directory during migration of allocation directories when multiple archive headers target the same file. This vulnerability, CVE-2024-7625, is fixed in Nomad 1.6.14, 1.7.11, and 1.8.3. Access or compromise of the Nomad client agent at the source allocation first is a prerequisite for leveraging this vulnerability.",
+      "cvss_score": 5.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.8.3",
+              "status": "affected",
+              "version": "0.6.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.6.14",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.11",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.8.3",
+              "status": "affected",
+              "version": "0.6.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00296,
+      "nvd": {
+        "cvss_v3_score": 5.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-610"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8185",
+      "description": "Vault Community and Vault Enterprise (\u201cVault\u201d) clusters using Vault\u2019s Integrated Storage backend are vulnerable to a denial-of-service (DoS) attack through memory exhaustion through a Raft cluster join API endpoint . An attacker may send a large volume of requests to the endpoint which may cause Vault to consume excessive system memory resources, potentially leading to a crash of the underlying system and the Vault process itself.\n\nThis vulnerability, CVE-2024-8185, is fixed in Vault Community 1.18.1 and Vault Enterprise 1.18.1, 1.17.8, and 1.16.12.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.18.1",
+              "status": "affected",
+              "version": "1.2.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.17.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.12",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.18.1",
+              "status": "affected",
+              "version": "1.2.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00814,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-636"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8365",
+      "description": "Vault Community Edition and Vault Enterprise experienced a regression where functionality that HMAC\u2019d sensitive headers in the configured audit device, specifically client tokens and token accessors, was removed. This resulted in the plaintext values of client tokens and token accessors being stored in the audit log. This vulnerability, CVE-2024-8365, was fixed in Vault Community Edition and Vault Enterprise 1.17.5 and Vault Enterprise 1.16.9.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.17.5",
+              "status": "affected",
+              "version": "1.17.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.16.9",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.17.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.17.5",
+              "status": "affected",
+              "version": "1.16.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00347,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-9180",
+      "description": "A privileged Vault operator with write permissions to the root namespace\u2019s identity endpoint could escalate their own or another user\u2019s privileges to Vault\u2019s root policy. Fixed in Vault Community Edition 1.18.0 and Vault Enterprise 1.18.0, 1.17.7, 1.16.11, and 1.15.16.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.18.0",
+              "status": "affected",
+              "version": "0.10.4",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.17.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.15.16",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.18.0",
+              "status": "affected",
+              "version": "0.10.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00302,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0377",
+      "description": "HashiCorp\u2019s go-slug library is vulnerable to a zip-slip style attack when a non-existing user-provided path is extracted from the tar entry.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "0.16.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00467,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0937",
+      "description": "Nomad Community and Nomad Enterprise (\"Nomad\") event stream configured with a wildcard namespace can bypass the ACL Policy allowing reads on other namespaces.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.9.6",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.8.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.18",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.9.6",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00178,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11374",
+      "description": "Consul and Consul Enterprise\u2019s (\u201cConsul\u201d) key/value endpoint is vulnerable to denial of service (DoS) due to incorrect Content Length header validation. This vulnerability, CVE-2025-11374, is fixed in Consul Community Edition 1.22.0 and Consul Enterprise 1.22.0, 1.21.6, 1.20.8 and 1.18.12.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.22.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.21.6",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.20.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.22.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11375",
+      "description": "Consul and Consul Enterprise\u2019s (\u201cConsul\u201d) event endpoint is vulnerable to denial of service (DoS) due to lack of maximum value on the Content Length header. This vulnerability, CVE-2025-11375, is fixed in Consul Community Edition 1.22.0 and Consul Enterprise 1.22.0, 1.21.6, 1.20.8 and 1.18.12.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.22.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.21.6",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.20.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.22.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11621",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) AWS Auth method may be susceptible to authentication bypass if the role of the configured bound_principal_iam is the same across AWS accounts, or uses a wildcard. This vulnerability, CVE-2025-11621, is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.21.0, 1.20.5, 1.19.11, and 1.16.27",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.21.0",
+              "status": "affected",
+              "version": "0.6.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.20.5",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.19.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.27",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.21.0",
+              "status": "affected",
+              "version": "0.6.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00119,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-288"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12044",
+      "description": "Vault and Vault Enterprise (\u201cVault\u201d) are vulnerable to an unauthenticated denial of service when processing JSON payloads. This occurs due to a regression from a previous fix for [+HCSEC-2025-24+|https://discuss.hashicorp.com/t/hcsec-2025-24-vault-denial-of-service-though-complex-json-payloads/76393]\u00a0 which allowed for processing JSON payloads before applying rate limits. This vulnerability, CVE-2025-12044, is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.16.27, 1.19.11, 1.20.5, and 1.21.0.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.21.0",
+              "status": "affected",
+              "version": "1.20.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.20.5",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.21.0",
+              "status": "affected",
+              "version": "1.20.3",
+              "versionType": "semver"
+            },
+            {
+              "changes": [
+                {
+                  "at": "1.19.11",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.19.11",
+              "status": "affected",
+              "version": "1.19.9",
+              "versionType": "semver"
+            },
+            {
+              "changes": [
+                {
+                  "at": "1.18.15",
+                  "status": "affected"
+                }
+              ],
+              "lessThan": "1.18.15",
+              "status": "affected",
+              "version": "1.18.14",
+              "versionType": "semver"
+            },
+            {
+              "changes": [
+                {
+                  "at": "1.16.27",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.16.27",
+              "status": "affected",
+              "version": "1.16.25",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13357",
+      "description": "Vault\u2019s Terraform Provider incorrectly set the default deny_null_bind parameter for the LDAP auth method to false by default, potentially resulting in an insecure configuration. If the underlying LDAP server allowed anonymous or unauthenticated binds, this could result in authentication bypass. This vulnerability, CVE-2025-13357, is fixed in Vault Terraform Provider v5.5.0.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "tooling",
+          "versions": [
+            {
+              "lessThan": "5.5.0",
+              "status": "affected",
+              "version": "4.2.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:tooling",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00095,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1188"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13432",
+      "description": "Terraform state versions can be created by a user with specific but insufficient permissions in a Terraform Enterprise workspace. This may allow for the alteration of infrastructure if a subsequent plan operation is approved by a user with approval permission or auto-applied. This vulnerability, CVE-2025-13432, is fixed in Terraform Enterprise version 1.1.1 and 1.0.3.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "terraform enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.0.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.1.1",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:terraform enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1293",
+      "description": "Hermes versions up to 0.4.0 improperly validated the JWT provided when using the AWS ALB authentication mode, potentially allowing for authentication bypass. This vulnerability, CVE-2025-1293, was fixed in Hermes 0.5.0.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "tooling",
+          "versions": [
+            {
+              "lessThan": "0.5.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:tooling",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0009,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1390"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1296",
+      "description": "Nomad Community and Nomad Enterprise (\u201cNomad\u201d) are vulnerable to unintentional exposure of the workload identity token and client secret token in audit logs. This vulnerability, identified as CVE-2025-1296, is fixed in Nomad Community Edition 1.9.7 and Nomad Enterprise 1.9.7, 1.8.11, and 1.7.19.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.9.7",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.8.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.7.19",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.9.7",
+              "status": "affected",
+              "version": "1.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00064,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3744",
+      "description": "Nomad Enterprise (\u201cNomad\u201d) jobs using the policy override option are bypassing the mandatory sentinel policies. This vulnerability, identified as CVE-2025-3744, is fixed in Nomad Enterprise 1.10.1, 1.9.9, and 1.8.13.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.9.9",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.8.13",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.10.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00251,
+      "nvd": {
+        "cvss_v3_score": 7.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3879",
+      "description": "Vault Community, Vault Enterprise (\u201cVault\u201d) Azure Auth method did not correctly validate the claims in the Azure-issued token, resulting in the potential bypass of the bound_locations parameter on login. Fixed in Vault Community Edition 1.19.1 and Vault Enterprise 1.19.1, 1.18.7, 1.17.14, 1.16.18.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.19.1",
+              "status": "affected",
+              "version": "0.10.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.1",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.6",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.17.13",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.16",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.19.1",
+              "status": "affected",
+              "version": "0.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00228,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4166",
+      "description": "Vault Community and Vault Enterprise Key/Value (kv) Version 2 plugin may unintentionally expose sensitive information in server and audit logs when users submit malformed payloads during secret creation or update operations via the Vault REST API. This vulnerability, identified as CVE-2025-4166, is fixed in Vault Community 1.19.3 and Vault Enterprise 1.19.3, 1.18.9, 1.17.16, 1.16.20.",
+      "cvss_score": 4.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.19.2",
+              "status": "affected",
+              "version": "0.3.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.18.9",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.17.16",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.20",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.19.2",
+              "status": "affected",
+              "version": "0.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00146,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-209"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4656",
+      "description": "Vault Community and Vault Enterprise rekey and recovery key operations can lead to a denial of service due to uncontrolled cancellation by a Vault operator. This vulnerability (CVE-2025-4656) has been remediated in Vault Community Edition 1.20.0 and Vault Enterprise 1.20.0, 1.19.6, 1.18.11, 1.17.17, and 1.16.22.",
+      "cvss_score": 3.1,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "1.14.8",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.6",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.17.17",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.22",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "1.14.8",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00028,
+      "nvd": {
+        "cvss_v3_score": 3.1,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1088"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4922",
+      "description": "Nomad Community and Nomad Enterprise (\u201cNomad\u201d) prefix-based ACL policy lookup can lead to incorrect rule application and shadowing. This vulnerability, identified as CVE-2025-4922, is fixed in Nomad Community Edition 1.10.2 and Nomad Enterprise 1.10.2, 1.9.10, and 1.8.14.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "nomad",
+          "versions": [
+            {
+              "lessThan": "1.10.2",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "nomad enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.9.10",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.8.14",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.10.2",
+              "status": "affected",
+              "version": "1.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:nomad",
+        "product:nomad enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-5999",
+      "description": "A privileged Vault operator with write permissions to the root namespace\u2019s identity endpoint could escalate their own or another user\u2019s token privileges to Vault\u2019s root policy. Fixed in Vault Community Edition 1.20.0 and Vault Enterprise 1.20.0, 1.19.6, 1.18.11 and 1.16.22.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "0.10.4",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.6",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.22",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.0",
+              "status": "affected",
+              "version": "0.10.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6000",
+      "description": "A privileged Vault operator within the root namespace with write permission to {{sys/audit}} may obtain code execution on the underlying host if a plugin directory is set in Vault\u2019s configuration. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0.8.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00089,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6004",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) user lockout feature could be bypassed for Userpass and LDAP authentication methods. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.13.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-307"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6011",
+      "description": "A timing side channel in Vault and Vault Enterprise\u2019s (\u201cVault\u201d) userpass auth method allowed an attacker to distinguish between existing and non-existing users, and potentially enumerate valid usernames for Vault\u2019s Userpass auth method. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 3.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00014,
+      "nvd": {
+        "cvss_v3_score": 3.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-203"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6013",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) ldap auth method may not have correctly enforced MFA if username_as_alias was set to true and a user had multiple CNs that are equal but with leading or trailing spaces. Fixed in Vault Community Edition 1.20.2 and Vault Enterprise 1.20.2, 1.19.8, 1.18.13, and 1.16.24.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.2",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.8",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.13",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.24",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.2",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00024,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-156"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6014",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) TOTP Secrets Engine code validation endpoint is susceptible to code reuse within its validity period. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00025,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-156"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6015",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) login MFA rate limits could be bypassed and TOTP tokens could be reused. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 5.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "1.10.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 5.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-307"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6037",
+      "description": "Vault and Vault Enterprise (\u201cVault\u201d) TLS certificate auth method did not correctly validate client certificates when configured with a non-CA certificate as [+trusted certificate+|https://developer.hashicorp.com/vault/api-docs/auth/cert#certificate]. In this configuration, an attacker may be able to craft a malicious certificate that could be used to impersonate another user. Fixed in Vault Community Edition 1.20.1 and Vault Enterprise 1.20.1, 1.19.7, 1.18.12, and 1.16.23.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.19.7",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.12",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.23",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.20.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6203",
+      "description": "A malicious user may submit a specially-crafted complex payload that otherwise meets the default request size limit which results in excessive memory and CPU consumption of Vault. This may lead to a timeout in Vault\u2019s auditing subroutine, potentially resulting in the Vault server to become unresponsive. This vulnerability, CVE-2025-6203, is fixed in Vault Community Edition 1.20.3 and Vault Enterprise 1.20.3, 1.19.9, 1.18.14, and 1.16.25.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "vault",
+          "versions": [
+            {
+              "lessThan": "1.21.0",
+              "status": "affected",
+              "version": "1.15.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "vault enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.20.5",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.19.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.16.27",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.21.2",
+              "status": "affected",
+              "version": "1.15.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:vault",
+        "product:vault enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-8959",
+      "description": "HashiCorp's go-getter library subdirectory download feature is vulnerable to symlink attacks leading to unauthorized read access beyond the designated directory boundaries. This vulnerability, identified as CVE-2025-8959, is fixed in go-getter 1.7.9.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "1.7.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-0969",
+      "description": "The serialize function used to compile MDX in next-mdx-remote is vulnerable to arbitrary code execution due to insufficient sanitization of MDX content. This vulnerability, CVE-2026-0969, is fixed in next-mdx-remote 6.0.0.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "shared library",
+          "versions": [
+            {
+              "lessThan": "6.0.0",
+              "status": "affected",
+              "version": "4.3.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:shared library",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2808",
+      "description": "HashiCorp Consul and Consul Enterprise 1.18.20 up to 1.21.10 and 1.22.4 are vulnerable to arbitrary file read when configured with Kubernetes authentication. This vulnerability, CVE-2026-2808, is fixed in Consul 1.18.21, 1.21.11 and 1.22.5.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hashicorp",
+          "product": "consul",
+          "versions": [
+            {
+              "lessThan": "1.22.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "hashicorp",
+          "product": "consul enterprise",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.21.11",
+                  "status": "unaffected"
+                },
+                {
+                  "at": "1.18.21",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThan": "1.22.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:consul",
+        "product:consul enterprise",
+        "vendor:hashicorp"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    }
+  ]
+}

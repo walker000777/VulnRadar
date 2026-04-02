@@ -1,0 +1,3950 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "hewlett_packard_enterprise_hpe",
+  "count": 79,
+  "items": [
+    {
+      "cve_id": "CVE-2022-37919",
+      "description": "A vulnerability exists in the API of Aruba EdgeConnect Enterprise. An unauthenticated attacker can exploit this condition via the web-based management interface to create a denial-of-service condition which prevents the appliance from properly responding to API requests in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;\n\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01195,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37920",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00522,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37921",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00522,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37922",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00522,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37923",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00522,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37924",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00647,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37925",
+      "description": "A vulnerability within the web-based management interface of Aruba EdgeConnect Enterprise could allow a remote attacker to conduct a reflected cross-site scripting (XSS) attack against a user of the interface. A successful exploit could allow an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37926",
+      "description": "A vulnerability within the web-based management interface of EdgeConnect Enterprise could allow a remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface by uploading a specially crafted file. A successful exploit could allow an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00161,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37932",
+      "description": "A potential security vulnerability has been identified in Hewlett Packard Enterprise OfficeConnect 1820, 1850, and 1920S Network switches. The vulnerability could be remotely exploited to allow authentication bypass. HPE has made the following software updates to resolve the vulnerability in Hewlett Packard Enterprise OfficeConnect 1820, 1850 and 1920S Network switches versions: Prior to PT.02.14; Prior to PC.01.22; Prior to PO.01.21; Prior to PD.02.22;\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hewlett packard enterprise officeconnect 1820, 1850, and 1920s network switches",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Prior to PT.02.14; Prior to PC.01.22; Prior to PO.01.21; Prior to PD.02.22;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:hewlett packard enterprise officeconnect 1820, 1850, and 1920s network switches",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.69322,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 38,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37934",
+      "description": "A potential security vulnerability has been identified in HPE OfficeConnect 1820, and 1850 switch series. The vulnerability could be remotely exploited to allow remote directory traversal in HPE OfficeConnect 1820 switch series version PT.02.17 and below, HPE OfficeConnect 1850 switch series version PC.01.23 and below, and HPE OfficeConnect 1850 (10G aggregator) switch version PO.01.22 and below.\n\n",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe officeconnect 1820 and 1850 switch series",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Prior to PT.02.17; Prior to PC.01.23; Prior to PO.01.22"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe officeconnect 1820 and 1850 switch series",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00562,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 20,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-37935",
+      "description": "HPE OneView for VMware vCenter, in certain circumstances, may disclose the \u201cHPE OneView\u201d Username and Password.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe oneview for vmware vcenter,",
+          "versions": [
+            {
+              "version": "9.6",
+              "status": "affected",
+              "lessThanOrEqual": "11.2",
+              "versionType": "product"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe oneview for vmware vcenter,",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43518",
+      "description": "An authenticated path traversal vulnerability exists in the Aruba EdgeConnect Enterprise web interface. Successful exploitation of this vulnerability results in the ability to read arbitrary files on the underlying operating system, including sensitive system files in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00355,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43519",
+      "description": "Multiple vulnerabilities in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct SQL injection attacks against the Aruba EdgeConnect Enterprise Orchestrator instance. An attacker could exploit these vulnerabilities to obtain and modify sensitive information in the underlying database potentially leading to complete compromise of the Aruba EdgeConnect Enterprise Orchestrator host in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00677,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43520",
+      "description": "Multiple vulnerabilities in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct SQL injection attacks against the Aruba EdgeConnect Enterprise Orchestrator instance. An attacker could exploit these vulnerabilities to obtain and modify sensitive information in the underlying database potentially leading to complete compromise of the Aruba EdgeConnect Enterprise Orchestrator host in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00677,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43521",
+      "description": "Multiple vulnerabilities in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct SQL injection attacks against the Aruba EdgeConnect Enterprise Orchestrator instance. An attacker could exploit these vulnerabilities to obtain and modify sensitive information in the underlying database potentially leading to complete compromise of the Aruba EdgeConnect Enterprise Orchestrator host in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00509,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43522",
+      "description": "Multiple vulnerabilities in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct SQL injection attacks against the Aruba EdgeConnect Enterprise Orchestrator instance. An attacker could exploit these vulnerabilities to obtain and modify sensitive information in the underlying database potentially leading to complete compromise of the Aruba EdgeConnect Enterprise Orchestrator host in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00677,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43523",
+      "description": "Multiple vulnerabilities in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct SQL injection attacks against the Aruba EdgeConnect Enterprise Orchestrator instance. An attacker could exploit these vulnerabilities to obtain and modify sensitive information in the underlying database potentially leading to complete compromise of the Aruba EdgeConnect Enterprise Orchestrator host in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00509,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43524",
+      "description": "A vulnerability in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an authenticated remote attacker to conduct a stored cross-site scripting (XSS) attack against an administrative user of the interface. A successful exploit allows an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00489,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43525",
+      "description": "Multiple vulnerabilities within the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow a remote attacker to conduct a reflected cross-site scripting (XSS) attack against a user of the interface. A successful exploit could allow an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00289,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43526",
+      "description": "Multiple vulnerabilities within the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow a remote attacker to conduct a reflected cross-site scripting (XSS) attack against a user of the interface. A successful exploit could allow an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00289,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43527",
+      "description": "Multiple vulnerabilities within the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow a remote attacker to conduct a reflected cross-site scripting (XSS) attack against a user of the interface. A successful exploit could allow an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00289,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43528",
+      "description": "Under certain configurations, an attacker can login to Aruba EdgeConnect Enterprise Orchestrator without supplying a multi-factor authentication code. Successful exploitation allows an attacker to login using only a username and password and successfully bypass MFA requirements in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 4.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00236,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43529",
+      "description": "A vulnerability in the web-based management interface of Aruba EdgeConnect Enterprise Orchestrator could allow an remote attacker to persist a session after a password reset or similar session clearing event. Successful exploitation of this vulnerability could allow an authenticated attacker to remain on the system with the permissions of their current session after the session should be invalidated  in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00138,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-384"
+        ],
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43541",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00647,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-43542",
+      "description": "Vulnerabilities in the Aruba EdgeConnect Enterprise command line interface allow remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00588,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-44532",
+      "description": "An authenticated path traversal vulnerability exists in the Aruba EdgeConnect Enterprise command line interface. Successful exploitation of this vulnerability results in the ability to read arbitrary files on the underlying operating system, including sensitive system files in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00314,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-44533",
+      "description": "A vulnerability in the Aruba EdgeConnect Enterprise web management interface allows remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Software version(s): ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "ECOS 9.2.1.0 and below; ECOS 9.1.3.0 and below; ECOS 9.0.7.0 and below; ECOS 8.3.7.1 and below;"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00679,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-44534",
+      "description": "A vulnerability in the Aruba EdgeConnect Enterprise Orchestrator web-based management interface allows remote authenticated users to run arbitrary commands on the underlying host. A successful exploit could allow an attacker to execute arbitrary commands as root on the underlying operating system leading to complete system compromise in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00776,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-44535",
+      "description": "A vulnerability in the Aruba EdgeConnect Enterprise Orchestrator web-based management interface allows remote low-privileged authenticated users to escalate their privileges to those of an administrative user. A successful exploit could allow an attacker to achieve administrative privilege on the web-management interface leading to complete system compromise in Aruba EdgeConnect Enterprise Orchestration Software version(s): Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise orchestration software",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "Aruba EdgeConnect Enterprise Orchestrator (on-premises), Aruba EdgeConnect Enterprise Orchestrator-as-a-Service, Aruba EdgeConnect Enterprise Orchestrator-SP and Aruba EdgeConnect Enterprise Orchestrator Global Enterprise Tenant Orchestrators - Orchestrator 9.2.1.40179 and below, - Orchestrator 9.1.4.40436 and below, - Orchestrator 9.0.7.40110 and below, - Orchestrator 8.10.23.40015 and below, - Any older branches of Orchestrator not specifically mentioned."
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise orchestration software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0064,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 16,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30501",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30502",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30503",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30504",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30505",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30506",
+      "description": "Vulnerabilities exist in the Aruba EdgeConnect Enterprise\u00a0command line interface that allow remote authenticated users\u00a0to run arbitrary commands on the underlying host. Successful\u00a0exploitation of these vulnerabilities result in the ability\u00a0to execute arbitrary commands as root on the underlying\u00a0operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00199,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30507",
+      "description": "Multiple authenticated path traversal vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface.\u00a0Successful exploitation of these vulnerabilities result in the ability to read arbitrary files on the underlying\u00a0operating system, including sensitive system files.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00076,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30508",
+      "description": "Multiple authenticated path traversal vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface.\u00a0Successful exploitation of these vulnerabilities result in the ability to read arbitrary files on the underlying\u00a0operating system, including sensitive system files.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00076,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30509",
+      "description": "Multiple authenticated path traversal vulnerabilities exist in the Aruba EdgeConnect Enterprise command line interface.\u00a0Successful exploitation of these vulnerabilities result in the ability to read arbitrary files on the underlying\u00a0operating system, including sensitive system files.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00076,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-30510",
+      "description": "A vulnerability exists in the Aruba EdgeConnect Enterprise\u00a0web management interface that allows remote authenticated\u00a0users to issue arbitrary URL requests from the Aruba\u00a0EdgeConnect Enterprise instance. The impact of this\u00a0vulnerability is limited to a subset of URLs which can\u00a0result in the possible disclosure of data due to the network\u00a0position of the Aruba EdgeConnect Enterprise instance.",
+      "cvss_score": 4.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "aruba edgeconnect enterprise software",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.3.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.1.5.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "9.0.8.0",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "all",
+              "status": "affected",
+              "version": "ECOS 8.x.x.x",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:aruba edgeconnect enterprise software",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37421",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated\u00a0remote attacker to conduct a stored cross-site scripting\u00a0(XSS) attack against an administrative user of the interface.\u00a0A successful exploit allows an attacker to execute arbitrary\u00a0script code in a victim's browser in the context of the\u00a0affected interface.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00116,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37422",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated\u00a0remote attacker to conduct a stored cross-site scripting\u00a0(XSS) attack against an administrative user of the interface.\u00a0A successful exploit allows an attacker to execute arbitrary\u00a0script code in a victim's browser in the context of the\u00a0affected interface.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00112,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37423",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated\u00a0remote attacker to conduct a stored cross-site scripting\u00a0(XSS) attack against an administrative user of the interface.\u00a0A successful exploit allows an attacker to execute arbitrary\u00a0script code in a victim's browser in the context of the\u00a0affected interface.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00116,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37424",
+      "description": "A vulnerability in the web-based management interface\u00a0of EdgeConnect SD-WAN Orchestrator could allow an\u00a0unauthenticated remote attacker to run arbitrary commands on\u00a0the underlying host if certain preconditions outside of the\u00a0attacker's control are met. Successful exploitation of this\u00a0vulnerability could allow an attacker to execute arbitrary\u00a0commands on the underlying operating system leading to\u00a0complete system compromise.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.03676,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37425",
+      "description": "A vulnerability in the web-based management interface\u00a0of EdgeConnect SD-WAN Orchestrator could allow an\u00a0unauthenticated remote attacker to conduct a stored\u00a0cross-site scripting (XSS) attack against an administrative\u00a0user of the interface. A successful exploit allows an\u00a0attacker to execute arbitrary script code in a victim's\u00a0browser in the context of the affected interface.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00423,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37426",
+      "description": "EdgeConnect SD-WAN Orchestrator instances prior to the\u00a0versions resolved in this advisory were found to have\u00a0shared static SSH host keys for all installations. This\u00a0vulnerability could allow an attacker to spoof the SSH host\u00a0signature and thereby masquerade as a legitimate Orchestrator\nhost.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00247,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-798"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37427",
+      "description": "A vulnerability in the web-based management interface of\u00a0EdgeConnect SD-WAN Orchestrator could allow an authenticated\u00a0remote attacker to run arbitrary commands on the underlying\u00a0host. Successful exploitation of this vulnerability allows\u00a0an attacker to execute arbitrary commands as root on the\u00a0underlying operating system leading to complete system\u00a0compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00582,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37428",
+      "description": "A vulnerability in the EdgeConnect SD-WAN Orchestrator\u00a0web-based management interface allows remote authenticated\u00a0users to run arbitrary commands on the underlying host.\u00a0A successful exploit could allow an attacker to execute\u00a0arbitrary commands as root on the underlying operating system\u00a0leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01805,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37429",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00109,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37430",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00182,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37431",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00109,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37432",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00109,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37433",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00182,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37434",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00101,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37435",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00173,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37436",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00173,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37437",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00176,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37438",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00156,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37439",
+      "description": "Multiple vulnerabilities in the web-based management\u00a0interface of EdgeConnect SD-WAN Orchestrator could allow\u00a0an authenticated remote attacker to conduct SQL injection\u00a0attacks against the EdgeConnect SD-WAN Orchestrator\u00a0instance. An attacker could exploit these vulnerabilities to\n\u00a0 \u00a0 obtain and modify sensitive information in the underlying\u00a0database potentially leading to the exposure and corruption\u00a0of sensitive data controlled by the EdgeConnect SD-WAN\u00a0Orchestrator host.\n\n",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.5",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.7",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00167,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-922"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-37440",
+      "description": "A vulnerability in the web-based management interface\u00a0of EdgeConnect SD-WAN Orchestrator could allow an\u00a0unauthenticated remote attacker to conduct a server-side\u00a0request forgery (SSRF) attack. A successful exploit allows\u00a0an attacker to enumerate information about the internal\n\u00a0 \u00a0 structure of the EdgeConnect SD-WAN Orchestrator host leading\u00a0to potential disclosure of sensitive information.\n\n",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.0",
+              "status": "affected",
+              "version": "Orchestrator 9.3.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.*",
+              "status": "affected",
+              "version": "Orchestrator 9.2.x",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.*",
+              "status": "affected",
+              "version": "Orchestrator 9.1.x",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00335,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-33519",
+      "description": "A vulnerability in the web-based management interface of HPE Aruba Networking EdgeConnect SD-WAN gateway could allow an authenticated remote attacker to conduct a server-side prototype pollution attack. Successful exploitation of this vulnerability could allow an attacker to execute arbitrary commands on the underlying operating system leading to complete system compromise.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.3.0",
+              "status": "affected",
+              "version": "ECOS 9.3.x.x: 9.3.3.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.9.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x: 9.2.9.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.11.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x: 9.1.11.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.0.x.x",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=8.0.x.x",
+              "status": "affected",
+              "version": "ECOS 8.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00672,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1321"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-41133",
+      "description": "A vulnerability exists in the HPE Aruba Networking EdgeConnect SD-WAN gateway's Command Line Interface that allows remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of this vulnerability will result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.3.0",
+              "status": "affected",
+              "version": "ECOS 9.3.x.x: 9.3.3.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.9.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x: 9.2.9.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.11.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x: 9.1.11.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.0.x.x",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=8.0.x.x",
+              "status": "affected",
+              "version": "ECOS 8.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0073,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-41134",
+      "description": "A vulnerability exists in the HPE Aruba Networking EdgeConnect SD-WAN gateway's Command Line Interface that allows remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of this vulnerability will result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.3.0",
+              "status": "affected",
+              "version": "ECOS 9.3.x.x: 9.3.3.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.9.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x: 9.2.9.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.11.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x: 9.1.11.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.0.x.x",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=8.0.x.x",
+              "status": "affected",
+              "version": "ECOS 8.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0073,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-41135",
+      "description": "A vulnerability exists in the HPE Aruba Networking EdgeConnect SD-WAN gateway's Command Line Interface that allows remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of this vulnerability will result in the ability to execute arbitrary commands as root on the underlying operating system leading to complete system compromise",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.3.0",
+              "status": "affected",
+              "version": "ECOS 9.3.x.x: 9.3.3.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.9.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x: 9.2.9.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.11.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x: 9.1.11.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.0.x.x",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=8.0.x.x",
+              "status": "affected",
+              "version": "ECOS 8.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0073,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-41136",
+      "description": "An authenticated command injection vulnerability exists in the HPE Aruba Networking EdgeConnect SD-WAN gateways Command Line Interface. Successful exploitation of this vulnerability results in the ability to execute arbitrary commands as a privileged user on the underlying operating system.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan",
+          "versions": [
+            {
+              "lessThanOrEqual": "<=9.3.3.0",
+              "status": "affected",
+              "version": "ECOS 9.3.x.x: 9.3.3.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.2.9.0",
+              "status": "affected",
+              "version": "ECOS 9.2.x.x: 9.2.9.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.1.11.0",
+              "status": "affected",
+              "version": "ECOS 9.1.x.x: 9.1.11.0 and below",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=9.0.x.x",
+              "status": "affected",
+              "version": "ECOS 9.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "<=8.0.x.x",
+              "status": "affected",
+              "version": "ECOS 8.0.x.x: all builds are affected and are out of maintenance.",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00327,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78",
+          "CWE-77"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37123",
+      "description": "A vulnerability in the command-line interface of HPE Aruba Networking EdgeConnect SD-WAN Gateways could allow an authenticated remote attacker to escalate privileges. Successful exploitation of this vulnerability may enable the attacker to execute arbitrary system commands with root privileges on the underlying operating system.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00226,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37124",
+      "description": "A vulnerability in the HPE Aruba Networking SD-WAN Gateways could allow an unauthenticated remote attacker to bypass firewall protections. Successful exploitation could allow an attacker to route potentially harmful traffic through the internal network, leading to unauthorized access or disruption of services.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0006,
+      "nvd": {
+        "cvss_v3_score": 8.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-693"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37125",
+      "description": "A broken access control vulnerability exists in HPE Aruba Networking EdgeConnect OS (ECOS). Successful exploitation could allow an attacker to bypass firewall protections, potentially leading to unauthorized traffic being handled improperly",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37126",
+      "description": "A vulnerability exists in the HPE Aruba Networking EdgeConnect SD-WAN Gateways Command Line Interface that allows remote authenticated users to run arbitrary commands on the underlying host. Successful exploitation of this vulnerability will result in the ability to execute arbitrary commands as root on the underlying operating system.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00125,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37127",
+      "description": "A vulnerability in the cryptographic logic used by HPE Aruba Networking EdgeConnect SD-WAN Gateways could allow an authenticated remote attacker to gain shell access. Successful exploitation could allow an attacker to execute arbitrary commands on the underlying operating system, potentially leading to unauthorized access and control over the affected systems.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-327"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37128",
+      "description": "A vulnerability in the web API of HPE Aruba Networking EdgeConnect SD-WAN Gateways could allow an authenticated remote attacker to terminate arbitrary running processes. Successful exploitation could allow an attacker to disrupt system operations, potentially resulting in an unstable system state.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37129",
+      "description": "A vulnerable feature in the command line interface of EdgeConnect SD-WAN could allow an authenticated attacker to exploit built-in script execution capabilities. Successful exploitation could allow an attacker to execute arbitrary commands on the underlying operating system if the feature is enabled without proper security measures.",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00018,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37130",
+      "description": "A vulnerability in the command-line interface of EdgeConnect SD-WAN could allow an authenticated attacker to read arbitrary files within the system. Successful exploitation could allow an attacker to read sensitive data from the underlying file system.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-552"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37131",
+      "description": "A vulnerability in EdgeConnect SD-WAN ECOS could allow an authenticated remote threat actor with admin privileges to access sensitive unauthorized system files. Under certain conditions, this could lead to exposure and exfiltration of sensitive information.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe aruba networking edgeconnect sd-wan gateway",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.5.3.6",
+              "status": "affected",
+              "version": "9.5.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.3.7",
+              "status": "affected",
+              "version": "9.4.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:hpe aruba networking edgeconnect sd-wan gateway",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37164",
+      "description": "A remote code execution issue exists in HPE OneView.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "hpe oneview",
+          "versions": [
+            {
+              "lessThan": "11.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.85133,
+      "kev": {
+        "cveID": "CVE-2025-37164",
+        "vendorProject": "Hewlett Packard Enterprise (HPE)",
+        "product": "OneView",
+        "vulnerabilityName": "Hewlett Packard Enterprise (HPE) OneView Code Injection Vulnerability",
+        "dateAdded": "2026-01-07",
+        "shortDescription": "Hewlett Packard Enterprise (HPE) OneView contains a code injection vulnerability that allows a remote unauthenticated user to perform remote code execution.",
+        "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+        "dueDate": "2026-01-28",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37181",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated remote attacker to perform SQL injection attacks. Successful  exploitation could allow an attacker to execute arbitrary SQL commands on the underlying database, potentially leading to unauthorized data access or data manipulation.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.6.0",
+              "status": "affected",
+              "version": "9.5.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.4",
+              "status": "affected",
+              "version": "9.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37182",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated remote attacker to perform SQL injection attacks. Successful  exploitation could allow an attacker to execute arbitrary SQL commands on the underlying database, potentially leading to unauthorized data access or data manipulation.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.6.0",
+              "status": "affected",
+              "version": "9.5.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.4",
+              "status": "affected",
+              "version": "9.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37183",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated remote attacker to perform SQL injection attacks. Successful  exploitation could allow an attacker to execute arbitrary SQL commands on the underlying database, potentially leading to unauthorized data access or data manipulation.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.6.0",
+              "status": "affected",
+              "version": "9.5.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.4",
+              "status": "affected",
+              "version": "9.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37184",
+      "description": "A vulnerability exists in an Orchestrator service that could allow an unauthenticated remote attacker to bypass multi-factor authentication requirements. Successful exploitation could allow an attacker to create an admin user account without the necessary multi-factor authentication, thereby compromising the integrity of secured access to the system.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.6.0",
+              "status": "affected",
+              "version": "9.5.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.4",
+              "status": "affected",
+              "version": "9.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00314,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-37185",
+      "description": "Vulnerabilities in the web-based management interface of EdgeConnect SD-WAN Orchestrator could allow an authenticated remote attacker to conduct a stored cross-site scripting (XSS) attacks against an administrative user of the interface. A successful exploit allows an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface and thereby make unauthorized arbitrary configuration changes to the host.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "hewlett packard enterprise (hpe)",
+          "product": "edgeconnect sd-wan orchestrator",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.6.0",
+              "status": "affected",
+              "version": "9.5.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.4.4",
+              "status": "affected",
+              "version": "9.4.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:edgeconnect sd-wan orchestrator",
+        "vendor:hewlett packard enterprise (hpe)"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    }
+  ]
+}

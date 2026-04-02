@@ -1,0 +1,2509 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "devolutions",
+  "count": 58,
+  "items": [
+    {
+      "cve_id": "CVE-2023-1603",
+      "description": "\nPermission bypass when importing or synchronizing entries\u00a0in User vault\n\n in Devolutions Server 2022.3.13 and prior versions allows users with restricted rights to bypass entry permission via id collision.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2022.3.13",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00038,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2400",
+      "description": "Improper deletion of resource in the user management feature in Devolutions Server 2023.1.8  and earlier allows an administrator to view users vaults of deleted users via database access.\n\n",
+      "cvss_score": 2.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.1.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00131,
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-459"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5240",
+      "description": "Improper access control in PAM propagation scripts in Devolutions Server 2023.2.8.0 and ealier allows an attack with permission to manage PAM propagation scripts to retrieve passwords stored in it via a GET request.\n\n\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.2.8.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-5575",
+      "description": "\n\nImproper access control in the permission inheritance in Devolutions Server 2022.3.13.0 and earlier allows an attacker that compromised a low privileged user to access entries via a specific combination of permissions in the entry and in its parent.\n\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": " 2022.3.13.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00302,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-6264",
+      "description": "Information leak in Content-Security-Policy header in Devolutions Server 2023.3.7.0 allows an unauthenticated attacker to list the configured Devolutions Gateways endpoints.\n\n\n",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.3.7",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00277,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-11862",
+      "description": "Non constant time cryptographic operation in Devolutions.XTS.NET 2024.11.19 and earlier allows an attacker to render half of the encryption key obsolete via a timing attacks",
+      "cvss_score": 5.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "xts.net",
+          "versions": [
+            {
+              "lessThan": "2024.11.26",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:xts.net",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00026,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-385"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12148",
+      "description": "Incorrect authorization in permission validation component in Devolutions Server 2024.3.6.0 and earlier allows an authenticated user to access some reporting endpoints.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.6.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12151",
+      "description": "Incorrect permission assignment in the user migration feature in Devolutions Server 2024.3.8.0 and earlier allows users to retain their old permission sets.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.8.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00134,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12196",
+      "description": "Incorrect authorization in the permission component in Devolutions Server 2024.3.7.0 and earlier allows an authenticated user to view the password history of an entry without the view password permission.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.7.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00252,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1764",
+      "description": "Improper privilege management in Just-in-time (JIT) elevation module in Devolutions Server 2023.3.14.0 and earlier allows a user to continue using the elevated privilege even after the expiration under specific circumstances\n\n\n",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.3.14.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00093,
+      "nvd": {
+        "cvss_v3_score": 7.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1898",
+      "description": "Improper access control in the notification feature in Devolutions Server 2023.3.14.0 and earlier allows a low privileged user to change notifications settings configured by an administrator.\n\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.3.14.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00089,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1900",
+      "description": "Improper session management in the identity provider authentication flow in Devolutions Server 2023.3.14.0 and earlier allows an authenticated user via an identity provider to stay authenticated after his user is disabled or deleted in the identity provider such as Okta or Microsoft O365. \n\nThe user will stay authenticated until the Devolutions Server token expiration.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.3.14.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0008,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-613"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1901",
+      "description": "Denial of service in PAM password rotation during the check-in process in Devolutions Server 2023.3.14.0 allows an authenticated user with specific PAM permissions to make PAM credentials unavailable.\n\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2023.3.14.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00117,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2915",
+      "description": "Improper access control in PAM JIT elevation in Devolutions Server 2024.1.6 and earlier allows an attacker with access to the PAM JIT elevation feature to elevate themselves to unauthorized groups via a specially crafted request.\n\n",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0025,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2918",
+      "description": "Improper input validation in PAM JIT elevation feature in Devolutions Server 2024.1.6 and earlier allows an attacker with access to the PAM JIT elevation feature to forge the displayed group in the PAM JIT elevation checkout request via a specially crafted request.\n\n",
+      "cvss_score": 3.6,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.10.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00137,
+      "nvd": {
+        "cvss_v3_score": 3.6,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2921",
+      "description": "Improper access control in PAM vault permissions in Devolutions Server 2024.1.10.0 and earlier allows an authenticated user with access to the PAM to access unauthorized PAM entries via a specific set of permissions.\n\n",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00471,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-306"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3545",
+      "description": "Improper permission handling in the vault offline cache feature in Devolutions Remote Desktop Manager 2024.1.20 and earlier on windows and Devolutions Server 2024.1.8 and earlier allows an attacker to access sensitive informations contained in the offline cache file by gaining access to a computer where the software is installed even though the offline mode is disabled.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.8.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "devolutions",
+          "product": "remote desktop manager",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.20.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00151,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-281"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-4846",
+      "description": "Authentication bypass in the 2FA feature in Devolutions Server 2024.1.14.0 and earlier allows an authenticated attacker to authenticate to another user without being asked for the 2FA via another browser tab.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.14.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00092,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-290"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-5072",
+      "description": "Improper input validation in PAM JIT elevation feature in Devolutions Server 2024.1.11.0 and earlier allows an authenticated user with access to the PAM JIT elevation feature to manipulate the LDAP filter query via a specially crafted request.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.1.11.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00277,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0691",
+      "description": "Improper access control in permissions component in Devolutions Server 2025.1.10.0 and earlier allows an authenticated user to bypass the \"Edit permission\" permission by bypassing the client side validation.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.10.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00164,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11957",
+      "description": "Improper authorization in the temporary access workflow of Devolutions Server 2025.2.12.0 and earlier allows an authenticated basic user to self-approve or approve the temporary access requests of other users and gain unauthorized access to vaults and entries via crafted API requests.",
+      "cvss_score": 9.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:L/UI:N/VC:H/VI:H/VA:L/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.12.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 8.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11958",
+      "description": "An improper input validation in the Security Dashboard ignored-tasks API of Devolutions Server 2025.2.15.0 and earlier allows an authenticated user to cause a denial of service to the Security Dashboard via a crafted\u00a0request.",
+      "cvss_score": 5.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00085,
+      "nvd": {
+        "cvss_v3_score": 4.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12485",
+      "description": "Improper privilege management during pre-MFA cookie handling in Devolutions Server allows a low-privileged authenticated user to impersonate another account by replaying the pre-MFA cookie.This does not bypass the target account MFA verification step.\n\n\n\n\n\nThis issue affects the following versions :\n\n  *  Devolutions Server\u00a02025.3.2.0 through\u00a02025.3.5.0\n  *  \n\nDevolutions Server 2025.2.15.0 and earlier",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.5.0",
+              "status": "affected",
+              "version": "2025.3.2.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.2.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0008,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12808",
+      "description": "Improper access control in Devolutions allows a View-only user\u00a0to retrieve sensitive third-level nested fields, such as password lists custom values, resulting in password disclosure.\n\n\n\n\n\nThis issue affects the following versions :\n\n  *  Devolutions Server 2025.3.2.0 through 2025.3.5.0\n  *  \n\nDevolutions Server 2025.2.15.0 and earlier",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.5.0",
+              "status": "affected",
+              "version": "2025.3.2.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.2.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13683",
+      "description": "Exposure of credentials in unintended requests in Devolutions Server, Remote Desktop Manager on Windows.This issue affects Devolutions Server: through 2025.3.8.0; Remote Desktop Manager: through 2025.3.23.0.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.8.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "devolutions",
+          "product": "remote desktop manager",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.23.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00059,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13757",
+      "description": "SQL Injection vulnerability in last usage logs in Devolutions Server.This issue affects Devolutions Server: through 2025.2.20, through 2025.3.8.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.20",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.3.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00055,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13758",
+      "description": "Exposure of credentials in unintended requests in Devolutions Server.This issue affects Server: through 2025.2.20, through 2025.3.8.",
+      "cvss_score": 3.5,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.20",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.3.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00048,
+      "nvd": {
+        "cvss_v3_score": 3.5,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-522"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13765",
+      "description": "Exposure of email service credentials to users without administrative rights in Devolutions Server.This issue affects Devolutions Server: before 2025.2.21, before 2025.3.9.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThan": "2025.2.21",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "lessThan": "2025.3.9",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00052,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1231",
+      "description": "Improper password reset in PAM Module in Devolutions Server 2024.3.10.0 and earlier allows an authenticated user to reuse the oracle user password after check-in due to crash in the password reset functionality.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.10.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00248,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287",
+          "CWE-640"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-2003",
+      "description": "Incorrect authorization in PAM vaults in Devolutions Server 2024.3.12 and earlier allows an authenticated user to bypass the 'add in root' permission.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.12.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00115,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-2277",
+      "description": "Exposure of password in web-based SSH authentication component in Devolutions Server 2024.3.13 and earlier allows a user to unadvertently leak his SSH password due to missing password masking.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.13.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00101,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-522"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-2278",
+      "description": "Improper access control in temporary access requests and checkout requests endpoints in Devolutions Server 2024.3.13 and earlier allows an authenticated user to access information about these requests via a known request ID.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.13",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00099,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-2280",
+      "description": "Improper access control in web extension restriction feature in Devolutions Server 2024.3.4.0\n\n and earlier allows an authenticated user to bypass the browser extension restriction feature.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2024.3.4.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00099,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-3768",
+      "description": "Improper access control in Tor network blocking feature in Devolutions Server 2025.1.10.0 and earlier allows an authenticated user to bypass the tor blocking feature when the Devolutions hosted endpoint is not reachable.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.10.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00165,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4316",
+      "description": "Improper access control in PAM feature in Devolutions Server allows a PAM user to self approve their PAM requests even if disallowed by the configured policy via specific user interface actions.\n\n\n\n\n\nThis issue affects Devolutions Server versions from 2025.1.3.0 through 2025.1.6.0, and all versions up to 2024.3.15.0.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.6.0",
+              "status": "affected",
+              "version": "2025.1.3.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2024.3.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00182,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4433",
+      "description": "Improper access control in user group management in Devolutions Server 2025.1.7.0 and earlier allows a non-administrative user with both \"User Management\" and \"User Group Management\" permissions to perform privilege escalation by adding users to groups with administrative privileges.",
+      "cvss_score": 8.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.7.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00249,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4493",
+      "description": "Improper privilege assignment in PAM JIT privilege sets in Devolutions \nServer allows a PAM user to perform PAM JIT \nrequests on unauthorized groups by exploiting a user interface issue.\n\n\nThis issue affects the following versions :\u00a0\n\n  *  Devolutions Server 2025.1.3.0 through 2025.1.7.0\n  *  Devolutions Server 2024.3.15.0 and earlier",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.7.0",
+              "status": "affected",
+              "version": "2025.1.3.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2024.3.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0023,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-5382",
+      "description": "Improper access control in users MFA feature in Devolutions Server 2025.1.7.0 and earlier allows a user with user management permission to remove or change administrators MFA.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.7.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0021,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6523",
+      "description": "Use of weak credentials in emergency authentication component in Devolutions Server allows an unauthenticated attacker to bypass authentication via brute forcing the short emergency codes generated by the server within a feasible timeframe.\n\nThis issue affects the following versions :\n\n  *  Devolutions Server 2025.2.2.0 through 2025.2.3.0\n  *  \nDevolutions Server 2025.1.11.0 and earlier",
+      "cvss_score": 9.5,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:L/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.11.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.2.3.0",
+              "status": "affected",
+              "version": "2025.2.2.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00128,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1391"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6741",
+      "description": "Improper access control in secure message component in Devolutions Server allows an authenticated user to steal unauthorized entries via the secure message entry attachment feature\n\n\nThis issue affects the following versions :\n\n  *  Devolutions Server 2025.2.2.0 through 2025.2.4.0\n  *  \nDevolutions Server 2025.1.11.0 and earlier",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.1.11.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.2.4.0",
+              "status": "affected",
+              "version": "2025.2.2.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00047,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-8312",
+      "description": "Deadlock in PAM automatic check-in feature in Devolutions Server allows a password to remain valid beyond the end of its intended check-out period due to a deadlock occurring in the scheduling service.This issue affects the following version(s) :\n\n  *  \nDevolutions Server 2025.2.2.0 through 2025.2.5.0\n  *  Devolutions Server 2025.1.12.0 and earlier",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.5.0",
+              "status": "affected",
+              "version": "2025.2.2.0",
+              "versionType": "custom"
+            },
+            {
+              "lessThanOrEqual": "2025.1.13.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00034,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-833"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-8353",
+      "description": "UI synchronization issue in the Just-in-Time (JIT) access request approval interface in Devolutions Server 2025.2.4.0 and earlier allows a remote authenticated attacker to gain unauthorized access to deleted JIT Groups via stale UI state during standard checkout request processing.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.2.4.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00048,
+      "nvd": {
+        "cvss_v3_score": 5.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-446"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-0610",
+      "description": "SQL Injection vulnerability in remote-sessions in Devolutions Server.This issue affects Devolutions Server 2025.3.1 through 2025.3.12",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.12",
+              "status": "affected",
+              "version": "2025.3.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1007",
+      "description": "Incorrect Authorization vulnerability in virtual gateway component in Devolutions Server allows attackers to bypass deny IP rules.This issue affects Server: from 2025.3.1 through 2025.3.12.",
+      "cvss_score": 7.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.12",
+              "status": "affected",
+              "version": "2025.3.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 7.6,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3130",
+      "description": "Improper Enforcement of Behavioral Controls in\u00a0Devolutions Server 2025.3.15 and earlier allows an authenticated attacker with the delete permission to delete a PAM account that is currently checked out by selecting it alongside at least one non-checked-out account and performing a bulk deletion.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThan": "2025.3.16",
+              "status": "affected",
+              "version": "0",
+              "versionType": "0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00021,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-841"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3131",
+      "description": "Improper\n access control in multiple DVLS REST API endpoints in Devolutions \nServer 2025.3.14.0 and earlier allows an authenticated user with view-only permission to access sensitive connection data.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThan": "2025.3.15",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3204",
+      "description": "Improper\n input validation in the error message page in Devolutions Server 2025.3.16 and earlier allows remote attackers to spoof the displayed error message via a specially crafted URL.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.16",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00067,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3221",
+      "description": "Sensitive\n user account information is not encrypted in the database in Devolutions Server 2025.3.14 and earlier, which allows an attacker with \naccess to the database to obtain sensitive user \ninformation via direct database access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThan": "2025.3.15",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00018,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3224",
+      "description": "Authentication bypass in the Microsoft Entra ID (Azure AD) authentication mode in Devolutions Server 2025.3.15.0 and earlier allows an unauthenticated user to authenticate as an arbitrary Entra ID user via a forged JSON Web Token (JWT).",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "lessThanOrEqual": "2025.3.15.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0004,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3638",
+      "description": "Improper access control in user and role restore API endpoints in Devolutions Server 2025.3.11.0 and earlier allows a low-privileged authenticated user to restore deleted users and roles via crafted API requests.",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "2025.3.11.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0003,
+      "nvd": {
+        "cvss_v3_score": 5.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4434",
+      "description": "Improper certificate validation in the PAM propagation WinRM connections\n allows a network attacker to perform a man-in-the-middle attack via \ndisabled TLS certificate verification.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "2026.1",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00028,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-4828",
+      "description": "Improper authentication in the OAuth login functionality in Devolutions Server 2026.1.11 and earlier allows a remote attacker with valid credentials to bypass multi-factor authentication via a crafted login request.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-4829",
+      "description": "Improper authentication in the external OAuth authentication flow in Devolutions Server 2026.1.11 and earlier allows an authenticated user to authenticate as other users, including administrators, via reuse of a session code from an external authentication flow.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-4924",
+      "description": "Improper\n authentication in the two-factor authentication (2FA) feature in \nDevolutions Server 2026.1.11 and earlier allows a remote attacker with valid \ncredentials to bypass multifactor authentication and gain unauthorized \naccess to the victim account via reuse of a partially authenticated \nsession token.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-4925",
+      "description": "Improper access control in the users MFA feature in Devolutions Server allows an authenticated user to bypass administrator-enforced restrictions and remove their own multi-factor authentication (MFA) configuration via a crafted request.\n\n\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "2026.1.6",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-4927",
+      "description": "Exposure of sensitive information in the users MFA feature in Devolutions Server allows users with user management privileges to obtain other users OTP keys via an authenticated API request.\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "2026.1.6",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-4989",
+      "description": "Improper input validation in the gateway health check feature in Devolutions Server allows a low-privileged authenticated user to perform server-side request forgery (SSRF), potentially leading to information disclosure, via a crafted API request.\nThis issue affects Server: from 2026.1.1 through 2026.1.11, from 2025.3.1 through 2025.3.17.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "2026.1.1",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "2025.3.1",
+              "lessThanOrEqual": "2025.3.17",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-5175",
+      "description": "Improper access control in the multi-factor authentication (MFA) management API in Devolutions Server allows an authenticated attacker to delete their own configured MFA factors and reduce account protection to password-only authentication via crafted HTTP requests.\u00a0\n\n\n\n\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "devolutions",
+          "product": "server",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "2026.1.6",
+              "lessThanOrEqual": "2026.1.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:server",
+        "vendor:devolutions"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    }
+  ]
+}

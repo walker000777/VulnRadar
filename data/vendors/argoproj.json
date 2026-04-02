@@ -1,0 +1,2651 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "argoproj",
+  "count": 54,
+  "items": [
+    {
+      "cve_id": "CVE-2022-24730",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD starting with version 1.3.0 but before versions 2.1.11, 2.2.6, and 2.3.0 is vulnerable to a path traversal bug, compounded by an improper access control bug, allowing a malicious user with read-only repository access to leak sensitive files from Argo CD's repo-server. A malicious Argo CD user who has been granted `get` access for a repository containing a Helm chart can craft an API request to the `/api/v1/repositories/{repo_url}/appdetails` endpoint to leak the contents of out-of-bounds files from the repo-server. The malicious payload would reference an out-of-bounds file, and the contents of that file would be returned as part of the response. Contents from a non-YAML file may be returned as part of an error message. The attacker would have to know or guess the location of the target file. Sensitive files which could be leaked include files from other Applications' source repositories or any secrets which have been mounted as files on the repo-server. This vulnerability is patched in Argo CD versions 2.1.11, 2.2.6, and 2.3.0. The patches prevent path traversal and limit access to users who either A) have been granted Application `create` privileges or B) have been granted Application `get` privileges and are requesting details for a `repo_url` that has already been used for the given Application. There are currently no known workarounds.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 1.3.0, < 2.1.11"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.6"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0-rc1, < 2.3.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0028,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22",
+          "CWE-284",
+          "CWE-863"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-24731",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD starting with version 1.5.0 but before versions 2.1.11, 2.2.6, and 2.3.0 is vulnerable to a path traversal vulnerability, allowing a malicious user with read/write access to leak sensitive files from Argo CD's repo-server. A malicious Argo CD user who has been granted `create` or `update` access to Applications can leak the contents of any text file on the repo-server. By crafting a malicious Helm chart and using it in an Application, the attacker can retrieve the sensitive file's contents either as part of the generated manifests or in an error message. The attacker would have to know or guess the location of the target file. Sensitive files which could be leaked include files from another Application's source repositories or any secrets which have been mounted as files on the repo-server. This vulnerability is patched in Argo CD versions 2.1.11, 2.2.6, and 2.3.0. The problem can be mitigated by avoiding storing secrets in git, avoiding mounting secrets as files on the repo-server, avoiding decrypting secrets into files on the repo-server, and carefully limiting who can `create` or `update` Applications.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 1.5.0, < 2.1.11"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.6"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0-rc1, < 2.3.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0029,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22",
+          "CWE-284",
+          "CWE-209"
+        ],
+        "cpe_count": 6,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-24768",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All unpatched versions of Argo CD starting with 1.0.0 are vulnerable to an improper access control bug, allowing a malicious user to potentially escalate their privileges to admin-level. Versions starting with 0.8.0 and 0.5.0 contain limited versions of this issue. To perform exploits, an authorized Argo CD user must have push access to an Application's source git or Helm repository or `sync` and `override` access to an Application. Once a user has that access, different exploitation levels are possible depending on their other RBAC privileges. A patch for this vulnerability has been released in Argo CD versions 2.3.2, 2.2.8, and 2.1.14. Some mitigation measures are available but do not serve as a substitute for upgrading. To avoid privilege escalation, limit who has push access to Application source repositories or `sync` + `override` access to Applications; and limit which repositories are available in projects where users have `update` access to Applications. To avoid unauthorized resource inspection/tampering, limit who has `delete`, `get`, or `action` access to Applications.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 0.5.0, < 2.1.14"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.8"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.2"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00396,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 6.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-862"
+        ],
+        "cpe_count": 3,
+        "reference_count": 10
+      }
+    },
+    {
+      "cve_id": "CVE-2022-24904",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD starting with version 0.7.0 and prior to versions 2.1.15m 2.2.9, and 2.3.4 is vulnerable to a symlink following bug allowing a malicious user with repository write access to leak sensitive files from Argo CD's repo-server. A malicious Argo CD user with write access for a repository which is (or may be) used in a directory-type Application may commit a symlink which points to an out-of-bounds file. Sensitive files which could be leaked include manifest files from other Applications' source repositories (potentially decrypted files, if you are using a decryption plugin) or any JSON-formatted secrets which have been mounted as files on the repo-server. A patch for this vulnerability has been released in Argo CD versions 2.3.4, 2.2.9, and 2.1.15. Users of versions 2.3.0 or above who do not have any Jsonnet/directory-type Applications may disable the Jsonnet/directory config management tool as a workaround.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 0.7.0, < 2.1.15"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.9"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00327,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59",
+          "CWE-61"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2022-24905",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. A vulnerability was found in Argo CD prior to versions 2.3.4, 2.2.9, and 2.1.15 that allows an attacker to spoof error messages on the login screen when single sign on (SSO) is enabled. In order to exploit this vulnerability, an attacker would have to trick the victim to visit a specially crafted URL which contains the message to be displayed. As far as the research of the Argo CD team concluded, it is not possible to specify any active content (e.g. Javascript) or other HTML fragments (e.g. clickable links) in the spoofed message. A patch for this vulnerability has been released in Argo CD versions 2.3.4, 2.2.9, and 2.1.15. There are currently no known workarounds.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "< 2.1.15"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.9"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00247,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 2.6,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2022-29164",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. In affected versions an attacker can create a workflow which produces a HTML artifact containing an HTML file that contains a script which uses XHR calls to interact with the Argo Server API. The attacker emails the deep-link to the artifact to their victim. The victim opens the link, the script starts running. As the script has access to the Argo Server API (as the victim), so may read information about the victim\u2019s workflows, or create and delete workflows. Note the attacker must be an insider: they must have access to the same cluster as the victim and must already be able to run their own workflows. The attacker must have an understanding of the victim\u2019s system. We have seen no evidence of this in the wild. We urge all users to upgrade to the fixed versions.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 2.6.0, < 3.2.11"
+            },
+            {
+              "status": "affected",
+              "version": ">= 3.3.0, < 3.3.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00334,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 4.6,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 2,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2022-29165",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. A critical vulnerability has been discovered in Argo CD starting with version 1.4.0 and prior to versions 2.1.15, 2.2.9, and 2.3.4 which would allow unauthenticated users to impersonate as any Argo CD user or role, including the `admin` user, by sending a specifically crafted JSON Web Token (JWT) along with the request. In order for this vulnerability to be exploited, anonymous access to the Argo CD instance must have been enabled. In a default Argo CD installation, anonymous access is disabled. The vulnerability can be exploited to impersonate as any user or role, including the built-in `admin` account regardless of whether it is enabled or disabled. Also, the attacker does not need an account on the Argo CD instance in order to exploit this. If anonymous access to the instance is enabled, an attacker can escalate their privileges, effectively allowing them to gain the same privileges on the cluster as the Argo CD instance, which is cluster admin in a default installation. This will allow the attacker to create, manipulate and delete any resource on the cluster. They may also exfiltrate data by deploying malicious workloads with elevated privileges, thus bypassing any redaction of sensitive data otherwise enforced by the Argo CD API. A patch for this vulnerability has been released in Argo CD versions 2.3.4, 2.2.9, and 2.1.15. As a workaround, one may disable anonymous access, but upgrading to a patched version is preferable.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 1.4.0, < 2.1.15"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.9"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.4"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01577,
+      "nvd": {
+        "cvss_v3_score": 10.0,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": 9.3,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-287",
+          "CWE-290"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31016",
+      "description": "Argo CD is a declarative continuous deployment for Kubernetes. Argo CD versions v0.7.0 and later are vulnerable to an uncontrolled memory consumption bug, allowing an authorized malicious user to crash the repo-server service, resulting in a Denial of Service. The attacker must be an authenticated Argo CD user authorized to deploy Applications from a repository which contains (or can be made to contain) a large file. The fix for this vulnerability is available in versions 2.3.5, 2.2.10, 2.1.16, and later. There are no known workarounds. Users are recommended to upgrade.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 0.7.0, < 2.1.16"
+            },
+            {
+              "status": "affected",
+              "version": "> 2.0.0, < 2.2.10"
+            },
+            {
+              "status": "affected",
+              "version": "> 2.3.0, < 2.3.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00371,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31034",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting with v0.11.0 are vulnerable to a variety of attacks when an SSO login is initiated from the Argo CD CLI or UI. The vulnerabilities are due to the use of insufficiently random values in parameters in Oauth2/OIDC login flows. In each case, using a relatively-predictable (time-based) seed in a non-cryptographically-secure pseudo-random number generator made the parameter less random than required by the relevant spec or by general best practices. In some cases, using too short a value made the entropy even less sufficient. The attacks on login flows which are meant to be mitigated by these parameters are difficult to accomplish but can have a high impact potentially granting an attacker admin access to Argo CD. Patches for this vulnerability has been released in the following Argo CD versions: v2.4.1, v2.3.5, v2.2.10 and v2.1.16. There are no known workarounds for this vulnerability.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 0.11.0, < 2.1.16"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.10"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.5"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.4.0, < 2.4.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00418,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 6.8,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-330",
+          "CWE-331",
+          "CWE-335"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31035",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting with v1.0.0 are vulnerable to a cross-site scripting (XSS) bug allowing a malicious user to inject a `javascript:` link in the UI. When clicked by a victim user, the script will execute with the victim's permissions (up to and including admin). The script would be capable of doing anything which is possible in the UI or via the API, such as creating, modifying, and deleting Kubernetes resources. A patch for this vulnerability has been released in the following Argo CD versions: v2.4.1, v2.3.5, v2.2.10 and v2.1.16. There are no completely-safe workarounds besides upgrading.",
+      "cvss_score": 9.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 1.0.0, < 2.1.16"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.10"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.5"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.4.0, < 2.4.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00774,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 3.5,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 4,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31036",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting with v1.3.0 are vulnerable to a symlink following bug allowing a malicious user with repository write access to leak sensitive YAML files from Argo CD's repo-server. A malicious Argo CD user with write access for a repository which is (or may be) used in a Helm-type Application may commit a symlink which points to an out-of-bounds file. If the target file is a valid YAML file, the attacker can read the contents of that file. Sensitive files which could be leaked include manifest files from other Applications' source repositories (potentially decrypted files, if you are using a decryption plugin) or any YAML-formatted secrets which have been mounted as files on the repo-server. Patches for this vulnerability has been released in the following Argo CD versions: v2.4.1, v2.3.5, v2.2.10 and v2.1.16. If you are using a version >=v2.3.0 and do not have any Helm-type Applications you may disable the Helm config management tool as a workaround.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 1.3.0, < 2.1.16"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.2.0, < 2.2.10"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.5"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.4.0, < 2.4.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00261,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-61",
+          "CWE-59"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31054",
+      "description": "Argo Events is an event-driven workflow automation framework for Kubernetes. Prior to version 1.7.1, several `HandleRoute` endpoints make use of the deprecated `ioutil.ReadAll()`. `ioutil.ReadAll()` reads all the data into memory. As such, an attacker who sends a large request to the Argo Events server will be able to crash it and cause denial of service. A patch for this vulnerability has been released in Argo Events version 1.7.1.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-events",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "< 1.7.1"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-events",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00563,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": 5.0,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400",
+          "CWE-787"
+        ],
+        "cpe_count": 1,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31102",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD starting with 2.3.0 and prior to 2.3.6 and 2.4.5 is vulnerable to a cross-site scripting (XSS) bug which could allow an attacker to inject arbitrary JavaScript in the `/auth/callback` page in a victim's browser. This vulnerability only affects Argo CD instances which have single sign on (SSO) enabled. The exploit also assumes the attacker has 1) access to the API server's encryption key, 2) a method to add a cookie to the victim's browser, and 3) the ability to convince the victim to visit a malicious `/auth/callback` link. The vulnerability is classified as low severity because access to the API server's encryption key already grants a high level of access. Exploiting the XSS would allow the attacker to impersonate the victim, but would not grant any privileges which the attacker could not otherwise gain using the encryption key. A patch for this vulnerability has been released in the following Argo CD versions 2.4.5 and 2.3.6. There is currently no known workaround.",
+      "cvss_score": 2.6,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.6"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.4.0, < 2.4.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": 4.3,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2022-31105",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD starting with version 0.4.0 and prior to 2.2.11, 2.3.6, and 2.4.5 is vulnerable to an improper certificate validation bug which could cause Argo CD to trust a malicious (or otherwise untrustworthy) OpenID Connect (OIDC) provider. A patch for this vulnerability has been released in Argo CD versions 2.4.5, 2.3.6, and 2.2.11. There are no complete workarounds, but a partial workaround is available. Those who use an external OIDC provider (not the bundled Dex instance), can mitigate the issue by setting the `oidc.config.rootCA` field in the `argocd-cm` ConfigMap. This mitigation only forces certificate validation when the API server handles login flows. It does not force certificate verification when verifying tokens on API calls.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "status": "affected",
+              "version": ">= 0.4.0, < 2.2.11"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.3.0, < 2.3.6"
+            },
+            {
+              "status": "affected",
+              "version": ">= 2.4.0, < 2.4.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00254,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": 5.1,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295",
+          "CWE-599"
+        ],
+        "cpe_count": 3,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22482",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions of Argo CD starting with v1.8.2 and prior to 2.3.13, 2.4.19, 2.5.6, and 2.6.0-rc-3  are vulnerable to an improper authorization bug causing the API to accept certain invalid tokens. OIDC providers include an `aud` (audience) claim in signed tokens. The value of that claim specifies the intended audience(s) of the token (i.e. the service or services which are meant to accept the token). Argo CD _does_ validate that the token was signed by Argo CD's configured OIDC provider. But Argo CD _does not_ validate the audience claim, so it will accept tokens that are not intended for Argo CD. If Argo CD's configured OIDC provider also serves other audiences (for example, a file storage service), then Argo CD will accept a token intended for one of those other audiences. Argo CD will grant the user privileges based on the token's `groups` claim, even though those groups were not intended to be used by Argo CD. This bug also increases the impact of a stolen token. If an attacker steals a valid token for a different audience, they can use it to access Argo CD. A patch for this vulnerability has been released in versions 2.6.0-rc3, 2.5.6, 2.4.19, and 2.3.13. There are no workarounds.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.8.2, < 2.3.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.4.0-rc1, < 2.4.19",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.5.0-rc1, < 2.5.6",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.6.0-rc1, < 2.6.0-rc3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00244,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 7,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-22736",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions starting with 2.5.0-rc1 and above, prior to 2.5.8, and version 2.6.0-rc4, are vulnerable to an authorization bypass bug which allows a malicious Argo CD user to deploy Applications outside the configured allowed namespaces. Reconciled Application namespaces are specified as a comma-delimited list of glob patterns. When sharding is enabled on the Application controller, it does not enforce that list of patterns when reconciling Applications. For example, if Application namespaces are configured to be argocd-*, the Application controller may reconcile an Application installed in a namespace called other, even though it does not start with argocd-. Reconciliation of the out-of-bounds Application is only triggered when the Application is updated, so the attacker must be able to cause an update operation on the Application resource. This bug only applies to users who have explicitly enabled the \"apps-in-any-namespace\" feature by setting `application.namespaces` in the argocd-cmd-params-cm ConfigMap or otherwise setting the `--application-namespaces` flags on the Application controller and API server components. The apps-in-any-namespace feature is in beta as of this Security Advisory's publish date. The bug is also limited to Argo CD instances where sharding is enabled by increasing the `replicas` count for the Application controller. Finally, the AppProjects' `sourceNamespaces` field acts as a secondary check against this exploit. To cause reconciliation of an Application in an out-of-bounds namespace, an AppProject must be available which permits Applications in the out-of-bounds namespace. A patch for this vulnerability has been released in versions 2.5.8 and 2.6.0-rc5. As a workaround, running only one replica of the Application controller will prevent exploitation of this bug. Making sure all AppProjects' sourceNamespaces are restricted within the confines of the configured Application namespaces will also prevent exploitation of this bug.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.5.0=rc1, < 2.5.8",
+              "status": "affected"
+            },
+            {
+              "version": "= 2.6.0-rc4, < 2.6.0-rc5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00072,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-23947",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All Argo CD versions starting with 2.3.0-rc1 and prior to 2.3.17, 2.4.23  2.5.11, and 2.6.2 are vulnerable to an improper authorization bug which allows users who have the ability to update at least one cluster secret to update any cluster secret. The attacker could use this access to escalate privileges (potentially controlling Kubernetes resources) or to break Argo CD functionality (by preventing connections to external clusters). A patch for this vulnerability has been released in Argo CD versions 2.6.2, 2.5.11, 2.4.23, and 2.3.17. Two workarounds are available. Either modify the RBAC configuration to completely revoke all `clusters, update` access, or use the `destinations` and `clusterResourceWhitelist` fields to apply similar restrictions as the `namespaces` and `clusterResources` fields.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.3.0-rc1, < 2.3.17",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.4.0, < 2.4.23",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.5.0, < 2.5.11",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.6.0, < 2.6.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00354,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 4,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-25163",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting with v2.6.0-rc1 have an output sanitization bug which leaks repository access credentials in error messages. These error messages are visible to the user, and they are logged. The error message is visible when a user attempts to create or update an Application via the Argo CD API (and therefor the UI or CLI). The user must have `applications, create` or `applications, update` RBAC access to reach the code which may produce the error. The user is not guaranteed to be able to trigger the error message. They may attempt to spam the API with requests to trigger a rate limit error from the upstream repository. If the user has `repositories, update` access, they may edit an existing repository to introduce a URL typo or otherwise force an error message. But if they have that level of access, they are probably intended to have access to the credentials anyway. A patch for this vulnerability has been released in version 2.6.1. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.6.0-rc1, < 2.6.1",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00205,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-532"
+        ],
+        "cpe_count": 8,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2023-40025",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of Argo CD starting from version 2.6.0 have a bug where open web terminal sessions do not expire. This bug allows users to send any websocket messages even if the token has already expired. The most straightforward scenario is when a user opens the terminal view and leaves it open for an extended period. This allows the user to view sensitive information even when they should have been logged out already. A patch for this vulnerability has been released in the following Argo CD versions: 2.6.14, 2.7.12 and 2.8.1.\n",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.6.0, < 2.6.14",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.7.0, < 2.7.12",
+              "status": "affected"
+            },
+            {
+              "version": "= 2.8.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-613"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-40026",
+      "description": "Argo CD is a declarative continuous deployment framework for Kubernetes. In Argo CD versions prior to 2.3 (starting at least in v0.1.0, but likely in any version using Helm before 2.3), using a specifically-crafted Helm file could reference external Helm charts handled by the same repo-server to leak values, or files from the referenced Helm Chart. This was possible because Helm paths were predictable. The vulnerability worked by adding a Helm chart that referenced Helm resources from predictable paths. Because the paths of Helm charts were predictable and available on an instance of repo-server, it was possible to reference and then render the values and resources from other existing Helm charts regardless of permissions. While generally, secrets are not stored in these files, it was nevertheless possible to reference any values from these charts. This issue was fixed in Argo CD 2.3 and subsequent versions by randomizing Helm paths. User's still using Argo CD 2.3 or below are advised to update to a supported version. If this is not possible, disabling Helm chart rendering, or using an additional repo-server for each Helm chart would prevent possible exploitation.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "< 2.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00214,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-40029",
+      "description": "Argo CD is a declarative continuous deployment for Kubernetes. Argo CD Cluster secrets might be managed declaratively using Argo CD / kubectl apply. As a result, the full secret body is stored in`kubectl.kubernetes.io/last-applied-configuration` annotation. pull request #7139 introduced the ability to manage cluster labels and annotations. Since clusters are stored as secrets it also exposes the `kubectl.kubernetes.io/last-applied-configuration` annotation which includes full secret body. In order to view the cluster annotations via the Argo CD API, the user must have `clusters, get` RBAC access. **Note:** In many cases, cluster secrets do not contain any actually-secret information. But sometimes, as in bearer-token auth, the contents might be very sensitive. The bug has been patched in versions 2.8.3, 2.7.14, and 2.6.15. Users are advised to upgrade. Users unable to upgrade should update/deploy cluster secret with `server-side-apply` flag which does not use or rely on `kubectl.kubernetes.io/last-applied-configuration` annotation. Note: annotation for existing secrets will require manual removal.\n\n",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.2.0, < 2.6.15",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.7.0, < 2.7.14",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.8.0, < 2.8.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01115,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-532"
+        ],
+        "cpe_count": 3,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-40584",
+      "description": "Argo CD is a declarative continuous deployment for Kubernetes. All versions of ArgoCD starting from v2.4 have a bug where the ArgoCD repo-server component is vulnerable to a Denial-of-Service attack vector. Specifically, the said component extracts a user-controlled tar.gz file without validating the size of its inner files. As a result, a malicious, low-privileged user can send a malicious tar.gz file that exploits this vulnerability to the repo-server, thereby harming the system's functionality and availability. Additionally, the repo-server is susceptible to another vulnerability due to the fact that it does not check the extracted file permissions before attempting to delete them. Consequently, an attacker can craft a malicious tar.gz archive in a way that prevents the deletion of its inner files when the manifest generation process is completed. A patch for this vulnerability has been released in versions 2.6.15, 2.7.14, and 2.8.3. Users are advised to upgrade. The only way to completely resolve the issue is to upgrade, however users unable to upgrade should configure RBAC (Role-Based Access Control) and provide access for configuring applications only to a limited number of administrators. These administrators should utilize trusted and verified Helm charts.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.4.0, < 2.6.15",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.7.0, < 2.7.14",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.8.0, < 2.8.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00661,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-50726",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. \"Local sync\" is an Argo CD feature that allows developers to temporarily override an Application's manifests with locally-defined manifests. Use of the feature should generally be limited to highly-trusted users, since it allows the user to bypass any merge protections in git. An improper validation bug allows users who have `create` privileges but not `override` privileges to sync local manifests on app creation. All other restrictions, including AppProject restrictions are still enforced. The only restriction which is not enforced is that the manifests come from some approved git/Helm/OCI source. The bug was introduced in 1.2.0-rc1 when the local manifest sync feature was added. The bug has been patched in Argo CD versions 2.10.3, 2.9.8, and 2.8.12. Users are advised to upgrade. Users unable to upgrade may mitigate the risk of branch protection bypass by removing `applications, create` RBAC access. The only way to eliminate the issue without removing RBAC access is to upgrade to a patched version.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.2.0-rc1, < 2.8.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00024,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269",
+          "CWE-863"
+        ],
+        "cpe_count": 3,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-21652",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Prior to versions 2.8.13, 2.9.9, and 2.10.4, an attacker can exploit a chain of vulnerabilities, including a Denial of Service (DoS) flaw and in-memory data storage weakness, to effectively bypass the application's brute force login protection. This is a critical security vulnerability that allows attackers to bypass the brute force login protection mechanism. Not only can they crash the service affecting all users, but they can also make unlimited login attempts, increasing the risk of account compromise. Versions 2.8.13, 2.9.9, and 2.10.4 contain a patch for this issue.\n",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "< 2.8.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.9",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-307"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-21661",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Prior to versions 2.8.13, 2.9.9, and 2.10.4, an attacker can exploit a critical flaw in the application to initiate a Denial of Service (DoS) attack, rendering the application inoperable and affecting all users. The issue arises from unsafe manipulation of an array in a multi-threaded environment. The vulnerability is rooted in the application's code, where an array is being modified while it is being iterated over. This is a classic programming error but becomes critically unsafe when executed in a multi-threaded environment. When two threads interact with the same array simultaneously, the application crashes. This is a Denial of Service (DoS) vulnerability. Any attacker can crash the application continuously, making it impossible for legitimate users to access the service. The issue is exacerbated because it does not require authentication, widening the pool of potential attackers. Versions 2.8.13, 2.9.9, and 2.10.4 contain a patch for this issue.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "< 2.8.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.9",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01617,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 3,
+        "reference_count": 10
+      }
+    },
+    {
+      "cve_id": "CVE-2024-21662",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Prior to versions 2.8.13, 2.9.9, and 2.10.4, an attacker can effectively bypass the rate limit and brute force protections by exploiting the application's weak cache-based mechanism. This loophole in security can be combined with other vulnerabilities to attack the default admin account. This flaw undermines a patch for CVE-2020-8827 intended to protect against brute-force attacks. The application's brute force protection relies on a cache mechanism that tracks login attempts for each user. This cache is limited to a `defaultMaxCacheSize` of 1000 entries. An attacker can overflow this cache by bombarding it with login attempts for different users, thereby pushing out the admin account's failed attempts and effectively resetting the rate limit for that account. This is a severe vulnerability that enables attackers to perform brute force attacks at an accelerated rate, especially targeting the default admin account. Users should upgrade to version 2.8.13, 2.9.9, or 2.10.4 to receive a patch.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "< 2.8.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.9",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00075,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-307"
+        ],
+        "cpe_count": 3,
+        "reference_count": 10
+      }
+    },
+    {
+      "cve_id": "CVE-2024-22424",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. The Argo CD API prior to versions 2.10-rc2, 2.9.4, 2.8.8, and 2.7.15 are vulnerable to a cross-server request forgery (CSRF) attack when the attacker has the ability to write HTML to a page on the same parent domain as Argo CD. A CSRF attack works by tricking an authenticated Argo CD user into loading a web page which contains code to call Argo CD API endpoints on the victim\u2019s behalf. For example, an attacker could send an Argo CD user a link to a page which looks harmless but in the background calls an Argo CD API endpoint to create an application running malicious code. Argo CD uses the \u201cLax\u201d SameSite cookie policy to prevent CSRF attacks where the attacker controls an external domain. The malicious external website can attempt to call the Argo CD API, but the web browser will refuse to send the Argo CD auth token with the request. Many companies host Argo CD on an internal subdomain. If an attacker can place malicious code on, for example, https://test.internal.example.com/, they can still perform a CSRF attack. In this case, the \u201cLax\u201d SameSite cookie does not prevent the browser from sending the auth cookie, because the destination is a parent domain of the Argo CD API. Browsers generally block such attacks by applying CORS policies to sensitive requests with sensitive content types. Specifically, browsers will send a \u201cpreflight request\u201d for POSTs with content type \u201capplication/json\u201d asking the destination API \u201care you allowed to accept requests from my domain?\u201d If the destination API does not answer \u201cyes,\u201d the browser will block the request. Before the patched versions, Argo CD did not validate that requests contained the correct content type header. So an attacker could bypass the browser\u2019s CORS check by setting the content type to something which is considered \u201cnot sensitive\u201d such as \u201ctext/plain.\u201d The browser wouldn\u2019t send the preflight request, and Argo CD would happily accept the contents (which are actually still JSON) and perform the requested action (such as running malicious code). A patch for this vulnerability has been released in the following Argo CD versions: 2.10-rc2, 2.9.4, 2.8.8, and 2.7.15. The patch contains a breaking API change. The Argo CD API will no longer accept non-GET requests which do not specify application/json as their Content-Type. The accepted content types list is configurable, and it is possible (but discouraged) to disable the content type check completely. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 0.1.0, < 2.7.15",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.8.0, < 2.8.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.4",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0-rc1, < 2.10-rc2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00064,
+      "nvd": {
+        "cvss_v3_score": 8.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 4,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-28175",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Due to the improper URL protocols filtering of links specified in the `link.argocd.argoproj.io` annotations in the application summary component, an attacker can achieve cross-site scripting with elevated permissions. All unpatched versions of Argo CD starting with v1.0.0 are vulnerable to a cross-site scripting (XSS) bug allowing a malicious user to inject a javascript: link in the UI. When clicked by a victim user, the script will execute with the victim's permissions (up to and including admin). This vulnerability allows an attacker to perform arbitrary actions on behalf of the victim via the API, such as creating, modifying, and deleting Kubernetes resources. A patch for this vulnerability has been released in Argo CD versions v2.10.3 v2.9.8, and v2.8.12. There are no completely-safe workarounds besides upgrading. The safest alternative, if upgrading is not possible, would be to create a Kubernetes admission controller to reject any resources with an annotation starting with link.argocd.argoproj.io or reject the resource if the value use an improper URL protocol. This validation will need to be applied in all clusters managed by ArgoCD.\n\n",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.0.0, < 2.8.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00476,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-29893",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. All versions of ArgoCD starting from v2.4 have a bug where the ArgoCD repo-server component is vulnerable to a Denial-of-Service attack vector. Specifically,  it's possible to crash the repo server component through an out of memory error by pointing it to a malicious Helm registry. The loadRepoIndex() function in the ArgoCD's helm package, does not limit the size nor time while fetching the data. It fetches it and creates a byte slice from the retrieved data in one go. If the registry is implemented to push data continuously, the repo server will keep allocating memory until it runs out of it. A patch for this vulnerability has been released in v2.10.3, v2.9.8, and v2.8.12.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.4.0, < 2.8.14",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.10",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.5",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00606,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-31989",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. It has been discovered that an unprivileged pod in a different namespace on the same cluster could connect to the Redis server on port 6379. Despite having installed the latest version of the VPC CNI plugin on the EKS cluster, it requires manual enablement through configuration to enforce network policies. This raises concerns that many clients might unknowingly have open access to their Redis servers. This vulnerability could lead to Privilege Escalation to the level of cluster controller, or to information leakage, affecting anyone who does not have strict access controls on their Redis instance. This issue has been patched in version(s) 2.8.19, 2.9.15 and 2.10.10.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "< 2.8.19",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0-rc1, < 2.9.15",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0-rc1, < 2.10.10",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.11.0-rc1, < 2.11.1",
+              "status": "affected"
+            },
+            {
+              "version": "<= 1.8.7",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.09093,
+      "nvd": {
+        "cvss_v3_score": 9.0,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-327"
+        ],
+        "cpe_count": 4,
+        "reference_count": 18
+      }
+    },
+    {
+      "cve_id": "CVE-2024-31990",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. The API server does not enforce project sourceNamespaces which allows attackers to use the UI to edit resources which should only be mutable via gitops. This vulenrability is fixed in 2.10.7, 2.9.12, and 2.8.16.\n",
+      "cvss_score": 4.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.10.0, < 2.10.7",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.4.0, < 2.8.16",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00113,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-32476",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. There is a Denial of Service (DoS) vulnerability via OOM using jq in ignoreDifferences. This vulnerability has been patched in version(s) 2.10.7, 2.9.12 and 2.8.16.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.10.0, < 2.10.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 2.9.13",
+              "status": "affected"
+            },
+            {
+              "version": "< 2.8.17",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00416,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-36106",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. It\u2019s possible for authenticated users to enumerate clusters by name by inspecting error messages. It\u2019s also possible to enumerate the names of projects with project-scoped clusters if you know the names of the clusters. This vulnerability is fixed in 2.11.3, 2.10.12, and 2.9.17.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": "> 0.11.0, < 2.9.17",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.11.0, < 2.11.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0064,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-209"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-37152",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. The vulnerability allows unauthorized access to the sensitive settings exposed by  /api/v1/settings endpoint without authentication. All sensitive settings are hidden except passwordPattern. This vulnerability is fixed in 2.11.3, 2.10.12, and 2.9.17.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.9.3, < 2.9.17",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.11.0, < 2.11.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.80204,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287",
+          "CWE-306"
+        ],
+        "cpe_count": 3,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-40634",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. This report details a security vulnerability in Argo CD, where an unauthenticated attacker can send a specially crafted large JSON payload to the /api/webhook endpoint, causing excessive memory allocation that leads to service disruption by triggering an Out Of Memory (OOM) kill. The issue poses a high risk to the availability of Argo CD deployments. This vulnerability is fixed in 2.11.6, 2.10.15, and 2.9.20.\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.0.0, < 2.9.20",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.15",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.11.0, < 2.11.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.02608,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 3,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-41666",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Argo CD has a Web-based terminal that allows users to get a shell inside a running pod, just as they would with kubectl exec. Starting in version 2.6.0, when the administrator enables this function and grants permission to the user `p, role:myrole, exec, create, */*, allow`, even if the user revokes this permission, the user can still perform operations in the container, as long as the user keeps the terminal view open for a long time. Although the token expiration and revocation of the user are fixed, however, the fix does not address the situation of revocation of only user `p, role:myrole, exec, create, */*, allow` permissions, which may still lead to the leakage of sensitive information. A patch for this vulnerability has been released in Argo CD versions 2.11.7, 2.10.16, and 2.9.21.",
+      "cvss_score": 4.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.6.0, < 2.9.21",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.10.0, < 2.10.16",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.11.0, < 2.11.7",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00105,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 3,
+        "reference_count": 10
+      }
+    },
+    {
+      "cve_id": "CVE-2024-47827",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Due to a race condition in a global variable in 3.6.0-rc1, the argo workflows controller can be made to crash on-command by any user with access to execute a workflow. This vulnerability is fixed in 3.6.0-rc2.",
+      "cvss_score": 5.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": ">= 3.6.0-rc1, < 3.6.0-rc2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00147,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-362",
+          "CWE-1108"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52799",
+      "description": "Argo Workflows Chart is used to set up argo and its needed dependencies through one command. Prior to 0.44.0, the workflow-role has excessive privileges, the worst being create pods/exec, which will allow kubectl exec into any Pod in the same namespace, i.e. arbitrary code execution within those Pods. If a user can be made to run a malicious template, their whole namespace can be compromised. This affects versions of the argo-workflows Chart that use appVersion: 3.4 and above, which no longer need these permissions for the only available Executor, Emissary. It could also affect users below 3.4 depending on their choice of Executor in those versions. This only affects the Helm Chart and not the upstream manifests. This vulnerability is fixed in 0.44.0.",
+      "cvss_score": 8.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-helm",
+          "versions": [
+            {
+              "version": "< 0.44.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-helm",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250",
+          "CWE-1220"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-52814",
+      "description": "Argo Helm is a collection of community maintained charts for `argoproj.github.io` projects. Prior to version 0.45.0, the `workflow-role`) lacks granularity in its privileges, giving permissions to `workflowtasksets` and `workflowartifactgctasks` to all workflow Pods, when only certain types of Pods created by the Controller require these privileges. The impact is minimal, as an attack could only affect status reporting for certain types of Pods and templates. Version 0.45.0 fixes the issue.",
+      "cvss_score": 2.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-helm",
+          "versions": [
+            {
+              "version": "< 0.45.0",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-helm",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00073,
+      "nvd": {
+        "cvss_v3_score": 2.8,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1220"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2024-53862",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. When using `--auth-mode=client`, Archived Workflows can be retrieved with a fake or spoofed token via the GET Workflow endpoint: `/api/v1/workflows/{namespace}/{name}` or when using `--auth-mode=sso`, all Archived Workflows can be retrieved with a valid token via the GET Workflow endpoint: `/api/v1/workflows/{namespace}/{name}`. No authentication is performed by the Server itself on `client` tokens. Authentication & authorization is instead delegated to the k8s API server. However, the Workflow Archive does not interact with k8s, and so any token that looks valid will be considered authenticated, even if it is not a k8s token or even if the token has no RBAC for Argo. To handle the lack of pass-through k8s authN/authZ, the Workflow Archive specifically does the equivalent of a `kubectl auth can-i` check for respective methods. In 3.5.7 and 3.5.8, the auth check was accidentally removed on the GET Workflow endpoint's fallback to archived workflows on these lines, allowing archived workflows to be retrieved with a fake token. This vulnerability is fixed in 3.6.2 and 3.5.13.",
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:L/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": ">= 3.5.7, < 3.5.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.6.0-rc1, < 3.6.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00236,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-290"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-23216",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. A vulnerability was discovered in Argo CD that exposed secret values in error messages and the diff view when an invalid Kubernetes Secret resource was synced from a repository. The vulnerability assumes the user has write access to the repository and can exploit it, either intentionally or unintentionally, by committing an invalid Secret to repository and triggering a Sync. Once exploited, any user with read access to Argo CD can view the exposed secret data. The vulnerability is fixed in v2.13.4, v2.12.10, and v2.11.13.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.13.0, < 2.13.4",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.12.0, < 2.12.10",
+              "status": "affected"
+            },
+            {
+              "version": "< 2.11.13",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00112,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200",
+          "CWE-209"
+        ],
+        "cpe_count": 3,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-32445",
+      "description": "Argo Events is an event-driven workflow automation framework for Kubernetes. A user with permission to create/modify EventSource and Sensor custom resources can gain privileged access to the host system and cluster, even without having direct administrative privileges. The EventSource and Sensor CRs allow the corresponding orchestrated pod to be customized with spec.template and spec.template.container (with type k8s.io/api/core/v1.Container), thus, any specification under container such as command, args, securityContext , volumeMount can be specified, and applied to the EventSource or Sensor pod. With these, a user would be able to gain privileged access to the cluster host, if he/she specified the EventSource/Sensor CR with some particular properties under template. This vulnerability is fixed in v1.9.6.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-events",
+          "versions": [
+            {
+              "version": "< 1.9.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-events",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00373,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-250"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-47933",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Prior to versions 2.13.8, 2.14.13, and 3.0.4, an attacker can perform arbitrary actions on behalf of the victim via the API. Due to the improper filtering of URL protocols in the repository page, an attacker can achieve cross-site scripting with permission to edit the repository. This issue has been patched in versions 2.13.8, 2.14.13, and 3.0.4.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.2.0-rc1, <= 1.8.7",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.0.0-rc3, < 2.13.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.14.0-rc1, < 2.14.13",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0-rc1, < 3.0.4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00067,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 5,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-55190",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. In versions 2.13.0 through 2.13.8, 2.14.0 through 2.14.15, 3.0.0 through 3.0.12 and 3.1.0-rc1 through 3.1.1, API tokens with project-level permissions are able to retrieve sensitive repository credentials (usernames, passwords) through the project details API endpoint, even when the token only has standard application management permissions and no explicit access to secrets. This vulnerability does not only affect project-level permissions. Any token with project get permissions is also vulnerable, including global permissions such as: `p, role/user, projects, get, *, allow`. This issue is fixed in versions 2.13.9, 2.14.16, 3.0.14 and 3.1.2.",
+      "cvss_score": 10.0,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.13.0, < 2.13.9",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.14.0, < 2.14.16",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0, < 3.0.14",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.1.0-rc1, < 3.1.2",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.04032,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-55191",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions between 2.1.0 and 2.14.19, 3.2.0-rc1, 3.1.0-rc1 through 3.1.7, and 3.0.0-rc1 through 3.0.18 contain a race condition in the repository credentials handler that can cause the Argo CD server to panic and crash when concurrent operations are performed on the same repository URL. The vulnerability is located in numerous repository related handlers in the util/db/repository_secrets.go file. A valid API token with repositories resource permissions (create, update, or delete actions) is required to trigger the race condition. This vulnerability causes the entire Argo CD server to crash and become unavailable. Attackers can repeatedly and continuously trigger the race condition to maintain a denial-of-service state, disrupting all GitOps operations. This issue is fixed in versions 2.14.20, 3.2.0-rc2, 3.1.8 and 3.0.19.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.1.0, < 2.14.20",
+              "status": "affected"
+            },
+            {
+              "version": "= 3.2.0-rc1",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.1.0-rc1, < 3.1.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0-rc1, < 3.0.19",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00044,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-362"
+        ],
+        "cpe_count": 4,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-59531",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions 1.2.0 through 1.8.7, 2.0.0-rc1 through 2.14.19, 3.0.0-rc1 through 3.2.0-rc1, 3.1.7 and 3.0.18 are vulnerable to malicious API requests which can crash the API server and cause denial of service to legitimate clients. Without a configured webhook.bitbucketserver.secret, Argo CD's /api/webhook endpoint crashes when receiving a malformed Bitbucket Server payload (non-array repository.links.clone field). A single unauthenticated request triggers CrashLoopBackOff, and targeting all replicas causes complete API outage. This issue is fixed in versions 2.14.20, 3.2.0-rc2, 3.1.8 and 3.0.19.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.2.0, <= 1.8.7",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.0.0-rc1, < 2.14.20",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.2.0-rc1, < 3.2.0-rc2",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.1.0-rc1, < 3.1.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0-rc1, < 3.0.19",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00234,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-703"
+        ],
+        "cpe_count": 5,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-59537",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. Versions 1.2.0 through 1.8.7, 2.0.0-rc1 through 2.14.19, 3.0.0-rc1 through 3.2.0-rc1, 3.1.7 and 3.0.18 are vulnerable to malicious API requests which can crash the API server and cause denial of service to legitimate clients. With the default configuration, no webhook.gogs.secret set, Argo CD\u2019s /api/webhook endpoint will crash the entire argocd-server process when it receives a Gogs push event whose JSON field commits[].repo is not set or is null. This issue is fixed in versions 2.14.20, 3.2.0-rc2, 3.1.8 and 3.0.19.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 1.2.0, <= 1.8.7",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.0.0-rc1, < 2.14.20",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.2.0-rc1, < 3.2.0-rc2",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.1.0-rc1, < 3.1.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0-rc1, < 3.0.19",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00211,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-476"
+        ],
+        "cpe_count": 5,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-59538",
+      "description": "Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. For versions 2.9.0-rc1 through 2.14.19, 3.0.0-rc1 through 3.2.0-rc1, 3.1.6 and 3.0.17, when the webhook.azuredevops.username and webhook.azuredevops.password are not set in the default configuration, the /api/webhook endpoint crashes the entire argocd-server process when it receives an Azure DevOps Push event whose JSON array resource.refUpdates is empty. The slice index [0] is accessed without a length check, causing an index-out-of-range panic. A single unauthenticated HTTP POST is enough to kill the process. This issue is resolved in versions 2.14.20, 3.2.0-rc2, 3.1.8 and 3.0.19.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-cd",
+          "versions": [
+            {
+              "version": ">= 2.9.0-rc1, < 2.14.20",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.2.0-rc1, < 3.2.0-rc2",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.1.0-rc1, < 3.1.8",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.0.0-rc1, < 3.0.19",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-cd",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0003,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-248",
+          "CWE-703"
+        ],
+        "cpe_count": 4,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62156",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Versions prior to 3.6.12 and versions 3.7.0 through 3.7.2 contain a Zip Slip path traversal vulnerability in artifact extraction. During artifact extraction the unpack/untar logic (workflow/executor/executor.go) uses filepath.Join(dest, filepath.Clean(header.Name)) without validating that header.Name stays within the intended extraction directory. A malicious archive entry can supply a traversal or absolute path that, after cleaning, overrides the destination directory and causes files to be written outside the /work/tmp extraction path and into system directories such as /etc inside the container. The vulnerability enables arbitrary file creation or overwrite in system configuration locations (for example /etc/passwd, /etc/hosts, /etc/crontab), which can lead to privilege escalation or persistence within the affected container. Update to 3.6.12 or 3.7.3 to remediate the issue.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": "< 3.6.12",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.7.0, < 3.7.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0015,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 2,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62157",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Argo Workflows versions prior to 3.6.12 and versions 3.7.0 through 3.7.2 expose artifact repository credentials in plaintext in workflow-controller pod logs. An attacker with permissions to read pod logs in a namespace running Argo Workflows can read the workflow-controller logs and obtain credentials to the artifact repository. Update to versions 3.6.12 or 3.7.3 to remediate the vulnerability. No known workarounds exist.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": ">= 3.7.0, < 3.7.3",
+              "status": "affected"
+            },
+            {
+              "version": "< 3.6.12",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-522"
+        ],
+        "cpe_count": 2,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-66626",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Versions 3.6.13 and below and versions 3.7.0 through 3.7.4, contain unsafe untar code that handles symbolic links in archives. Concretely, the computation of a link's target and the subsequent check are flawed. An attacker can overwrite the file /var/run/argo/argoexec with a script of their choice, which would be executed at the pod's start. The patch deployed against CVE-2025-62156 is ineffective against malicious archives containing symbolic links. This issue is fixed in versions 3.6.14 and 3.7.5.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": "github.com/argoproj/argo-workflows/v3 >= 3.7.0, < 3.7.5",
+              "status": "affected"
+            },
+            {
+              "version": "github.com/argoproj/argo-workflows/v3 < 3.6.14",
+              "status": "affected"
+            },
+            {
+              "version": "github.com/argoproj/argo-workflows <= 2.5.3-rc4",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00091,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-23",
+          "CWE-78",
+          "CWE-59"
+        ],
+        "cpe_count": 2,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-23960",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Prior to versions 3.6.17 and 3.7.8, stored XSS in the artifact directory listing allows any workflow author to execute arbitrary JavaScript in another user\u2019s browser under the Argo Server origin, enabling API actions with the victim\u2019s privileges. Versions 3.6.17 and 3.7.8 fix the issue.",
+      "cvss_score": 7.3,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": "< 3.6.17",
+              "status": "affected"
+            },
+            {
+              "version": ">= 3.7.0, < 3.7.8",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00062,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-28229",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. Prior to 4.0.2 and 3.7.11, Workflow templates endpoints allow any client to retrieve WorkflowTemplates (and ClusterWorkflowTemplates). Any request with a Authorization: Bearer nothing token can leak sensitive template content, including embedded Secret manifests. This vulnerability is fixed in 4.0.2 and 3.7.11.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": ">= 4.0.0, < 4.0.2",
+              "status": "affected"
+            },
+            {
+              "version": "< 3.7.11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-31892",
+      "description": "Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. From 2.9.0 to before 4.0.2 and 3.7.11, A user who can submit Workflows can completely bypass all security settings defined in a WorkflowTemplate by including a podSpecPatch field in their Workflow submission. This works even when the controller is configured with templateReferencing: Strict, which is specifically documented as a mechanism to restrict users to admin-approved templates. The podSpecPatch field on a submitted Workflow takes precedence over the referenced WorkflowTemplate during spec merging and is applied directly to the pod spec at creation time with no security validation. This vulnerability is fixed in 4.0.2 and 3.7.11.",
+      "cvss_score": 8.9,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "argoproj",
+          "product": "argo-workflows",
+          "versions": [
+            {
+              "version": ">= 4.0.0, < 4.0.2",
+              "status": "affected"
+            },
+            {
+              "version": ">= 2.9.0, < 3.7.11",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:argo-workflows",
+        "vendor:argoproj"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    }
+  ]
+}

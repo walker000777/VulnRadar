@@ -1,0 +1,3738 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "zoom_communications_inc",
+  "count": 89,
+  "items": [
+    {
+      "cve_id": "CVE-2024-27238",
+      "description": "Race condition in the installer for some Zoom Apps and SDKs for Windows before version 6.0.0 may allow an authenticated user to conduct a privilege escalation via local access.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.0.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00135,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27239",
+      "description": "Use after free in some Zoom Workplace Apps and SDKs may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 16,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27240",
+      "description": "Improper input validation in the installer for some Zoom Apps for Windows may allow an authenticated user to conduct a privilege escalation via local access.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00127,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27241",
+      "description": "Improper input validation in some Zoom Apps and SDKs may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00132,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 14,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27245",
+      "description": "Buffer overflow in some Zoom Workplace Apps and SDKs may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00083,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 16,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-27246",
+      "description": "Use after free in some Zoom Workplace Apps and SDKs may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 16,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39818",
+      "description": "Protection mechanism failure for some Zoom Workplace Apps and SDKs may allow an authenticated user to conduct information disclosure via network access.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdks",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00774,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-522"
+        ],
+        "cpe_count": 9,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39819",
+      "description": "Integrity check\u00a0in the installer for some Zoom Workplace Apps and SDKs for Windows may allow an authenticated user to conduct a privilege escalation via local access.",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps and sdk for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdk for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00137,
+      "nvd": {
+        "cvss_v3_score": 7.3,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-494"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39820",
+      "description": "Uncontrolled search path element in the installer for Zoom Workplace Desktop App for macOS before version 6.0.10 may allow an authenticated user to conduct a denial of service via local access.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace desktop app for macos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.0.10"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace desktop app for macos",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00078,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-427"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39821",
+      "description": "Race condition in the installer for Zoom Workplace App for Windows and Zoom Rooms App for Windows may allow an authenticated user to conduct a denial of service via local access.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace app for windows and zoom rooms app for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace app for windows and zoom rooms app for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00096,
+      "nvd": {
+        "cvss_v3_score": 4.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367"
+        ],
+        "cpe_count": 2,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39822",
+      "description": "Sensitive information exposure in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow an authenticated user to conduct an information disclosure via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00813,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 12,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39823",
+      "description": "Missing authorization in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0028,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39824",
+      "description": "Missing authorization in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0028,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39825",
+      "description": "Buffer overflow in some Zoom Workplace Apps and Rooms Clients may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps and rooms clients",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and rooms clients",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.01304,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "cpe_count": 9,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39826",
+      "description": "Race condition in Team Chat for some Zoom Workplace Apps and SDKs for Windows may allow an authenticated user to conduct information disclosure via network access.",
+      "cvss_score": 6.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps and sdks",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps and sdks",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00213,
+      "nvd": {
+        "cvss_v3_score": 6.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367",
+          "CWE-22"
+        ],
+        "cpe_count": 3,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-39827",
+      "description": "Improper input validation in the installer for Zoom Workplace Desktop App for Windows before version 6.0.10 may allow an authenticated user to conduct a denial of service via local access.",
+      "cvss_score": 5.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace desktop app for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.0.10"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace desktop app for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00067,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42434",
+      "description": "Missing authorization in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0028,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42435",
+      "description": "Sensitive information disclosure in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00364,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42436",
+      "description": "Buffer overflow in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00671,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42437",
+      "description": "Buffer overflow in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00616,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42438",
+      "description": "Buffer overflow in some Zoom Workplace Apps, SDKs, Rooms Clients, and Rooms Controllers may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00705,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-787"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42439",
+      "description": "Untrusted search path in the installer for Zoom Workplace Desktop App for macOS and Zoom Meeting SDK for macOS before 6.1.0 may allow a privileged user to conduct an escalation of privilege via local access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace desktop app for macos and zoom meeting sdk for macos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.1.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace desktop app for macos and zoom meeting sdk for macos",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42440",
+      "description": "Improper privilege management in the installer for Zoom Workplace Desktop App for macOS, Zoom Meeting SDK for macOS and Zoom Rooms Client for macOS before 6.1.5 may allow a privileged user to conduct an escalation of privilege via local access.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace desktop app for macos, zoom meeting sdk for macos, zoom rooms client for macos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.1.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace desktop app for macos, zoom meeting sdk for macos, zoom rooms client for macos",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00077,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-42441",
+      "description": "Incorrect privilege assignment in the installer for Zoom Workplace Desktop App for macOS, Zoom Meeting SDK for macOS and Zoom Rooms Client for macOS before 6.1.5 may allow a privileged user to conduct an escalation of privilege via local access.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace desktop app for macos, zoom meeting sdk for macos, zoom rooms client for macos",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "before version 6.1.5"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace desktop app for macos, zoom meeting sdk for macos, zoom rooms client for macos",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.001,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45417",
+      "description": "Uncontrolled resource consumption in the installer for some Zoom apps for macOS before version 6.1.5 may allow a privileged user to conduct a disclosure of information via local access.",
+      "cvss_score": 6.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps for macos",
+          "versions": [
+            {
+              "lessThan": "6.1.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps for macos",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00047,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-708"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45418",
+      "description": "Symlink following in the installer for some Zoom apps for macOS before version 6.1.5 may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps for macos",
+          "versions": [
+            {
+              "lessThan": "6.1.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps for macos",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.004,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-61",
+          "CWE-59"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45419",
+      "description": "Improper input validation in some Zoom Apps may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0027,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-252"
+        ],
+        "cpe_count": 23,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45420",
+      "description": "Uncontrolled resource consumption in some Zoom Apps before version 6.2.0 may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00203,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 22,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45421",
+      "description": "Buffer overflow in some Zoom Apps may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00694,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122",
+          "CWE-119"
+        ],
+        "cpe_count": 23,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45422",
+      "description": "Improper input validation in some Zoom Apps before version 6.2.0 may allow an unauthenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace apps, sdks, rooms clients, and rooms controllers",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps, sdks, rooms clients, and rooms controllers",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 22,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45424",
+      "description": "Business logic error in some Zoom Workplace Apps may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00287,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-840"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45425",
+      "description": "Incorrect user management in some Zoom Workplace Apps may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00141,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-286"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-45426",
+      "description": "Incorrect ownership assignment in some Zoom Workplace Apps may allow a privileged user to conduct an information disclosure via network access.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00106,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-708"
+        ],
+        "cpe_count": 12,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0142",
+      "description": "Cleartext storage of sensitive information in the Zoom Jenkins Marketplace plugin before version 1.4 may allow an authenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom jenkins marketplace plugin",
+          "versions": [
+            {
+              "lessThan": "1.4",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom jenkins marketplace plugin",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00107,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-312"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0143",
+      "description": "Out-of-bounds write in the Zoom Workplace App for Linux before version 6.2.5 may allow an unauthorized user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for linux",
+          "versions": [
+            {
+              "lessThan": "6.2.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for linux",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.002,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0144",
+      "description": "Out-of-bounds write in some Zoom Workplace Apps may allow an authorized user to conduct a loss of integrity via network access.",
+      "cvss_score": 3.1,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00126,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787"
+        ],
+        "cpe_count": 24,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0145",
+      "description": "Untrusted search path in the installer for some Zoom Workplace Apps for Windows may allow an authorized user to conduct an escalation of privilege via local access.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0146",
+      "description": "Symlink following in the installer for Zoom Workplace App for macOS before 6.2.10 may allow an authenticated user to conduct a denial of service via local access.",
+      "cvss_score": 3.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace app for macos",
+          "versions": [
+            {
+              "lessThan": "6.2.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace app for macos",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00071,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0147",
+      "description": "Type confusion in the Zoom Workplace App for Linux before 6.2.10 may allow an authorized user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace app for linux",
+          "versions": [
+            {
+              "lessThan": "6.2.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace app for linux",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00732,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-843"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0148",
+      "description": "Missing password field masking in the Zoom Jenkins Marketplace plugin before version 1.6 may allow an unauthenticated user to conduct a disclosure of information via adjacent network access.",
+      "cvss_score": 2.6,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom jenkins marketplace plugin",
+          "versions": [
+            {
+              "lessThan": "1.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom jenkins marketplace plugin",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00062,
+      "nvd": {
+        "cvss_v3_score": 2.6,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-549"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0149",
+      "description": "Insufficient verification of data authenticity in some Zoom Workplace Apps may allow an unprivileged user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00065,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-345"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0150",
+      "description": "Incorrect behavior order in some Zoom Workplace Apps for iOS before version 6.3.0 may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for ios",
+          "versions": [
+            {
+              "lessThan": "6.3.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for ios",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00063,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-696"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0151",
+      "description": "Use after free in some Zoom Workplace Apps may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00131,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-27439",
+      "description": "Buffer underflow in some Zoom Workplace Apps may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00221,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-124"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-27440",
+      "description": "Heap overflow in some Zoom Workplace Apps may allow an authenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00225,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-124"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-27441",
+      "description": "Cross site scripting in some Zoom Workplace Apps may allow an unauthenticated user to conduct a loss of integrity via adjacent network access.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 5.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352",
+          "CWE-79"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-27442",
+      "description": "Cross site scripting in some Zoom Workplace Apps may allow an unauthenticated user to conduct a loss of integrity via adjacent network access.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 5.2,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352",
+          "CWE-79"
+        ],
+        "cpe_count": 20,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-27443",
+      "description": "Insecure default variable initialization in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a loss of integrity via local access.",
+      "cvss_score": 2.8,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1188"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30662",
+      "description": "Symlink following in the installer for the Zoom Workplace VDI Plugin macOS Universal installer before version 6.3.14, 6.4.14, and 6.5.10 in their respective tracks may allow an authenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace vdi plugin macos universal installer",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace vdi plugin macos universal installer",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00024,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-646"
+        ],
+        "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30663",
+      "description": "Time-of-check time-of-use race condition in some Zoom Workplace Apps may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367"
+        ],
+        "cpe_count": 21,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30664",
+      "description": "Cross-site scripting in some Zoom Workplace Apps may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00073,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 19,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30665",
+      "description": "NULL pointer dereference in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00312,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30666",
+      "description": "NULL pointer dereference in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00312,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30667",
+      "description": "NULL pointer dereference in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00312,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 21,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30668",
+      "description": "Integer underflow in some Zoom Workplace Apps may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-191"
+        ],
+        "cpe_count": 19,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30669",
+      "description": "Improper certificate validation in certain Zoom Clients may allow an unauthenticated user to conduct a disclosure of information via adjacent access.",
+      "cvss_score": 4.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace clients",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0002,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30670",
+      "description": "Null pointer dereference in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00312,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-30671",
+      "description": "Null pointer dereference in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "See references.",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00312,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-476"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46785",
+      "description": "Buffer over-read in some Zoom Workplace Apps for Windows may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00311,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 7,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46786",
+      "description": "Cross-site scripting in some Zoom Workplace Apps may allow an authenticated user to impact app integrity via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace apps",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace apps",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00183,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 21,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46788",
+      "description": "Improper certificate validation in Zoom Workplace for Linux before version 6.4.13 may allow an unauthorized user to conduct an information disclosure via network access.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace for linux",
+          "versions": [
+            {
+              "lessThan": "6.4.13",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace for linux",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00032,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-295"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-46789",
+      "description": "Classic buffer overflow in certain Zoom Clients for Windows may allow an authorized user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients for windows",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients for windows",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00097,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49456",
+      "description": "Race condition in the installer for certain Zoom Clients for Windows may allow an unauthenticated user to impact  application integrity via local access.",
+      "cvss_score": 6.2,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc",
+          "product": "zoom clients for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients for windows",
+        "vendor:zoom communications inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 5.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426",
+          "CWE-362"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49457",
+      "description": "Untrusted search path in certain Zoom Clients for Windows may allow an unauthenticated user to conduct an escalation of privilege via network access",
+      "cvss_score": 9.6,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc",
+          "product": "zoom clients for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:zoom clients for windows",
+        "vendor:zoom communications inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0011,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-426"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49458",
+      "description": "Buffer overflow in certain Zoom Workplace Clients may allow an authenticated user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace clients",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00078,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 14,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49459",
+      "description": "Missing authorization in the installer for Zoom Workplace for Windows on ARM before version 6.5.0 may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace for windows on arm",
+          "versions": [
+            {
+              "lessThan": "6.6.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace for windows on arm",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00017,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49460",
+      "description": "Uncontrolled resource consumption in certain Zoom Workplace Clients may allow an unauthenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace clients",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00069,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-400"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49461",
+      "description": "Cross-site scripting in certain Zoom Workplace Clients may allow an unauthenticated user to conduct a denial of service via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace clients",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00049,
+      "nvd": {
+        "cvss_v3_score": 7.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 18,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49462",
+      "description": "Cross-site scripting in certain Zoom Clients  before version 6.4.5 may allow an authenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 3.5,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients",
+          "versions": [
+            {
+              "lessThan": "6.4.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00021,
+      "nvd": {
+        "cvss_v3_score": 3.5,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49463",
+      "description": "Insufficient control flow management in certain Zoom Clients for iOS before version 6.4.5 may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients for ios",
+          "versions": [
+            {
+              "lessThan": "6.4.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients for ios",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00067,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-691"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49464",
+      "description": "Classic buffer overflow in certain Zoom Clients for Windows may allow an authorised user to conduct a denial of service via network access.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients for windows",
+          "versions": [
+            {
+              "lessThan": "6.4.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients for windows",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00087,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-58131",
+      "description": "Race condition in the Zoom Workplace VDI Plugin macOS Universal installer for VMware Horizon before version 6.4.10 (or before 6.2.15 and 6.3.12 in their respective tracks) may allow an authenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace vdi plugin macos universal installer for vmware horizon",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace vdi plugin macos universal installer for vmware horizon",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0001,
+      "nvd": {
+        "cvss_v3_score": 6.6,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-367"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-58132",
+      "description": "Command injection in some Zoom Clients for Windows may allow an authenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 4.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients for windows",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients for windows",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.0005,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-77"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-58133",
+      "description": "Authentication bypass in some Zoom Rooms Clients before version 6.5.1 may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom rooms",
+          "versions": [
+            {
+              "lessThan": "6.5.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom rooms",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00137,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-288"
+        ],
+        "cpe_count": 5,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-58134",
+      "description": "Incorrect authorization in certain Zoom Workplace Clients for Windows may allow an authenticated user to conduct an impact to integrity via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace clients for windows",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0003,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-58135",
+      "description": "Improper action enforcement in certain Zoom Workplace Clients for Windows may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications, inc",
+          "product": "zoom workplace clients for windows",
+          "versions": [
+            {
+              "lessThan": "see references",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace clients for windows",
+        "vendor:zoom communications, inc"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-837"
+        ],
+        "cpe_count": 6,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62482",
+      "description": "Cross-site scripting in Zoom Workplace for Windows before version 6.5.10 may allow an unauthenticated user to impact integrity via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace",
+          "versions": [
+            {
+              "lessThan": "6.5.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00159,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62483",
+      "description": "Improper removal of sensitive information in certain Zoom Clients before version 6.5.10 may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00096,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-212"
+        ],
+        "cpe_count": 14,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-62484",
+      "description": "Inefficient regular expression complexity in certain Zoom Workplace Clients before version 6.5.10 may allow an unauthenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace",
+          "versions": [
+            {
+              "lessThan": "6.5.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00123,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 4,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-64738",
+      "description": "External control of file name or path in Zoom Workplace for macOS before version 6.5.10 may allow an authenticated user to conduct a disclosure of information via local access.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace for macos",
+          "versions": [
+            {
+              "lessThan": "6.5.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace for macos",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00022,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-73"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-64739",
+      "description": "External control of file name or path in certain Zoom Clients may allow an unauthenticated user to conduct a disclosure of information via network access.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom clients",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom clients",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00096,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-73"
+        ],
+        "cpe_count": 14,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-64740",
+      "description": "Improper verification of cryptographic signature in the installer for Zoom Workplace VDI Client for Windows may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace vdi client",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace vdi client",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00011,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-347"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-64741",
+      "description": "Improper authorization handling in Zoom Workplace for Android before version 6.5.10 may allow an unauthenticated user to conduct an escalation of privilege via network access.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace for android",
+          "versions": [
+            {
+              "lessThan": "6.5.10",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace for android",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00146,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-74"
+        ],
+        "cpe_count": 2,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-67460",
+      "description": "Protection Mechanism Failure of Software Downgrade in Zoom Rooms for Windows before 6.6.0 may allow an unauthenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom rooms",
+          "versions": [
+            {
+              "lessThan": "6.6.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom rooms",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00051,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-693"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-67461",
+      "description": "External control of file name or path in Zoom Rooms for macOS before version 6.6.0 may allow an authenticated user to conduct a disclosure of information via local access.",
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom rooms",
+          "versions": [
+            {
+              "lessThan": "6.6.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom rooms",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00017,
+      "nvd": {
+        "cvss_v3_score": 5.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-73"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-22844",
+      "description": "A Command Injection vulnerability in Zoom Node Multimedia Routers (MMRs) before version 5.2.1716.0 may allow a meeting participant to conduct remote code execution of the MMR via network access.",
+      "cvss_score": 9.9,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom node",
+          "versions": [
+            {
+              "lessThan": "5.2.1716.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:zoom node",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00171,
+      "nvd": {
+        "cvss_v3_score": 9.9,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-30900",
+      "description": "Improper Check of minimum version in update functionality of certain Zoom Clients for Windows may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "6.6.0",
+              "lessThan": "6.6.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00015,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-754"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-30901",
+      "description": "Improper Input Validation in Zoom Rooms for Windows before 6.6.5 in Kiosk Mode may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom rooms",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "6.6.5",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom rooms",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00021,
+      "nvd": {
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-30902",
+      "description": "Improper Privilege Management in certain Zoom Clients for Windows may allow an authenticated user to conduct an escalation of privilege via local access.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "zoom communications inc.",
+          "product": "zoom workplace",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "see references"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:zoom workplace",
+        "vendor:zoom communications inc."
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    }
+  ]
+}

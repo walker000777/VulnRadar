@@ -1,39 +1,175 @@
 {
-  "generated_at": "2026-04-01T07:04:40+00:00",
-  "total_count": 9809,
-  "vendor_count": 8,
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "total_count": 33675,
+  "vendor_count": 42,
   "vendors": {
     "_other": {
       "file": "vendors/_other.json",
-      "count": 691
+      "count": 3412
     },
     "apache_software_foundation": {
       "file": "vendors/apache_software_foundation.json",
-      "count": 588
+      "count": 977
     },
     "apple": {
       "file": "vendors/apple.json",
-      "count": 942
+      "count": 2318
+    },
+    "argoproj": {
+      "file": "vendors/argoproj.json",
+      "count": 54
+    },
+    "atlassian": {
+      "file": "vendors/atlassian.json",
+      "count": 65
     },
     "cisco": {
       "file": "vendors/cisco.json",
-      "count": 399
+      "count": 1247
+    },
+    "dell": {
+      "file": "vendors/dell.json",
+      "count": 62
+    },
+    "devolutions": {
+      "file": "vendors/devolutions.json",
+      "count": 58
+    },
+    "elastic": {
+      "file": "vendors/elastic.json",
+      "count": 121
+    },
+    "f5": {
+      "file": "vendors/f5.json",
+      "count": 281
+    },
+    "fortinet": {
+      "file": "vendors/fortinet.json",
+      "count": 631
+    },
+    "github": {
+      "file": "vendors/github.json",
+      "count": 106
+    },
+    "gitlab": {
+      "file": "vendors/gitlab.json",
+      "count": 688
     },
     "google": {
       "file": "vendors/google.json",
-      "count": 1496
+      "count": 2323
+    },
+    "hashicorp": {
+      "file": "vendors/hashicorp.json",
+      "count": 83
+    },
+    "hewlett_packard_enterprise_hpe": {
+      "file": "vendors/hewlett_packard_enterprise_hpe.json",
+      "count": 79
+    },
+    "ibm": {
+      "file": "vendors/ibm.json",
+      "count": 201
+    },
+    "isc": {
+      "file": "vendors/isc.json",
+      "count": 51
+    },
+    "jenkins_project": {
+      "file": "vendors/jenkins_project.json",
+      "count": 786
+    },
+    "jetbrains": {
+      "file": "vendors/jetbrains.json",
+      "count": 294
+    },
+    "juniper_networks": {
+      "file": "vendors/juniper_networks.json",
+      "count": 443
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 2150
+      "count": 9991
+    },
+    "mattermost": {
+      "file": "vendors/mattermost.json",
+      "count": 364
+    },
+    "metagauss": {
+      "file": "vendors/metagauss.json",
+      "count": 99
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
-      "count": 3354
+      "count": 4579
+    },
+    "mongodb_inc": {
+      "file": "vendors/mongodb_inc.json",
+      "count": 71
+    },
+    "mozilla": {
+      "file": "vendors/mozilla.json",
+      "count": 890
+    },
+    "n_a": {
+      "file": "vendors/n_a.json",
+      "count": 388
+    },
+    "ni": {
+      "file": "vendors/ni.json",
+      "count": 58
+    },
+    "nodejs": {
+      "file": "vendors/nodejs.json",
+      "count": 74
+    },
+    "openssl": {
+      "file": "vendors/openssl.json",
+      "count": 59
+    },
+    "oracle_corporation": {
+      "file": "vendors/oracle_corporation.json",
+      "count": 1457
+    },
+    "palo_alto_networks": {
+      "file": "vendors/palo_alto_networks.json",
+      "count": 111
     },
     "red_hat": {
       "file": "vendors/red_hat.json",
-      "count": 189
+      "count": 516
+    },
+    "sap_se": {
+      "file": "vendors/sap_se.json",
+      "count": 66
+    },
+    "siemens": {
+      "file": "vendors/siemens.json",
+      "count": 97
+    },
+    "sonicwall": {
+      "file": "vendors/sonicwall.json",
+      "count": 110
+    },
+    "suse": {
+      "file": "vendors/suse.json",
+      "count": 92
+    },
+    "thorsten": {
+      "file": "vendors/thorsten.json",
+      "count": 91
+    },
+    "vmware": {
+      "file": "vendors/vmware.json",
+      "count": 89
+    },
+    "zoom_communications_inc": {
+      "file": "vendors/zoom_communications_inc.json",
+      "count": 89
+    },
+    "zoom_video_communications_inc": {
+      "file": "vendors/zoom_video_communications_inc.json",
+      "count": 104
     }
   }
 }

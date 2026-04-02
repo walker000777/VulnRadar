@@ -1,0 +1,4546 @@
+{
+  "generated_at": "2026-04-02T03:53:52+00:00",
+  "vendor": "metagauss",
+  "count": 99,
+  "items": [
+    {
+      "cve_id": "CVE-2022-36345",
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Metagauss Download Plugin\u00a0<= 2.0.4 versions.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "download plugin",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "2.0.5",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "2.0.4",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:download plugin",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00094,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2022-38062",
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Metagauss Download Theme plugin <=\u00a01.0.9 versions.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "download theme",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "1.1.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "1.0.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:download theme",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0006,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-23976",
+      "description": "Incorrect Default Permissions vulnerability in Metagauss RegistrationMagic allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects RegistrationMagic: from n/a through 5.1.9.2.\n\n",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.1.9.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.1.9.2",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-276"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-23989",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic.This issue affects RegistrationMagic: from n/a through 5.1.9.2.\n\n",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.1.9.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.1.9.2",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00064,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2499",
+      "description": "The RegistrationMagic plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 5.2.1.0. This is due to insufficient verification on the user being supplied during a Google social login through the plugin. This makes it possible for unauthenticated attackers to log in as any existing user on the site, such as an administrator, if they have access to the email.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.2.1.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00648,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-2548",
+      "description": "The RegistrationMagic plugin for WordPress is vulnerable to Insecure Direct Object References in versions up to, and including, 5.2.0.5. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for authenticated attackers, with administrator-level permissions and above, to change user passwords and potentially take over super-administrator accounts in multisite setup.",
+      "cvss_score": 6.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.2.0.5",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2023-33321",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through 2.8.6.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "3.0.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "2.8.6",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00367,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3403",
+      "description": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'pm_upload_csv' function in versions up to, and including, 5.5.1. This makes it possible for authenticated attackers, with subscriber-level permissions or above to import new users and update existing users.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, memberships, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.5.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, memberships, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00051,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3404",
+      "description": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized decryption of private information in versions up to, and including, 5.5.0. This is due to the passphrase and iv being hardcoded in the 'pm_encrypt_decrypt_pass' function and used across all sites running the plugin. This makes it possible for authenticated attackers, with administrator-level permissions or above to decrypt and view users' passwords. If combined with another vulnerability, this can potentially grant lower-privileged users access to users' passwords.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, memberships, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.5.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, memberships, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00157,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3713",
+      "description": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'profile_magic_check_smtp_connection' function in versions up to, and including, 5.5.1. This makes it possible for authenticated attackers, with subscriber-level permissions or above to update the site options arbitrarily. This can be used by attackers to achieve privilege escalation.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, memberships, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.5.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, memberships, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00079,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2023-3714",
+      "description": "The ProfileGrid plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'edit_group' handler in versions up to, and including, 5.5.2. This makes it possible for authenticated attackers, with group ownership, to update group options, including the 'associate_role' parameter, which defines the member's role. This issue was partially patched in version 5.5.2 preventing privilege escalation, however, it was fully patched in 5.5.3.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, memberships, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.5.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, memberships, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00137,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2023-51509",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login allows Reflected XSS.This issue affects RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login: from n/a through 5.2.4.1.\n\n",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.2.4.2",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.2.4.1",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00087,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-51543",
+      "description": "Authentication Bypass by Spoofing vulnerability in Metagauss RegistrationMagic allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects RegistrationMagic: from n/a through 5.2.5.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.2.5.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.2.5.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00084,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-290"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-51544",
+      "description": "Improper Control of Interaction Frequency vulnerability in Metagauss RegistrationMagic allows Functionality Misuse.This issue affects RegistrationMagic: from n/a through 5.2.5.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.2.5.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.2.5.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00246,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-799"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2023-52117",
+      "description": "Missing Authorization vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid: from n/a through 5.6.6.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.6.7",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.6.6",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00124,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10508",
+      "description": "The RegistrationMagic \u2013 User Registration Plugin with Custom Registration Forms plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 6.0.2.6. This is due to the plugin not properly validating the password reset token prior to updating a user's password. This makes it possible for unauthenticated attackers to reset the password of arbitrary users, including administrators, and gain access to these accounts.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 user registration plugin with custom registration forms",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.2.6",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:registrationmagic \u2013 user registration plugin with custom registration forms",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.15326,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-230"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-10900",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the pm_remove_file_attachment() function in all versions up to, and including, 5.9.3.6. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary user meta which can do things like deny an administrator's access to their site. .",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.3.6",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00189,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2024-12024",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the em_ticket_category_data and em_ticket_individual_data parameters in all versions up to, and including, 4.0.5.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever an administrative user accesses an injected page.\r\nNote: this vulnerability requires the \"Guest Submissions\" setting to be enabled. It is disabled by default.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.0.5.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00723,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-13526",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability checks on the export_submittion_attendees function in all versions up to, and including, 4.0.7.3. This makes it possible for authenticated attackers, with Subscriber-level access and above, to download list of attendees for any event.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.0.7.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-13740",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.9.4.2 via the pm_messenger_show_messages function due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Subscriber-level access and above, to read private conversations of other users.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.4.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00088,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-13741",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Limited Server-Side Request Forgery in all versions up to, and including, 5.9.4.2 via the pm_upload_image function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to download and view images, as well as validating if a non-image file exists, both on local or remote hosts.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.4.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00081,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1123",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the save_frontend_event_submission() function in all versions up to, and including, 3.4.2. This makes it possible for authenticated attackers, with subscriber-level access and above, to overwrite the title and content of arbitrary posts. This can also be exploited by unauthenticated attackers when the allow_submission_by_anonymous_user setting is enabled.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00135,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1124",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized email sending due to a missing capability check on the ep_send_attendees_email() function in all versions up to, and including, 3.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to send arbitrary emails with arbitrary content from the site.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1125",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized loss of data due to a missing capability check on the calendar_events_delete() function in all versions up to, and including, 3.4.3. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary posts.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00056,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1126",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the get_attendees_email_by_event_id() function in all versions up to, and including, 3.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to to retrieve the attendees list for any event.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00206,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1127",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the booking_export_all() function in all versions up to, and including, 3.4.1. This makes it possible for authenticated attackers, with subscriber-level access and above, to retrieve all event booking which can contain PII.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00241,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1320",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'offline_status' parameter in all versions up to, and including, 3.4.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00385,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1321",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to payment bypass in all versions up to, and including, 3.4.2. This is due to the plugin allowing unauthenticated users to update the status of order payments. This makes it possible for unauthenticated attackers to book events for free.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "3.4.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00115,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1990",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to blind SQL Injection via the \u2018id\u2019 parameter of the RM_Form shortcode in all versions up to, and including, 5.3.1.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.3.1.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00721,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-1991",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to privilege escalation due to a missing capability check on the update_users_role() function in all versions up to, and including, 5.3.0.0. This makes it possible for authenticated attackers, with subscriber-level access and above, to escalate their privileges to that of an administrator",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.3.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00301,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2024-24832",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime.This issue affects EventPrime: from n/a through 3.3.9.\n\n",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "3.4.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "3.3.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00136,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-25935",
+      "description": "Missing Authorization vulnerability in Metagauss RegistrationMagic.This issue affects RegistrationMagic: from n/a through 5.2.5.9.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.2.6.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.2.5.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00276,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-29113",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic allows Reflected XSS.This issue affects RegistrationMagic: from n/a through 5.2.5.9.\n\n",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.2.6.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.2.5.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00134,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-29776",
+      "description": "Cross Site Scripting (XSS) vulnerability in Metagauss EventPrime.This issue affects EventPrime: from n/a through 3.3.9.\n\n",
+      "cvss_score": 5.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "3.4.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "3.3.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00135,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-2951",
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Metagauss RegistrationMagic.This issue affects RegistrationMagic: from n/a through 5.3.0.0.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.3.1.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.3.0.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00102,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-30241",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.1.\n\n",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.2",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.1",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.03541,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-30490",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.9",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.8",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.14438,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-30491",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.9",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.8",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (EPSS \u2265 0.5)",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.55211,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-30513",
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.2.\n\n",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.2",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00165,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-31275",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime.This issue affects EventPrime: from n/a through 3.3.4.",
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "3.3.5",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "3.3.4",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00458,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-31291",
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.6.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.7",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.6",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00085,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-31362",
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.8.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.7.9",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.8",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-32772",
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.9.\n\n",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.8.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00179,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-32774",
+      "description": "Improper Restriction of Excessive Authentication Attempts vulnerability in Metagauss ProfileGrid allows Removing Important Client Functionality.This issue affects ProfileGrid : from n/a through 5.8.2.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.8.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.8.2",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00369,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-307"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-32808",
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.9.\n\n",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.8.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.7.9",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-33947",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic allows Reflected XSS.This issue affects RegistrationMagic: from n/a through 5.3.2.0.\n\n",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.3.2.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.3.2.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00091,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-3606",
+      "description": "The ProfileGrid \u2013 User Profiles, Memberships, Groups and Communities plugin for WordPress is vulnerable to unauthorized deletion of data due to a missing capability check on the pm_upload_cover_image function in all versions up to, and including, 5.8.3. This makes it possible for authenticated attackers, with subscriber access or higher, to delete attachments.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, memberships, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.8.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, memberships, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00187,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2024-47648",
+      "description": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Metagauss EventPrime eventprime-event-calendar-management.This issue affects EventPrime: from n/a through <= 4.0.4.5.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.0.4.6",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.0.4.5",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00178,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-601"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-49273",
+      "description": "Missing Authorization vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities.This issue affects ProfileGrid : from n/a through <= 5.9.3.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.3.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00183,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2024-5453",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the pm_dismissible_notice and pm_wizard_update_group_icon functions in all versions up to, and including, 5.8.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change arbitrary options to the value '1' or change group icons.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.8.6",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00135,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6410",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.8.9 via the 'pm_upload_image' function due to missing validation on a user controlled key. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change the profile picture of any user.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.8.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00209,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 1,
+        "reference_count": 8
+      }
+    },
+    {
+      "cve_id": "CVE-2024-6411",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to privilege escalation in all versions up to, and including, 5.8.9. This is due to a lack of validation on user-supplied data in the 'pm_upload_image' AJAX action. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update their user capabilities to Administrator.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.8.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00614,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 1,
+        "reference_count": 12
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8369",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized access to Private or Password-protected events due to missing authorization checks in all versions up to, and including, 4.0.4.3. This makes it possible for unauthenticated attackers to view private or password-protected events.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.0.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01176,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-8861",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 5.9.3.2 due to incorrect use of the wp_kses_allowed_html function, which allows the 'onclick' attribute for certain HTML elements without sufficient restriction or context validation. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.3.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00256,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2024-9829",
+      "description": "The Download Plugin plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability checks on the 'dpwap_handle_download_user' and 'dpwap_handle_download_comment' functions in all versions up to, and including, 2.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to download any comment, and download metadata for any user including user PII and sensitive information including username, email, hashed passwords and application passwords, session token information and more depending on set up and additional plugins installed.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "download plugin",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "2.2.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:download plugin",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00463,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2024-9864",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via ticket names in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This is only exploitable when front-end users can submit new events with tickets.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.0.4.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0216,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2024-9865",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018ep_booking_attendee_fields\u2019 fields in all versions up to, and including, 4.0.4.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses the transaction log for a booking.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.0.4.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.01999,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0723",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to blind and time-based SQL Injections via the rid and search parameters in all versions up to, and including, 5.9.4.7 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.4.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00115,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-0724",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 5.9.4.5 via deserialization of untrusted input in the get_user_meta_fields_html function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.4.5",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00615,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-11204",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to SQL Injection in all versions up to, and including, 6.0.6.2 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for authenticated attackers, with administrator access or higher, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. An unauthenticated attacker could utilize an injected Cross-Site Scripting via user-agent on form submission to leverage this to achieve Reflected Cross-Site Scripting.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.6.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00124,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-12498",
+      "description": "The EventPrime \u2013 Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to unauthorized booking note creation due to a missing capability check on the 'booking_add_notes' function in all versions up to, and including, 4.2.0.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to add a note to the backend view of any booking.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.2.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00045,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13416",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized user suspension due to a missing capability check on the pm_deactivate_user_from_group() function in all versions up to, and including, 5.9.7.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to suspend arbitrary users from groups, including administrators, via the pm_deactivate_user_from_group AJAX action.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.7.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00011,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-13610",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'RM_Forms' shortcode in all versions up to, and including, 6.0.6.7 due to insufficient input sanitization and output escaping on the 'theme' attribute. This makes it possible for authenticated attackers, with contributor level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.6.7",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00043,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14444",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to payment bypass due to insufficient verification of data authenticity on the 'process_paypal_sdk_payment' function in all versions up to, and including, 6.0.6.9. This is due to the plugin trusting client-supplied values for payment verification without validating that the payment actually went through PayPal. This makes it possible for unauthenticated attackers to bypass paid registration by manipulating payment status and activating their account without completing a real PayPal payment.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.6.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00012,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-345"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2025-14507",
+      "description": "The EventPrime - Events Calendar, Bookings and Tickets plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 4.2.7.0 via the REST API. This makes it possible for unauthenticated attackers to extract sensitive booking data including user names, email addresses, ticket details, payment information, and order keys when the API is enabled by an administrator. The vulnerability was partially patched in version 4.2.7.0.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.2.7.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00016,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2025-15403",
+      "description": "The RegistrationMagic plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 6.0.7.1. This is due to the 'add_menu' function is accessible via the 'rm_user_exists' AJAX action and allows arbitrary updates to the 'admin_order' setting. This makes it possible for unauthenticated attackers to injecting an empty slug into the order parameter, and manipulate the plugin's menu generation logic, and when the admin menu is subsequently built, the plugin adds 'manage_options' capability for the target role. Note: The vulnerability can only be exploited unauthenticated, but further privilege escalation requires at least a subscriber user.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.7.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0015,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-269"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2025-1408",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the pm_decline_join_group_request and pm_approve_join_group_request functions in all versions up to, and including, 5.9.4.4. This makes it possible for authenticated attackers, with Subscriber-level access and above, to approve or decline join group requests which is normally should be available to administrators only.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.4.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00113,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 1,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2025-24686",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic custom-registration-form-builder-with-submission-manager allows Reflected XSS.This issue affects RegistrationMagic: from n/a through <= 6.0.3.3.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "6.0.3.4",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "6.0.3.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00203,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-25110",
+      "description": "Missing Authorization vulnerability in Metagauss Event Kikfyre kikfyre-events-calendar-tickets allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Event Kikfyre: from n/a through <= 2.1.8.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "event kikfyre",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.1.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:event kikfyre",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00082,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-26999",
+      "description": "Deserialization of Untrusted Data vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Object Injection.This issue affects ProfileGrid : from n/a through <= 5.9.4.3.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.4.4",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.4.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00226,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-2836",
+      "description": "The RegistrationMagic \u2013 Custom Registration Forms, User Registration, Payment, and User Login plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018payment_method\u2019 parameter in all versions up to, and including, 6.0.4.3 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.4.3",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00228,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2025-39586",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.4.8.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.4.9",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.4.8",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00179,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-47478",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.0.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00179,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-48079",
+      "description": "Missing Authorization vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects ProfileGrid : from n/a through <= 5.9.5.1.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.2",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00168,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49033",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Blind SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.3.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.4",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49876",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
+      "cvss_score": 8.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00053,
+      "nvd": {
+        "cvss_v3_score": 8.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-89"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-49877",
+      "description": "Server-Side Request Forgery (SSRF) vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Server Side Request Forgery.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
+      "cvss_score": 4.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 4.9,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-4957",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Reflected XSS.This issue affects ProfileGrid : from n/a through <= 5.9.5.7.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.8",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.7",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 7.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-52719",
+      "description": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Retrieve Embedded Sensitive Data.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.5.3",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "5.9.5.2",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00065,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-497"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-63006",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through <= 4.2.4.1.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.5.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.2.4.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00038,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-63007",
+      "description": "Insertion of Sensitive Information Into Sent Data vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Retrieve Embedded Sensitive Data.This issue affects EventPrime: from n/a through <= 4.2.4.1.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.5.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.2.4.1",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-201"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-69358",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through <= 4.2.6.0.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.7.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "<= 4.2.6.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6586",
+      "description": "The Download Plugin plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the dpwap_plugin_locInstall function in all versions up to, and including, 2.2.8. This makes it possible for authenticated attackers, with Administrator-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "download plugin",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "2.2.8",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:download plugin",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00197,
+      "nvd": {
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 1,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2025-6977",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the \u2018pm_get_messenger_notification\u2019 function in all versions up to, and including, 5.9.5.4 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a logged-in user into performing an action such as clicking on a link.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.5.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00407,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 1,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1054",
+      "description": "The RegistrationMagic plugin for WordPress is vulnerable to Missing Authorization in versions up to, and including, 6.0.7.4. This is due to missing nonce verification and capability checks on the rm_set_otp AJAX action handler. This makes it possible for unauthenticated attackers to modify arbitrary plugin settings, including reCAPTCHA keys, security settings, and frontend menu titles.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "6.0.7.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic \u2013 custom registration forms, user registration, payment, and user login",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00086,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1271",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 5.9.7.2 via the 'pm_upload_image' and 'pm_upload_cover_image' AJAX actions. This is due to the update_user_meta() function being called outside of the user authorization check in public/partials/crop.php and public/partials/coverimg_crop.php. This makes it possible for authenticated attackers, with Subscriber-level access and above, to change any user's profile picture or cover image, including administrators.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.7.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00015,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-639"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1655",
+      "description": "The EventPrime plugin for WordPress is vulnerable to unauthorized post modification due to missing authorization checks in all versions up to, and including, 4.2.8.4. This is due to the save_frontend_event_submission function accepting a user-controlled event_id parameter and updating the corresponding event post without enforcing ownership or capability checks. This makes it possible for authenticated (Customer+) attackers to modify posts created by administrators by manipulating the event_id parameter granted they can obtain a valid nonce.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.2.8.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00014,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1657",
+      "description": "The EventPrime plugin for WordPress is vulnerable to unauthorized image file upload in all versions up to, and including, 4.2.8.4. This is due to the plugin registering the upload_file_media AJAX action as publicly accessible (nopriv-enabled) without implementing any authentication, authorization, or nonce verification despite a nonce being created. This makes it possible for unauthenticated attackers to upload image files to the WordPress uploads directory and create Media Library attachments via the ep_upload_file_media endpoint.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime \u2013 events calendar, bookings and tickets",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "4.2.8.4",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime \u2013 events calendar, bookings and tickets",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00132,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24373",
+      "description": "Incorrect Privilege Assignment vulnerability in Metagauss RegistrationMagic custom-registration-form-builder-with-submission-manager allows Privilege Escalation.This issue affects RegistrationMagic: from n/a through <= 6.0.7.1.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "6.0.7.2",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "<= 6.0.7.1",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-266"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24374",
+      "description": "Cross-Site Request Forgery (CSRF) vulnerability in Metagauss RegistrationMagic custom-registration-form-builder-with-submission-manager allows Cross Site Request Forgery.This issue affects RegistrationMagic: from n/a through <= 6.0.6.9.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "6.0.7.0",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "6.0.6.9",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00019,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24378",
+      "description": "Deserialization of Untrusted Data vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Object Injection.This issue affects EventPrime: from n/a through <= 4.2.8.0.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.8.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "<= 4.2.8.0",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00054,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-24380",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through <= 4.2.8.0.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.8.1",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.2.8.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25312",
+      "description": "Missing Authorization vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through <= 4.2.8.3.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.8.4",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.2.8.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00037,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25389",
+      "description": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Retrieve Embedded Sensitive Data.This issue affects EventPrime: from n/a through <= 4.2.8.3.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "eventprime",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "4.2.8.4",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "4.2.8.3",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:eventprime",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-497"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-25417",
+      "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Stored XSS.This issue affects ProfileGrid : from n/a through <= 5.9.8.1.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "5.9.8.2",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "<= 5.9.8.1",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00034,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2488",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to unauthorized message deletion due to a missing capability check on the pg_delete_msg() function in all versions up to, and including, 5.9.8.1. This is due to the function not verifying that the requesting user has permission to delete the targeted message. This makes it possible for authenticated attackers, with Subscriber-level access and above, to delete arbitrary messages belonging to any user by sending a direct request with a valid message ID (mid parameter).",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.8.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00035,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2494",
+      "description": "The ProfileGrid \u2013 User Profiles, Groups and Communities plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 5.9.8.2. This is due to missing nonce validation on the membership request management page (approve and decline actions). This makes it possible for unauthenticated attackers to approve or deny group membership requests via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "profilegrid \u2013 user profiles, groups and communities",
+          "versions": [
+            {
+              "version": "*",
+              "status": "affected",
+              "lessThanOrEqual": "5.9.8.2",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:profilegrid \u2013 user profiles, groups and communities",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-32385",
+      "description": "Missing Authorization vulnerability in Metagauss RegistrationMagic custom-registration-form-builder-with-submission-manager allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects RegistrationMagic: from n/a through <= 6.0.7.6.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "6.0.7.7",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "6.0.7.6",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0004,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-32498",
+      "description": "Missing Authorization vulnerability in Metagauss RegistrationMagic custom-registration-form-builder-with-submission-manager allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects RegistrationMagic: from n/a through <= 6.0.7.6.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "metagauss",
+          "product": "registrationmagic",
+          "versions": [
+            {
+              "changes": [
+                {
+                  "at": "6.0.7.7",
+                  "status": "unaffected"
+                }
+              ],
+              "lessThanOrEqual": "<= 6.0.7.6",
+              "status": "affected",
+              "version": "n/a",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:registrationmagic",
+        "vendor:metagauss"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    }
+  ]
+}
