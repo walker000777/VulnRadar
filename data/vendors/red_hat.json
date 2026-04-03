@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "red_hat",
   "count": 516,
   "items": [
@@ -6069,7 +6069,7 @@
       "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.56176,
+      "probability_score": 0.59128,
       "kev": {
         "cveID": "CVE-2023-4911",
         "vendorProject": "GNU",
@@ -17082,7 +17082,7 @@
         "vendor:red hat"
       ],
       "active_threat": false,
-      "probability_score": 0.00047,
+      "probability_score": 0.00064,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -34627,7 +34627,7 @@
       "priority_label": "CRITICAL (CVSS \u2265 9.0)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.86056,
+      "probability_score": 0.85225,
       "nvd": {
         "cvss_v3_score": 10.0,
         "cvss_v3_severity": "CRITICAL",
@@ -43535,6 +43535,270 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:147e1ff243a190e7db6af5a450ab9ee45a6c138beb1428605296c5a39d8c2cd9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:457e7c141b8e04ebe23f8b89da6d2a1a86ea5be46e9893b9207bd16a1e7e92b2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:0e1a41e4284bb482365de3b2d2e799fe4b53af86743b56ccae50a236eac23897",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:23e29e78ab6586896be041a0d759d0a47bf5a3708ba816574bc996baee4af946",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:40b76923ce5df4062bfd3a6c617874e230b4b47cf998081b0c552141d93a81b0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:0ea607acea5d6ad4aa853cb564e7c5e462c3d5f38814e2097142d44231437bd8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:74efeee9bddf97c549de6a6fa454d86f96d3afef8aaf2438b740403181579fcd",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:2f22bca94e282ce150235d74070465525b5fbd29070f1caec323f5f8d7be0db5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:1f58e36602f8e8704179762e4b94898ded50bb9d4643b829ac516165d5a66fe1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:180f30e2f7ae5a1604c9ef3e8fdcdb2af37c53019280777c61375aef9cc6dee3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:bc06753f9f013d4eed2705d5fbd727f916eab9f72c0c4d2cc33f6f064c58ecb1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:31bd7bff52021201beffb8f94e25635443390ed7c373fef546dd799c29a540dd",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:0cb993a3f939cd30689f10f03110a6dec8317c9c5c69ed726e78bb9c70b7f3ee",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:55351821e9c296bf419a0b6b4f8a08942303bde1f6b8c1c8d3e81d719bafd0d4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:3d8d9e2964d1c472f29ff5a67ff2b23188dbb9add8ccaa1cfa37ad1742825bf9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:0b5f12a165ad061ec151f9310fa5803717cb41f719802503125d982f5420edd0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:08cd8df1f99ca92bd8c82a3ce345352f8a5223feac9f475293987dc6088bd607",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:13594f6f57bdd87477505288fee4a62c504daacdb6fc930e0c64c582edab4dbb",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:2541e3c82807ec72336aa0151f05e8576eabe710eaa660efe6fe2a98ab0eff61",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:1872fce9d3599368600ce07f81c6a2105bfdf10cb770fdeea57dd1e16f662789",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:33e368d66244b241e6eb7e39eb886fa92bf358ddb5a3f231ef3585a7e91d3726",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift data foundation 4.2",
+          "versions": [
+            {
+              "version": "sha256:253711dee2d7fdbf65756583ba63a73ed796b1205369e5ed9f48c253a67f4c0a",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat advanced cluster management for kubernetes 2",
           "versions": null
         },
@@ -45189,7 +45453,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.45702,
+      "probability_score": 0.42417,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -56017,7 +56281,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00159,
+      "probability_score": 0.00576,
       "nvd": {
         "cvss_v3_score": 4.9,
         "cvss_v3_severity": "MEDIUM",
@@ -61617,7 +61881,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00337,
+      "probability_score": 0.00242,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -73118,7 +73382,7 @@
       "priority_label": "CRITICAL (CVSS \u2265 9.0)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00113,
+      "probability_score": 0.00123,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -73195,7 +73459,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00151,
+      "probability_score": 0.00153,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -73749,7 +74013,7 @@
       "priority_label": "CRITICAL (CVSS \u2265 9.0)",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00491,
+      "probability_score": 0.00496,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -73859,7 +74123,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00088,
+      "probability_score": 0.00096,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -77641,7 +77905,7 @@
         "vendor:red hat"
       ],
       "active_threat": false,
-      "probability_score": 0.00012,
+      "probability_score": 0.0003,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -78921,7 +79185,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00065,
+      "probability_score": 0.00073,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -84315,7 +84579,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00041,
+      "probability_score": 0.00044,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -85755,7 +86019,7 @@
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
-              "version": "3:4.4.1-23.rhaos4.14.el9",
+              "version": "3:4.4.1-23.rhaos4.14.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85839,7 +86103,7 @@
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
-              "version": "4:4.9.4-18.rhaos4.16.el9",
+              "version": "4:4.9.4-16.rhaos4.16.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -85899,7 +86163,7 @@
           "product": "red hat openshift container platform 4.18",
           "versions": [
             {
-              "version": "0:4.18.0-202509090932.p2.ga4cad44.assembly.stream.el9",
+              "version": "0:4.18.0-202509090932.p2.ga4cad44.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86103,7 +86367,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509232257.p2.ge0d4216.assembly.stream.el9",
+              "version": "0:4.20.0-202509232257.p2.ge0d4216.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86139,7 +86403,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.ga434281.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.ga434281.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86163,7 +86427,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.gbb88da1.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.gbb88da1.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -86187,7 +86451,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.gf940e72.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.gf940e72.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -89847,7 +90111,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509232257.p2.ge0d4216.assembly.stream.el9",
+              "version": "0:4.20.0-202509232257.p2.ge0d4216.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -89883,7 +90147,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.ga434281.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.ga434281.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -89907,7 +90171,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.gbb88da1.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.gbb88da1.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -89931,7 +90195,7 @@
           "product": "red hat openshift container platform 4.20",
           "versions": [
             {
-              "version": "0:4.20.0-202509051528.p2.gf940e72.assembly.stream.el9",
+              "version": "0:4.20.0-202509051528.p2.gf940e72.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -93483,7 +93747,7 @@
           "product": "red hat openshift dev spaces (rhosds) 3.24",
           "versions": [
             {
-              "version": "sha256:dc2cbe1eec3743aed7c51cca595d7176395778458360a4111520fda14f84e821",
+              "version": "sha256:15dcb0c25b2295f58ab725e633ecacc7f0aa1ab857d627e8c0e19b7b15102a6a",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -93495,7 +93759,7 @@
           "product": "red hat openshift dev spaces (rhosds) 3.24",
           "versions": [
             {
-              "version": "sha256:91b615e55b5f38d40e99884b51885f1aa19effadeeff36e226240d8a1957c5b6",
+              "version": "sha256:2579266bc90b8979bb4299eefcd4e4eaa2947a5bec5c50563d743ce7f6605622",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -97496,7 +97760,7 @@
         "vendor:red hat"
       ],
       "active_threat": false,
-      "probability_score": 0.00036,
+      "probability_score": 0.00047,
       "nvd": {
         "cvss_v3_score": 8.7,
         "cvss_v3_severity": "HIGH",
@@ -97612,16 +97876,16 @@
         "vendor:red hat"
       ],
       "active_threat": false,
-      "probability_score": 0.00082,
+      "probability_score": 0.00108,
       "nvd": {
-        "cvss_v3_score": 8.7,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-444"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 2
       }
     },
@@ -97728,16 +97992,16 @@
         "vendor:red hat"
       ],
       "active_threat": false,
-      "probability_score": 0.00112,
+      "probability_score": 0.00148,
       "nvd": {
-        "cvss_v3_score": 8.7,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-444"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 2
       }
     },

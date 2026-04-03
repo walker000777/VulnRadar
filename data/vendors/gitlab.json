@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "gitlab",
   "count": 688,
   "items": [
@@ -1873,7 +1873,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.89478,
+      "probability_score": 0.88912,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -5356,7 +5356,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.73113,
+      "probability_score": 0.67741,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -10499,7 +10499,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.0138,
+      "probability_score": 0.01175,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -11247,7 +11247,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.01682,
+      "probability_score": 0.01433,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -30613,7 +30613,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00036,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -31652,7 +31652,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00096,
+      "probability_score": 0.00092,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -31817,7 +31817,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00086,
+      "probability_score": 0.00082,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -33731,7 +33731,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00025,
+      "probability_score": 0.00027,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

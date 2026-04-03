@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "ibm",
   "count": 201,
   "items": [
@@ -623,7 +623,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00059,
+      "probability_score": 0.00062,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1309,7 +1309,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00144,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1350,7 +1350,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00144,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1391,7 +1391,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00144,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1924,7 +1924,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1965,7 +1965,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2006,7 +2006,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2047,7 +2047,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2088,7 +2088,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00086,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -7992,7 +7992,7 @@
         "cwe_ids": [
           "CWE-532"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },

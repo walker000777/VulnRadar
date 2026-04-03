@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "github",
   "count": 106,
   "items": [
@@ -1757,7 +1757,7 @@
         "vendor:github"
       ],
       "active_threat": false,
-      "probability_score": 0.00293,
+      "probability_score": 0.00283,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1799,7 +1799,7 @@
         "vendor:github"
       ],
       "active_threat": false,
-      "probability_score": 0.00117,
+      "probability_score": 0.00133,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",

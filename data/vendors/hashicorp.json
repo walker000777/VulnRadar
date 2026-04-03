@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "hashicorp",
   "count": 83,
   "items": [
@@ -3907,7 +3907,7 @@
         "vendor:hashicorp"
       ],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.00131,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -4005,7 +4005,7 @@
         "vendor:hashicorp"
       ],
       "active_threat": false,
-      "probability_score": 0.00156,
+      "probability_score": 0.00185,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",

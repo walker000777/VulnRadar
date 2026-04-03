@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "n_a",
   "count": 388,
   "items": [
@@ -4073,7 +4073,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.04945,
+      "probability_score": 0.03852,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -4114,7 +4114,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.0016,
+      "probability_score": 0.00122,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -9580,7 +9580,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00774,
+      "probability_score": 0.00753,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -9653,7 +9653,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.01129,
+      "probability_score": 0.01099,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -9800,7 +9800,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.0063,
+      "probability_score": 0.00613,
       "nvd": {
         "cvss_v3_score": 4.2,
         "cvss_v3_severity": "MEDIUM",
@@ -13120,7 +13120,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00764,
+      "probability_score": 0.00743,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -15260,7 +15260,7 @@
         "vendor:n/a"
       ],
       "active_threat": true,
-      "probability_score": 0.06805,
+      "probability_score": 0.05912,
       "kev": {
         "cveID": "CVE-2025-22226",
         "vendorProject": "VMware",

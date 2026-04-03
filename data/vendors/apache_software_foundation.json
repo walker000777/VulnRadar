@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "apache_software_foundation",
-  "count": 977,
+  "count": 979,
   "items": [
     {
       "cve_id": "CVE-2022-22719",
@@ -3866,7 +3866,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00038,
+      "probability_score": 0.00043,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -7197,7 +7197,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.82237,
+      "probability_score": 0.93623,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -8392,7 +8392,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00145,
+      "probability_score": 0.00119,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -10422,7 +10422,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.78115,
+      "probability_score": 0.76288,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -11985,7 +11985,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00977,
+      "probability_score": 0.0137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -26460,7 +26460,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.02105,
+      "probability_score": 0.02839,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -29385,7 +29385,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00074,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -29948,7 +29948,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00092,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -29991,7 +29991,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00105,
+      "probability_score": 0.00143,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -32227,7 +32227,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 7.6,
         "cvss_v3_severity": "HIGH",
@@ -32848,7 +32848,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00265,
+      "probability_score": 0.0036,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33770,7 +33770,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00296,
+      "probability_score": 0.00389,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -35826,7 +35826,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00521,
+      "probability_score": 0.00888,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -37062,7 +37062,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.20282,
+      "probability_score": 0.09547,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -37998,7 +37998,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00132,
+      "probability_score": 0.00138,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -38042,7 +38042,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00132,
+      "probability_score": 0.00138,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -38588,7 +38588,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00439,
+      "probability_score": 0.00457,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -38661,7 +38661,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.0026,
+      "probability_score": 0.0027,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -38874,7 +38874,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00151,
+      "probability_score": 0.00149,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -40958,6 +40958,44 @@
       }
     },
     {
+      "cve_id": "CVE-2025-58136",
+      "description": "A bug in POST request handling causes a crash under a certain condition.\n\nThis issue affects Apache Traffic Server: from 10.0.0 through 10.1.1, from 9.0.0 through 9.2.12.\n\nUsers are recommended to upgrade to version 10.1.2 or 9.2.13, which fix the issue.\n\nA workaround for older versions is to set\u00a0proxy.config.http.request_buffer_enabled to 0 (the default value is 0).",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "apache software foundation",
+          "product": "apache traffic server",
+          "versions": [
+            {
+              "lessThanOrEqual": "10.1.1",
+              "status": "affected",
+              "version": "10.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "9.2.12",
+              "status": "affected",
+              "version": "9.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:apache traffic server",
+        "vendor:apache software foundation"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2025-58137",
       "description": "Authorization Bypass Through User-Controlled Key vulnerability in Apache Fineract.\n\nThis issue affects Apache Fineract: through 1.11.0. The issue is fixed in version 1.12.1.\n\nUsers are encouraged to upgrade to version 1.13.0, the latest release.",
       "cvss_score": 8.1,
@@ -41035,7 +41073,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00118,
+      "probability_score": 0.00096,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -41576,7 +41614,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00545,
+      "probability_score": 0.00691,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -42796,7 +42834,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00105,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -42851,6 +42889,44 @@
         "cpe_count": 1,
         "reference_count": 2
       }
+    },
+    {
+      "cve_id": "CVE-2025-65114",
+      "description": "Apache Traffic Server allows request smuggling if chunked messages are malformed.\u00a0\n\nThis issue affects Apache Traffic Server: from 9.0.0 through 9.2.12, from 10.0.0 through 10.1.1.\n\nUsers are recommended to upgrade to version 9.2.13 or 10.1.2, which fix the issue.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "apache software foundation",
+          "product": "apache traffic server",
+          "versions": [
+            {
+              "lessThanOrEqual": "9.2.12",
+              "status": "affected",
+              "version": "9.0.0",
+              "versionType": "semver"
+            },
+            {
+              "lessThanOrEqual": "10.1.1",
+              "status": "affected",
+              "version": "10.0.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:apache traffic server",
+        "vendor:apache software foundation"
+      ],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2025-65995",
@@ -45554,9 +45630,9 @@
     {
       "cve_id": "CVE-2026-32794",
       "description": "Improper Certificate Validation vulnerability in Apache Airflow Provider for Databricks. Provider code did not validate certificates for connections to Databricks back-end which could result in a man-of-a-middle attack that traffic is intercepted and manipulated or credentials exfiltrated w/o notice.\n\nThis issue affects Apache Airflow Provider for Databricks: from 1.10.0 before 1.12.0.\n\nUsers are recommended to upgrade to version 1.12.0, which fixes the issue.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 4.8,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "apache software foundation",
@@ -45583,8 +45659,8 @@
       "active_threat": false,
       "probability_score": 6e-05,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [

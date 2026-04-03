@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "metagauss",
   "count": 99,
   "items": [
@@ -2200,7 +2200,7 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00178,
+      "probability_score": 0.00171,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -2249,7 +2249,7 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00183,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -3070,7 +3070,7 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00286,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -3086,9 +3086,9 @@
     {
       "cve_id": "CVE-2025-25110",
       "description": "Missing Authorization vulnerability in Metagauss Event Kikfyre kikfyre-events-calendar-tickets allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Event Kikfyre: from n/a through <= 2.1.8.",
-      "cvss_score": 5.4,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3113,10 +3113,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00082,
+      "probability_score": 0.00066,
       "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3129,9 +3129,9 @@
     {
       "cve_id": "CVE-2025-26999",
       "description": "Deserialization of Untrusted Data vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Object Injection.This issue affects ProfileGrid : from n/a through <= 5.9.4.3.",
-      "cvss_score": 8.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3162,10 +3162,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00072,
       "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3221,9 +3221,9 @@
     {
       "cve_id": "CVE-2025-39586",
       "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.4.8.",
-      "cvss_score": 8.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3254,10 +3254,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00179,
+      "probability_score": 0.00101,
       "nvd": {
-        "cvss_v3_score": 8.5,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3270,9 +3270,9 @@
     {
       "cve_id": "CVE-2025-47478",
       "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.0.",
-      "cvss_score": 8.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3303,10 +3303,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00179,
+      "probability_score": 0.00129,
       "nvd": {
-        "cvss_v3_score": 8.5,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3319,9 +3319,9 @@
     {
       "cve_id": "CVE-2025-48079",
       "description": "Missing Authorization vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects ProfileGrid : from n/a through <= 5.9.5.1.",
-      "cvss_score": 4.3,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3352,10 +3352,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00168,
+      "probability_score": 0.00117,
       "nvd": {
-        "cvss_v3_score": 4.3,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3368,9 +3368,9 @@
     {
       "cve_id": "CVE-2025-49033",
       "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Blind SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.3.",
-      "cvss_score": 8.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3401,10 +3401,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.00025,
       "nvd": {
-        "cvss_v3_score": 8.5,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3417,9 +3417,9 @@
     {
       "cve_id": "CVE-2025-49876",
       "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows SQL Injection.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
-      "cvss_score": 8.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3450,10 +3450,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00053,
+      "probability_score": 0.00033,
       "nvd": {
-        "cvss_v3_score": 8.5,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3466,9 +3466,9 @@
     {
       "cve_id": "CVE-2025-49877",
       "description": "Server-Side Request Forgery (SSRF) vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Server Side Request Forgery.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
-      "cvss_score": 4.9,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3499,10 +3499,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.00034,
       "nvd": {
-        "cvss_v3_score": 4.9,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3515,9 +3515,9 @@
     {
       "cve_id": "CVE-2025-4957",
       "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Reflected XSS.This issue affects ProfileGrid : from n/a through <= 5.9.5.7.",
-      "cvss_score": 7.1,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3548,10 +3548,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00029,
+      "probability_score": 0.00033,
       "nvd": {
-        "cvss_v3_score": 7.1,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -3564,9 +3564,9 @@
     {
       "cve_id": "CVE-2025-52719",
       "description": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in Metagauss ProfileGrid  profilegrid-user-profiles-groups-and-communities allows Retrieve Embedded Sensitive Data.This issue affects ProfileGrid : from n/a through <= 5.9.5.2.",
-      "cvss_score": 4.3,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -3597,10 +3597,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00065,
+      "probability_score": 0.0004,
       "nvd": {
-        "cvss_v3_score": 4.3,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -4214,9 +4214,9 @@
     {
       "cve_id": "CVE-2026-25312",
       "description": "Missing Authorization vulnerability in Metagauss EventPrime eventprime-event-calendar-management allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through <= 4.2.8.3.",
-      "cvss_score": 7.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "metagauss",
@@ -4247,10 +4247,10 @@
         "vendor:metagauss"
       ],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.00022,
       "nvd": {
-        "cvss_v3_score": 7.5,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [

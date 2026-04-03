@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "mozilla",
   "count": 890,
   "items": [
@@ -17464,7 +17464,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00244,
+      "probability_score": 0.00224,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -32069,7 +32069,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00263,
+      "probability_score": 0.00242,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -32137,7 +32137,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00242,
+      "probability_score": 0.00223,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -32230,7 +32230,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00349,
+      "probability_score": 0.00321,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

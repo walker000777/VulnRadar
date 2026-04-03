@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "devolutions",
   "count": 58,
   "items": [
@@ -2278,9 +2278,9 @@
     {
       "cve_id": "CVE-2026-4828",
       "description": "Improper authentication in the OAuth login functionality in Devolutions Server 2026.1.11 and earlier allows a remote attacker with valid credentials to bypass multi-factor authentication via a crafted login request.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2305,14 +2305,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1390"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-4829",
       "description": "Improper authentication in the external OAuth authentication flow in Devolutions Server 2026.1.11 and earlier allows an authenticated user to authenticate as other users, including administrators, via reuse of a session code from an external authentication flow.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2337,14 +2348,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00033,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-287"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-4924",
       "description": "Improper\n authentication in the two-factor authentication (2FA) feature in \nDevolutions Server 2026.1.11 and earlier allows a remote attacker with valid \ncredentials to bypass multifactor authentication and gain unauthorized \naccess to the victim account via reuse of a partially authenticated \nsession token.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2369,14 +2391,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 8.2,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1390"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-4925",
       "description": "Improper access control in the users MFA feature in Devolutions Server allows an authenticated user to bypass administrator-enforced restrictions and remove their own multi-factor authentication (MFA) configuration via a crafted request.\n\n\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2401,14 +2434,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00041,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-4927",
       "description": "Exposure of sensitive information in the users MFA feature in Devolutions Server allows users with user management privileges to obtain other users OTP keys via an authenticated API request.\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2433,14 +2477,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00031,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-201"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-4989",
       "description": "Improper input validation in the gateway health check feature in Devolutions Server allows a low-privileged authenticated user to perform server-side request forgery (SSRF), potentially leading to information disclosure, via a crafted API request.\nThis issue affects Server: from 2026.1.1 through 2026.1.11, from 2025.3.1 through 2025.3.17.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2471,14 +2526,25 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00025,
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-5175",
       "description": "Improper access control in the multi-factor authentication (MFA) management API in Devolutions Server allows an authenticated attacker to delete their own configured MFA factors and reduce account protection to password-only authentication via crafted HTTP requests.\u00a0\n\n\n\n\n\n\n\nThis issue affects Server: from 2026.1.6 through 2026.1.11.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.0,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N",
       "affected": [
         {
           "vendor": "devolutions",
@@ -2503,7 +2569,18 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00039,
+      "nvd": {
+        "cvss_v3_score": 5.0,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     }
   ]
 }

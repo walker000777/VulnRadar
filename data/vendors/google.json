@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "google",
   "count": 2323,
   "items": [
@@ -36769,7 +36769,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00013,
+      "probability_score": 0.00012,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -58180,7 +58180,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.01454,
+      "probability_score": 0.02075,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -58266,7 +58266,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.01082,
+      "probability_score": 0.01427,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -65842,9 +65842,9 @@
     {
       "cve_id": "CVE-2024-54317",
       "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Google Web Stories web-stories allows Stored XSS.This issue affects Web Stories: from n/a through <= 1.37.0.",
-      "cvss_score": 6.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
       "affected": [
         {
           "vendor": "google",
@@ -65875,10 +65875,10 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00085,
+      "probability_score": 0.0008,
       "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -68416,7 +68416,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0056,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68459,7 +68459,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00521,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68546,7 +68546,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00334,
+      "probability_score": 0.0048,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68589,7 +68589,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0051,
+      "probability_score": 0.00732,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68633,7 +68633,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00126,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -68676,7 +68676,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00144,
+      "probability_score": 0.00075,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -68719,7 +68719,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00359,
+      "probability_score": 0.00516,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68762,7 +68762,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00359,
+      "probability_score": 0.00516,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68805,7 +68805,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00102,
+      "probability_score": 0.00147,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68848,7 +68848,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00521,
+      "probability_score": 0.00256,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -68891,7 +68891,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00102,
+      "probability_score": 0.00147,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68934,7 +68934,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00122,
+      "probability_score": 0.00064,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -68977,7 +68977,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00073,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -69021,7 +69021,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00081,
+      "probability_score": 0.00031,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -87303,7 +87303,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00015,
+      "probability_score": 0.00011,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -89707,7 +89707,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 4e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -90097,7 +90097,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 8e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -90363,7 +90363,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -90414,7 +90414,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -90508,7 +90508,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00063,
+      "probability_score": 0.00043,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -90611,7 +90611,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0001,
+      "probability_score": 6e-05,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -90664,7 +90664,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 8e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -90713,7 +90713,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -90754,7 +90754,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00011,
+      "probability_score": 7e-05,
       "nvd": {
         "cvss_v3_score": 6.6,
         "cvss_v3_severity": "MEDIUM",
@@ -90845,7 +90845,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -91000,7 +91000,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -91054,7 +91054,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -91409,7 +91409,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00011,
+      "probability_score": 8e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -94211,7 +94211,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00059,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -99784,7 +99784,7 @@
         "vendor:google"
       ],
       "active_threat": true,
-      "probability_score": 0.00516,
+      "probability_score": 0.00264,
       "kev": {
         "cveID": "CVE-2026-3909",
         "vendorProject": "Google",
@@ -99838,7 +99838,7 @@
         "vendor:google"
       ],
       "active_threat": true,
-      "probability_score": 0.01488,
+      "probability_score": 0.00769,
       "kev": {
         "cveID": "CVE-2026-3910",
         "vendorProject": "Google",
@@ -102625,9 +102625,9 @@
     {
       "cve_id": "CVE-2026-5272",
       "description": "Heap buffer overflow in GPU in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102652,14 +102652,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0001
+      "probability_score": 0.00023,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5273",
       "description": "Use after free in CSS in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "google",
@@ -102684,14 +102695,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00038
+      "probability_score": 0.0006,
+      "nvd": {
+        "cvss_v3_score": 6.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5274",
       "description": "Integer overflow in Codecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102716,14 +102738,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00063,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-472"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5275",
       "description": "Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102748,14 +102781,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5276",
       "description": "Insufficient policy enforcement in WebUSB in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "google",
@@ -102780,14 +102824,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00032
+      "probability_score": 0.00042,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-693"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5277",
       "description": "Integer overflow in ANGLE in Google Chrome on Windows prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102812,14 +102867,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00063,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-472"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5278",
       "description": "Use after free in Web MIDI in Google Chrome on Android prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102844,14 +102910,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00033
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5279",
       "description": "Object corruption in V8 in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102876,14 +102953,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00038
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-120"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5280",
       "description": "Use after free in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102908,14 +102996,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00033
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5281",
       "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102940,7 +103039,7 @@
         "vendor:google"
       ],
       "active_threat": true,
-      "probability_score": 0.00038,
+      "probability_score": 0.0303,
       "kev": {
         "cveID": "CVE-2026-5281",
         "vendorProject": "Google",
@@ -102951,14 +103050,25 @@
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-04-15",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 3
       }
     },
     {
       "cve_id": "CVE-2026-5282",
       "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -102983,14 +103093,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00032
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5283",
       "description": "Inappropriate implementation in ANGLE in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "google",
@@ -103015,14 +103136,27 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00013,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-285",
+          "CWE-346",
+          "CWE-352"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5284",
       "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103047,14 +103181,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00038
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5285",
       "description": "Use after free in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103079,14 +103224,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00033
+      "probability_score": 0.00066,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5286",
       "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103111,14 +103267,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00038
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5287",
       "description": "Use after free in PDF in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted PDF file. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103143,14 +103310,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00038
+      "probability_score": 0.00074,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5288",
       "description": "Use after free in WebView in Google Chrome on Android prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.6,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103175,14 +103353,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00032
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5289",
       "description": "Use after free in Navigation in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.6,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103207,14 +103396,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00063,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5290",
       "description": "Use after free in Compositing in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.6,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103239,14 +103439,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00035
+      "probability_score": 0.00063,
+      "nvd": {
+        "cvss_v3_score": 9.6,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5291",
       "description": "Inappropriate implementation in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "google",
@@ -103271,14 +103482,25 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00032
+      "probability_score": 0.00024,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-200"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-5292",
       "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Medium)",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "google",
@@ -103303,7 +103525,18 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00032
+      "probability_score": 0.00058,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 4,
+        "reference_count": 2
+      }
     }
   ]
 }

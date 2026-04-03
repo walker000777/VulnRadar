@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "jenkins_project",
   "count": 786,
   "items": [
@@ -7470,7 +7470,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.16751,
+      "probability_score": 0.0981,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21892,7 +21892,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00386,
+      "probability_score": 0.00443,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -34556,7 +34556,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00036,
+      "probability_score": 0.00102,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",

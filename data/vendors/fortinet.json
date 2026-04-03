@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "fortinet",
   "count": 631,
   "items": [
@@ -16030,7 +16030,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.68083,
+      "probability_score": 0.66334,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -39946,7 +39946,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.25304,
+      "probability_score": 0.24005,
       "kev": {
         "cveID": "CVE-2025-25257",
         "vendorProject": "Fortinet",
@@ -46398,7 +46398,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00034,
+      "probability_score": 0.00031,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -46439,7 +46439,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00067,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

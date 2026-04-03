@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "mongodb_inc",
   "count": 71,
   "items": [
@@ -1665,7 +1665,7 @@
         "vendor:mongodb inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00043,
+      "probability_score": 0.00041,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2022,7 +2022,7 @@
         "vendor:mongodb inc."
       ],
       "active_threat": true,
-      "probability_score": 0.74627,
+      "probability_score": 0.75002,
       "kev": {
         "cveID": "CVE-2025-14847",
         "vendorProject": "MongoDB",
@@ -2767,7 +2767,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00071,
+      "probability_score": 0.00079,
       "nvd": {
         "cvss_v3_score": 4.9,
         "cvss_v3_severity": "MEDIUM",
@@ -2810,7 +2810,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.0014,
+      "probability_score": 0.00156,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2865,7 +2865,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.001,
+      "probability_score": 0.00103,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2920,7 +2920,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00058,
+      "probability_score": 0.00065,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2964,7 +2964,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00129,
+      "probability_score": 0.00109,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -3716,7 +3716,7 @@
         "vendor:mongodb inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00064,
+      "probability_score": 0.00078,
       "nvd": {
         "cvss_v3_score": 6.4,
         "cvss_v3_severity": "MEDIUM",

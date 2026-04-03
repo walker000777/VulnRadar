@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "openssl",
   "count": 59,
   "items": [
@@ -1193,7 +1193,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.92129,
+      "probability_score": 0.92003,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "hewlett_packard_enterprise_hpe",
   "count": 79,
   "items": [
@@ -349,7 +349,7 @@
         "vendor:hewlett packard enterprise (hpe)"
       ],
       "active_threat": false,
-      "probability_score": 0.69322,
+      "probability_score": 0.69728,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
-  "total_count": 33675,
+  "generated_at": "2026-04-03T03:55:25+00:00",
+  "total_count": 33709,
   "vendor_count": 42,
   "vendors": {
     "_other": {
       "file": "vendors/_other.json",
-      "count": 3412
+      "count": 3413
     },
     "apache_software_foundation": {
       "file": "vendors/apache_software_foundation.json",
-      "count": 977
+      "count": 979
     },
     "apple": {
       "file": "vendors/apple.json",
-      "count": 2318
+      "count": 2331
     },
     "argoproj": {
       "file": "vendors/argoproj.json",
@@ -89,7 +89,7 @@
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 9991
+      "count": 9997
     },
     "mattermost": {
       "file": "vendors/mattermost.json",
@@ -101,7 +101,7 @@
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
-      "count": 4579
+      "count": 4585
     },
     "mongodb_inc": {
       "file": "vendors/mongodb_inc.json",
@@ -157,11 +157,11 @@
     },
     "thorsten": {
       "file": "vendors/thorsten.json",
-      "count": 91
+      "count": 96
     },
     "vmware": {
       "file": "vendors/vmware.json",
-      "count": 89
+      "count": 90
     },
     "zoom_communications_inc": {
       "file": "vendors/zoom_communications_inc.json",

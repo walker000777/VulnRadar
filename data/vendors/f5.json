@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "f5",
   "count": 281,
   "items": [
@@ -6640,7 +6640,7 @@
         "vendor:f5"
       ],
       "active_threat": false,
-      "probability_score": 0.05835,
+      "probability_score": 0.03276,
       "nvd": {
         "cvss_v3_score": 8.5,
         "cvss_v3_severity": "HIGH",
@@ -15284,9 +15284,9 @@
         "cveID": "CVE-2025-53521",
         "vendorProject": "F5",
         "product": "BIG-IP",
-        "vulnerabilityName": "F5 BIG-IP Unspecified Vulnerability",
+        "vulnerabilityName": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
         "dateAdded": "2026-03-27",
-        "shortDescription": "F5 BIG-IP APM contains an unspecified vulnerability that could allow a threat actor to achieve remote code execution.",
+        "shortDescription": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
         "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
         "dueDate": "2026-03-30",
         "knownRansomwareCampaignUse": "Unknown"
@@ -15297,9 +15297,9 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-770"
+          "CWE-121"
         ],
-        "cpe_count": 83,
+        "cpe_count": 4,
         "reference_count": 2
       }
     },

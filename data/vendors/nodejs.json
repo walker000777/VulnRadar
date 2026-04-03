@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T03:53:52+00:00",
+  "generated_at": "2026-04-03T03:55:25+00:00",
   "vendor": "nodejs",
   "count": 74,
   "items": [
@@ -8813,7 +8813,9 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -8950,7 +8952,9 @@
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -9211,7 +9215,9 @@
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-401"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -9366,7 +9372,9 @@
         "cvss_v3_severity": "LOW",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-732"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -9425,7 +9433,9 @@
         "cvss_v3_severity": "LOW",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
