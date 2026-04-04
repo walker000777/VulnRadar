@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "n_a",
   "count": 388,
   "items": [
@@ -2985,7 +2985,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.01982,
+      "probability_score": 0.02045,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -3036,7 +3036,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.01982,
+      "probability_score": 0.02045,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -5276,7 +5276,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00041,
+      "probability_score": 0.00046,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -11001,7 +11001,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00067,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -11165,7 +11165,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00067,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -11370,7 +11370,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00067,
+      "probability_score": 0.00025,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -13865,7 +13865,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.83359,
+      "probability_score": 0.83144,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",

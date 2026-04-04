@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "fortinet",
   "count": 631,
   "items": [
@@ -13654,7 +13654,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.90158,
+      "probability_score": 0.90512,
       "kev": {
         "cveID": "CVE-2023-27997",
         "vendorProject": "Fortinet",
@@ -21834,7 +21834,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00125,
+      "probability_score": 0.00145,
       "nvd": {
         "cvss_v3_score": 4.1,
         "cvss_v3_severity": "MEDIUM",
@@ -23664,7 +23664,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00072,
+      "probability_score": 0.00097,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -23982,7 +23982,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.9409,
+      "probability_score": 0.94126,
       "kev": {
         "cveID": "CVE-2023-48788",
         "vendorProject": "Fortinet",
@@ -24203,7 +24203,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00189,
+      "probability_score": 0.00256,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -26219,7 +26219,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.07851,
+      "probability_score": 0.10294,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -27795,7 +27795,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00115,
+      "probability_score": 0.0014,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -28710,7 +28710,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00063,
+      "probability_score": 0.00073,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -28976,7 +28976,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00321,
+      "probability_score": 0.00374,
       "nvd": {
         "cvss_v3_score": 4.9,
         "cvss_v3_severity": "MEDIUM",
@@ -29080,7 +29080,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00087,
+      "probability_score": 0.00102,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -29828,7 +29828,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00198,
+      "probability_score": 0.00269,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -31075,7 +31075,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00093,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -31555,7 +31555,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00123,
+      "probability_score": 0.00168,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -32233,7 +32233,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00025,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -36817,7 +36817,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00043,
+      "probability_score": 0.00044,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -39086,7 +39086,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.00045,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -45730,7 +45730,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.88194,
+      "probability_score": 0.88355,
       "kev": {
         "cveID": "CVE-2025-64446",
         "vendorProject": "Fortinet",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "sap_se",
   "count": 66,
   "items": [
@@ -1904,7 +1904,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00088,
+      "probability_score": 0.00119,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2293,7 +2293,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00047,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -2334,7 +2334,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00133,
+      "probability_score": 0.0018,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -3205,7 +3205,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00226,
+      "probability_score": 0.00232,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -3246,7 +3246,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00026,
+      "probability_score": 0.00027,
       "nvd": {
         "cvss_v3_score": 3.5,
         "cvss_v3_severity": "LOW",
@@ -3287,7 +3287,7 @@
         "vendor:sap_se"
       ],
       "active_threat": false,
-      "probability_score": 0.00021,
+      "probability_score": 0.00023,
       "nvd": {
         "cvss_v3_score": 5.6,
         "cvss_v3_severity": "MEDIUM",

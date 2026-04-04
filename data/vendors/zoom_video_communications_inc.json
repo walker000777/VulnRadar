@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "zoom_video_communications_inc",
   "count": 104,
   "items": [
@@ -1928,7 +1928,7 @@
         "vendor:zoom video communications inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2014,7 +2014,7 @@
         "vendor:zoom video communications inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00452,
+      "probability_score": 0.00525,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",

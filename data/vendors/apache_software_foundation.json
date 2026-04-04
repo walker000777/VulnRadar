@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "apache_software_foundation",
   "count": 979,
   "items": [
@@ -3048,7 +3048,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00564,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -7000,7 +7000,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.03805,
+      "probability_score": 0.03924,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -7289,7 +7289,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00342,
+      "probability_score": 0.00388,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -7664,7 +7664,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00342,
+      "probability_score": 0.00388,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -11985,7 +11985,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.0137,
+      "probability_score": 0.01522,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -13397,7 +13397,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00153,
+      "probability_score": 0.00163,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -13440,7 +13440,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.0025,
+      "probability_score": 0.00267,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -17014,7 +17014,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00316,
+      "probability_score": 0.00259,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -18260,7 +18260,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.59064,
+      "probability_score": 0.61258,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -19210,7 +19210,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00546,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -25490,7 +25490,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.0059,
+      "probability_score": 0.00799,
       "nvd": {
         "cvss_v3_score": 9.3,
         "cvss_v3_severity": "CRITICAL",
@@ -27381,7 +27381,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.12775,
+      "probability_score": 0.12622,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -29164,7 +29164,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.26567,
+      "probability_score": 0.25097,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -29471,7 +29471,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00236,
+      "probability_score": 0.00321,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -32437,7 +32437,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.87447,
+      "probability_score": 0.86495,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -32486,7 +32486,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 0.00641,
+      "probability_score": 0.00869,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -40993,7 +40993,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0004
     },
     {
       "cve_id": "CVE-2025-58137",
@@ -42926,7 +42926,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00029
     },
     {
       "cve_id": "CVE-2025-65995",
@@ -45254,12 +45254,12 @@
       "affected": [
         {
           "vendor": "apache software foundation",
-          "product": "apache camel",
+          "product": "apache camel leveldb",
           "versions": [
             {
               "lessThan": "4.10.9",
               "status": "affected",
-              "version": "4.10.0",
+              "version": "3.0.0",
               "versionType": "semver"
             },
             {
@@ -45283,7 +45283,7 @@
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [
-        "product:apache camel",
+        "product:apache camel leveldb",
         "vendor:apache software foundation"
       ],
       "active_threat": false,
@@ -45657,7 +45657,7 @@
         "vendor:apache software foundation"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 0.0002,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",

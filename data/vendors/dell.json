@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "dell",
   "count": 62,
   "items": [
@@ -200,7 +200,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -241,7 +241,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -282,7 +282,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -323,7 +323,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -364,7 +364,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -405,7 +405,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -446,7 +446,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -487,7 +487,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -528,7 +528,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -569,7 +569,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -610,7 +610,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -651,7 +651,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -692,7 +692,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -733,7 +733,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -774,7 +774,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -815,7 +815,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -856,7 +856,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -897,7 +897,7 @@
         "vendor:dell"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -12076,7 +12076,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.17672,
+      "probability_score": 0.20049,
       "kev": {
         "cveID": "CVE-2026-22769",
         "vendorProject": "Dell",

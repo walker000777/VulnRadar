@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
-  "total_count": 33709,
+  "generated_at": "2026-04-04T03:43:44+00:00",
+  "total_count": 33804,
   "vendor_count": 42,
   "vendors": {
     "_other": {
       "file": "vendors/_other.json",
-      "count": 3413
+      "count": 3434
     },
     "apache_software_foundation": {
       "file": "vendors/apache_software_foundation.json",
@@ -13,7 +13,7 @@
     },
     "apple": {
       "file": "vendors/apple.json",
-      "count": 2331
+      "count": 2332
     },
     "argoproj": {
       "file": "vendors/argoproj.json",
@@ -89,7 +89,7 @@
     },
     "linux": {
       "file": "vendors/linux.json",
-      "count": 9997
+      "count": 10069
     },
     "mattermost": {
       "file": "vendors/mattermost.json",
@@ -101,7 +101,7 @@
     },
     "microsoft": {
       "file": "vendors/microsoft.json",
-      "count": 4585
+      "count": 4586
     },
     "mongodb_inc": {
       "file": "vendors/mongodb_inc.json",

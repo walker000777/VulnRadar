@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "sonicwall",
   "count": 110,
   "items": [
@@ -4574,7 +4574,7 @@
         "vendor:sonicwall"
       ],
       "active_threat": false,
-      "probability_score": 0.00087,
+      "probability_score": 0.00095,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

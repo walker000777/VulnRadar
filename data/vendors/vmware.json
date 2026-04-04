@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "vmware",
   "count": 90,
   "items": [
@@ -4007,7 +4007,7 @@
         "vendor:vmware"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",

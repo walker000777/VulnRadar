@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "google",
   "count": 2323,
   "items": [
@@ -17620,7 +17620,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00225,
+      "probability_score": 0.00263,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -17663,7 +17663,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00288,
+      "probability_score": 0.00335,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -17706,7 +17706,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00206,
+      "probability_score": 0.0024,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -19447,7 +19447,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00312,
+      "probability_score": 0.00329,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -54857,7 +54857,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00088,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -59000,7 +59000,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00221,
+      "probability_score": 0.00215,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -61784,7 +61784,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00047,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -77873,7 +77873,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00103,
+      "probability_score": 0.00146,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -77916,7 +77916,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00101,
+      "probability_score": 0.00144,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -77957,7 +77957,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00022,
+      "probability_score": 0.00031,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -78000,7 +78000,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00138,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -78043,7 +78043,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 9e-05,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -78086,7 +78086,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 0.0001,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -78129,7 +78129,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00088,
+      "probability_score": 0.00125,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -78172,7 +78172,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00027,
+      "probability_score": 0.00036,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -78215,7 +78215,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00138,
+      "probability_score": 0.00196,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -78258,7 +78258,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0004,
+      "probability_score": 0.00054,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -78301,7 +78301,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00017,
+      "probability_score": 0.0002,
       "nvd": {
         "cvss_v3_score": 3.5,
         "cvss_v3_severity": "LOW",
@@ -78342,7 +78342,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00103,
+      "probability_score": 0.00146,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -78385,7 +78385,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00078,
+      "probability_score": 0.00111,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -83706,7 +83706,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 8e-05,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -91276,7 +91276,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00014,
+      "probability_score": 0.00016,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -92249,7 +92249,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -92454,7 +92454,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
@@ -92497,7 +92497,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 9e-05,
+      "probability_score": 0.0001,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -92792,7 +92792,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -92845,7 +92845,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 7e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -92898,7 +92898,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -92988,7 +92988,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -95701,7 +95701,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.00043,
+      "probability_score": 0.00046,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -95750,7 +95750,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 8.6,
         "cvss_v3_severity": "HIGH",
@@ -95791,7 +95791,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 8e-05,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -95943,7 +95943,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 6.2,
         "cvss_v3_severity": "MEDIUM",
@@ -96357,7 +96357,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 4.0,
         "cvss_v3_severity": "MEDIUM",
@@ -96410,7 +96410,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -96451,7 +96451,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 3e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -96492,7 +96492,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 8e-05,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -96574,7 +96574,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 7e-05,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -96697,7 +96697,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -96887,7 +96887,7 @@
         "vendor:google"
       ],
       "active_threat": false,
-      "probability_score": 0.0001,
+      "probability_score": 0.00011,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -103039,7 +103039,7 @@
         "vendor:google"
       ],
       "active_threat": true,
-      "probability_score": 0.0303,
+      "probability_score": 0.03034,
       "kev": {
         "cveID": "CVE-2026-5281",
         "vendorProject": "Google",

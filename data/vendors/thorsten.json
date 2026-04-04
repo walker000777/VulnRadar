@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "thorsten",
   "count": 96,
   "items": [
@@ -3905,7 +3905,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00238
     },
     {
       "cve_id": "CVE-2026-34728",
@@ -3935,7 +3935,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00191
     },
     {
       "cve_id": "CVE-2026-34729",
@@ -3965,7 +3965,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0003
     },
     {
       "cve_id": "CVE-2026-34973",
@@ -3995,7 +3995,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00091
     },
     {
       "cve_id": "CVE-2026-34974",
@@ -4025,7 +4025,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00029
     }
   ]
 }

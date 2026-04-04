@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T03:55:25+00:00",
+  "generated_at": "2026-04-04T03:43:44+00:00",
   "vendor": "nodejs",
   "count": 74,
   "items": [
@@ -111,7 +111,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00505,
+      "probability_score": 0.0066,
       "nvd": {
         "cvss_v3_score": 8.2,
         "cvss_v3_severity": "HIGH",
@@ -7705,7 +7705,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00022,
+      "probability_score": 0.00035,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -7862,7 +7862,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.07107,
+      "probability_score": 0.09232,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
