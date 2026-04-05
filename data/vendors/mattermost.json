@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "mattermost",
   "count": 364,
   "items": [
@@ -14564,7 +14564,7 @@
         "vendor:mattermost"
       ],
       "active_threat": false,
-      "probability_score": 0.00081,
+      "probability_score": 0.00177,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -14934,7 +14934,7 @@
         "vendor:mattermost"
       ],
       "active_threat": false,
-      "probability_score": 0.00279,
+      "probability_score": 0.00236,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -15574,7 +15574,7 @@
         "vendor:mattermost"
       ],
       "active_threat": false,
-      "probability_score": 0.0027,
+      "probability_score": 0.00256,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -15665,7 +15665,7 @@
         "vendor:mattermost"
       ],
       "active_threat": false,
-      "probability_score": 0.0003,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -16098,7 +16098,7 @@
         "vendor:mattermost"
       ],
       "active_threat": false,
-      "probability_score": 0.29287,
+      "probability_score": 0.61205,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",

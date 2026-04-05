@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "jenkins_project",
   "count": 786,
   "items": [
@@ -21203,7 +21203,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.07586,
+      "probability_score": 0.09707,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21246,7 +21246,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.08582,
+      "probability_score": 0.10941,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21289,7 +21289,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00091,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -21375,7 +21375,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00564,
+      "probability_score": 0.00645,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -21461,7 +21461,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00359,
+      "probability_score": 0.00645,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -21591,7 +21591,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.07586,
+      "probability_score": 0.11194,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21634,7 +21634,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.1039,
+      "probability_score": 0.13157,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21892,7 +21892,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00443,
+      "probability_score": 0.00595,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -31222,7 +31222,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00276,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -31269,7 +31269,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.01035,
+      "probability_score": 0.014,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -31312,7 +31312,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00404,
+      "probability_score": 0.00549,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -31355,7 +31355,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.03019,
+      "probability_score": 0.04045,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",
@@ -31398,7 +31398,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00275,
+      "probability_score": 0.00374,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -31441,7 +31441,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.0039,
+      "probability_score": 0.00529,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -32935,7 +32935,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00078,
+      "probability_score": 0.0008,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -32978,7 +32978,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00432,
       "nvd": {
         "cvss_v3_score": 6.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33021,7 +33021,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00038,
+      "probability_score": 0.0005,
       "nvd": {
         "cvss_v3_score": 8.2,
         "cvss_v3_severity": "HIGH",
@@ -33064,7 +33064,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00044,
+      "probability_score": 0.00043,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33107,7 +33107,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00043,
+      "probability_score": 0.00044,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33150,7 +33150,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00057,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33193,7 +33193,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00069,
+      "probability_score": 0.0007,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33236,7 +33236,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.0004,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33279,7 +33279,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00044,
+      "probability_score": 0.00058,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -33322,7 +33322,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00052,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33365,7 +33365,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.0004,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33409,7 +33409,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.0004,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33452,7 +33452,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00069,
+      "probability_score": 0.0007,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33495,7 +33495,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.0005,
+      "probability_score": 0.00049,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33538,7 +33538,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00072,
+      "probability_score": 0.00074,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33581,7 +33581,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.0004,
+      "probability_score": 0.00041,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33622,7 +33622,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00052,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33663,7 +33663,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00057,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33706,7 +33706,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00052,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33749,7 +33749,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.0004,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -33793,7 +33793,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.0003,
+      "probability_score": 0.00029,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33836,7 +33836,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00026,
+      "probability_score": 0.00027,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33880,7 +33880,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33921,7 +33921,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33962,7 +33962,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00052,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -34005,7 +34005,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00069,
+      "probability_score": 0.0007,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -34048,7 +34048,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -34091,7 +34091,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00057,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -34134,7 +34134,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -34177,7 +34177,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00052,
+      "probability_score": 0.00051,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -34220,7 +34220,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.00057,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -34466,7 +34466,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00027,
+      "probability_score": 0.00024,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -34515,7 +34515,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00077,
+      "probability_score": 0.00066,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",

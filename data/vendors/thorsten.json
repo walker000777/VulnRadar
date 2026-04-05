@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "thorsten",
   "count": 96,
   "items": [
@@ -162,7 +162,7 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.05565,
+      "probability_score": 0.1402,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -3905,7 +3905,19 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.00238
+      "probability_score": 0.00238,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-20",
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-34728",
@@ -3935,7 +3947,18 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.00191
+      "probability_score": 0.00191,
+      "nvd": {
+        "cvss_v3_score": 8.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-34729",
@@ -3965,7 +3988,18 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.0003
+      "probability_score": 0.0003,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-34973",
@@ -3995,7 +4029,18 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.00091
+      "probability_score": 0.00091,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-943"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-34974",
@@ -4025,7 +4070,18 @@
         "vendor:thorsten"
       ],
       "active_threat": false,
-      "probability_score": 0.00029
+      "probability_score": 0.00029,
+      "nvd": {
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     }
   ]
 }

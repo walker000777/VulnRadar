@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "n_a",
   "count": 388,
   "items": [
@@ -10960,7 +10960,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00027,
+      "probability_score": 0.00036,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11001,7 +11001,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00069,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -11042,7 +11042,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.0005,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11083,7 +11083,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00092,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11124,7 +11124,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00017,
+      "probability_score": 0.00024,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11165,7 +11165,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00051,
+      "probability_score": 0.00069,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -11206,7 +11206,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.00093,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -11370,7 +11370,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00025,
+      "probability_score": 0.00034,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -11452,7 +11452,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00087,
+      "probability_score": 0.00119,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11493,7 +11493,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00069,
+      "probability_score": 0.00093,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -11534,7 +11534,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00065,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -11575,7 +11575,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00146,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -11698,7 +11698,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00065,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -12151,7 +12151,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00146,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -12192,7 +12192,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00117,
+      "probability_score": 0.0016,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -16919,7 +16919,7 @@
         "vendor:n/a"
       ],
       "active_threat": false,
-      "probability_score": 0.00037,
+      "probability_score": 0.00041,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",

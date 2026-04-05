@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "oracle_corporation",
   "count": 1457,
   "items": [
@@ -33882,7 +33882,7 @@
         "vendor:oracle corporation"
       ],
       "active_threat": true,
-      "probability_score": 0.69038,
+      "probability_score": 0.70321,
       "kev": {
         "cveID": "CVE-2024-20953",
         "vendorProject": "Oracle",
@@ -64039,7 +64039,7 @@
         "vendor:oracle corporation"
       ],
       "active_threat": true,
-      "probability_score": 0.61827,
+      "probability_score": 0.58905,
       "kev": {
         "cveID": "CVE-2025-61884",
         "vendorProject": "Oracle",
@@ -68289,7 +68289,7 @@
         "cwe_ids": [
           "CWE-284"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     }

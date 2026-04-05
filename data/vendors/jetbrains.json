@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "jetbrains",
   "count": 294,
   "items": [
@@ -8827,7 +8827,7 @@
         "vendor:jetbrains"
       ],
       "active_threat": false,
-      "probability_score": 0.00011,
+      "probability_score": 0.00013,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -12302,7 +12302,7 @@
         "vendor:jetbrains"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 1e-05,
       "nvd": {
         "cvss_v3_score": 3.1,
         "cvss_v3_severity": "LOW",
@@ -12345,7 +12345,7 @@
         "vendor:jetbrains"
       ],
       "active_threat": false,
-      "probability_score": 2e-05,
+      "probability_score": 1e-05,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -12431,7 +12431,7 @@
         "vendor:jetbrains"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 2e-05,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -13128,7 +13128,7 @@
         "cwe_ids": [
           "CWE-290"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -13164,14 +13164,15 @@
       "active_threat": false,
       "probability_score": 1e-05,
       "nvd": {
-        "cvss_v3_score": 6.3,
+        "cvss_v3_score": 5.7,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-614"
+          "CWE-614",
+          "CWE-319"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     }

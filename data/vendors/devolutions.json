@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "devolutions",
   "count": 58,
   "items": [
@@ -989,7 +989,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.0008,
+      "probability_score": 0.00059,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1038,7 +1038,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00054,
+      "probability_score": 0.00038,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1832,7 +1832,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00034,
+      "probability_score": 0.00037,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -1875,7 +1875,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00048,
+      "probability_score": 0.00052,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -2004,7 +2004,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00021,
+      "probability_score": 0.00023,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -2090,7 +2090,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00067,
+      "probability_score": 0.00073,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -2176,7 +2176,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.0004,
+      "probability_score": 0.00058,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -2314,7 +2314,7 @@
         "cwe_ids": [
           "CWE-1390"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 1
       }
     },
@@ -2348,7 +2348,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00033,
+      "probability_score": 0.00035,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -2357,7 +2357,7 @@
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -2400,7 +2400,7 @@
         "cwe_ids": [
           "CWE-1390"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 1
       }
     },
@@ -2434,7 +2434,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00041,
+      "probability_score": 0.00043,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -2443,7 +2443,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -2477,7 +2477,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00031,
+      "probability_score": 0.00032,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -2486,7 +2486,7 @@
         "cwe_ids": [
           "CWE-201"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -2526,7 +2526,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00025,
+      "probability_score": 0.00027,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -2535,7 +2535,7 @@
         "cwe_ids": [
           "CWE-918"
         ],
-        "cpe_count": 0,
+        "cpe_count": 2,
         "reference_count": 1
       }
     },
@@ -2569,7 +2569,7 @@
         "vendor:devolutions"
       ],
       "active_threat": false,
-      "probability_score": 0.00039,
+      "probability_score": 0.00022,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -2578,7 +2578,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     }

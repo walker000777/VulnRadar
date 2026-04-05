@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-04T03:43:44+00:00",
+  "generated_at": "2026-04-05T04:10:48+00:00",
   "vendor": "fortinet",
-  "count": 631,
+  "count": 632,
   "items": [
     {
       "cve_id": "CVE-2022-22297",
@@ -13654,7 +13654,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.90512,
+      "probability_score": 0.90371,
       "kev": {
         "cveID": "CVE-2023-27997",
         "vendorProject": "Fortinet",
@@ -20404,7 +20404,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.0033,
+      "probability_score": 0.00321,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -31022,7 +31022,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00255,
+      "probability_score": 0.00288,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -34437,7 +34437,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00024,
+      "probability_score": 0.00032,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -35745,7 +35745,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00148,
+      "probability_score": 0.00154,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -35890,7 +35890,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00125,
+      "probability_score": 0.0013,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -41831,7 +41831,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00083,
+      "probability_score": 0.00087,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -46623,7 +46623,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00085,
+      "probability_score": 0.0009,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -46885,7 +46885,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.0005,
+      "probability_score": 0.00052,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -46952,7 +46952,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00124,
+      "probability_score": 0.00131,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -47621,6 +47621,49 @@
           "CWE-121"
         ],
         "cpe_count": 3,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-35616",
+      "description": "A improper access control vulnerability in Fortinet FortiClientEMS 7.4.5 through 7.4.6 may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests.",
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "fortinet",
+          "product": "forticlientems",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.4.5",
+              "lessThanOrEqual": "7.4.6",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": true,
+      "priority_label": "CRITICAL (CVSS \u2265 9.0)",
+      "matched_terms": [
+        "product:forticlientems",
+        "vendor:fortinet"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00034,
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-284"
+        ],
+        "cpe_count": 0,
         "reference_count": 1
       }
     }
