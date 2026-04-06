@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "zoom_video_communications_inc",
   "count": 104,
   "items": [
@@ -2596,7 +2596,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.00377,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -2637,7 +2637,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00042,
+      "probability_score": 0.00049,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -2679,7 +2679,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00035,
+      "probability_score": 0.00038,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -2720,7 +2720,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00049,
+      "probability_score": 0.00054,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -3054,7 +3054,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.00055,
+      "probability_score": 0.0006,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -3095,7 +3095,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.0003,
+      "probability_score": 0.00032,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -3136,7 +3136,7 @@
         "vendor:zoom video communications, inc."
       ],
       "active_threat": false,
-      "probability_score": 0.0004,
+      "probability_score": 0.00043,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",

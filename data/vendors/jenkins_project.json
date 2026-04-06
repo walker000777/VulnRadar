@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "jenkins_project",
   "count": 786,
   "items": [
@@ -6808,7 +6808,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00184,
+      "probability_score": 0.00197,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -7421,7 +7421,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.16751,
+      "probability_score": 0.0981,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -17168,7 +17168,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.0034,
+      "probability_score": 0.0032,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -17219,7 +17219,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.02069,
+      "probability_score": 0.01951,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -17262,7 +17262,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00291,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -21375,7 +21375,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00645,
+      "probability_score": 0.00556,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -21461,7 +21461,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00645,
+      "probability_score": 0.00556,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -21591,7 +21591,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.11194,
+      "probability_score": 0.09707,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -21892,7 +21892,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.00595,
+      "probability_score": 0.01157,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -28195,7 +28195,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.01283,
+      "probability_score": 0.0134,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -31484,7 +31484,7 @@
         "vendor:jenkins project"
       ],
       "active_threat": false,
-      "probability_score": 0.35082,
+      "probability_score": 0.41121,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",

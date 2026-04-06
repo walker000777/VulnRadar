@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "openssl",
   "count": 59,
   "items": [
@@ -2298,7 +2298,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 6e-05,
+      "probability_score": 7e-05,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -2366,7 +2366,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00819,
+      "probability_score": 0.00705,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -2427,7 +2427,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00021,
+      "probability_score": 0.00022,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -2580,7 +2580,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00064,
+      "probability_score": 0.00067,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -2659,7 +2659,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00024,
+      "probability_score": 0.00027,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -2732,7 +2732,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 7e-05,
+      "probability_score": 8e-05,
       "nvd": {
         "cvss_v3_score": 4.0,
         "cvss_v3_severity": "MEDIUM",
@@ -2805,7 +2805,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.0006,
+      "probability_score": 0.00063,
       "nvd": {
         "cvss_v3_score": 7.4,
         "cvss_v3_severity": "HIGH",
@@ -2878,7 +2878,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.0029,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -2957,7 +2957,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00034,
+      "probability_score": 0.00036,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -3238,7 +3238,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00024,
+      "probability_score": 0.00021,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -3317,7 +3317,7 @@
         "vendor:openssl"
       ],
       "active_threat": false,
-      "probability_score": 0.00112,
+      "probability_score": 0.00117,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",

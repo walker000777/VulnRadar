@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "fortinet",
   "count": 632,
   "items": [
@@ -354,7 +354,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00071,
+      "probability_score": 0.00089,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -1619,7 +1619,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00108,
+      "probability_score": 0.00142,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -11180,7 +11180,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00339,
+      "probability_score": 0.00428,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -11912,7 +11912,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -13654,7 +13654,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.90371,
+      "probability_score": 0.90351,
       "kev": {
         "cveID": "CVE-2023-27997",
         "vendorProject": "Fortinet",
@@ -13881,7 +13881,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00077,
+      "probability_score": 0.00096,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -32660,7 +32660,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00027,
+      "probability_score": 0.00031,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -42264,7 +42264,7 @@
         "vendor:fortinet"
       ],
       "active_threat": false,
-      "probability_score": 0.00101,
+      "probability_score": 0.00114,
       "nvd": {
         "cvss_v3_score": 4.9,
         "cvss_v3_severity": "MEDIUM",
@@ -47315,7 +47315,7 @@
         "vendor:fortinet"
       ],
       "active_threat": true,
-      "probability_score": 0.01784,
+      "probability_score": 0.01862,
       "kev": {
         "cveID": "CVE-2026-24858",
         "vendorProject": "Fortinet",

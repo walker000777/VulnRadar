@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "mozilla",
   "count": 890,
   "items": [
@@ -2922,7 +2922,7 @@
         "vendor:mozilla"
       ],
       "active_threat": true,
-      "probability_score": 0.06126,
+      "probability_score": 0.0719,
       "kev": {
         "cveID": "CVE-2022-26485",
         "vendorProject": "Mozilla",
@@ -49591,7 +49591,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00047,
+      "probability_score": 0.00054,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -49634,7 +49634,7 @@
         "vendor:mozilla"
       ],
       "active_threat": false,
-      "probability_score": 0.00049,
+      "probability_score": 0.00056,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "gitlab",
   "count": 688,
   "items": [
@@ -6575,7 +6575,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.0069,
+      "probability_score": 0.00558,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -6966,7 +6966,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.24956,
+      "probability_score": 0.21411,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -9078,7 +9078,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00176,
+      "probability_score": 0.00142,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -9174,7 +9174,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00699,
+      "probability_score": 0.00565,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -9263,7 +9263,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.01345,
+      "probability_score": 0.01089,
       "nvd": {
         "cvss_v3_score": 4.6,
         "cvss_v3_severity": "MEDIUM",
@@ -9357,7 +9357,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00517,
+      "probability_score": 0.00418,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -9504,7 +9504,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.19609,
+      "probability_score": 0.16615,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -9704,7 +9704,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.01016,
+      "probability_score": 0.00822,
       "nvd": {
         "cvss_v3_score": 3.8,
         "cvss_v3_severity": "LOW",
@@ -10843,7 +10843,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00443,
+      "probability_score": 0.00504,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -17156,7 +17156,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00102,
+      "probability_score": 0.00078,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -23297,7 +23297,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00118,
+      "probability_score": 0.0016,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -23902,7 +23902,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.02943,
+      "probability_score": 0.03944,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -24599,7 +24599,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.02943,
+      "probability_score": 0.03944,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -25536,7 +25536,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.0005,
+      "probability_score": 0.00068,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -27671,7 +27671,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 9e-05,
+      "probability_score": 0.0001,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -32019,7 +32019,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00021,
+      "probability_score": 0.00022,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -32667,7 +32667,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00021,
+      "probability_score": 0.00022,
       "nvd": {
         "cvss_v3_score": 2.7,
         "cvss_v3_severity": "LOW",
@@ -33095,7 +33095,7 @@
         "vendor:gitlab"
       ],
       "active_threat": false,
-      "probability_score": 0.00068,
+      "probability_score": 0.0009,
       "nvd": {
         "cvss_v3_score": 8.0,
         "cvss_v3_severity": "HIGH",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T04:10:48+00:00",
+  "generated_at": "2026-04-06T04:16:39+00:00",
   "vendor": "nodejs",
   "count": 74,
   "items": [
@@ -3492,7 +3492,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.01138,
+      "probability_score": 0.01324,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -8807,7 +8807,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00016,
+      "probability_score": 0.00021,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -8946,7 +8946,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 3e-05,
+      "probability_score": 4e-05,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -8995,7 +8995,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00014,
+      "probability_score": 0.00015,
       "nvd": {
         "cvss_v3_score": 5.7,
         "cvss_v3_severity": "MEDIUM",
@@ -9150,7 +9150,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00016,
+      "probability_score": 0.00021,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -9209,7 +9209,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.00012,
+      "probability_score": 0.00016,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -9366,7 +9366,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 4e-05,
+      "probability_score": 5e-05,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -9584,7 +9584,7 @@
         "vendor:nodejs"
       ],
       "active_threat": false,
-      "probability_score": 0.0002,
+      "probability_score": 0.00026,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
